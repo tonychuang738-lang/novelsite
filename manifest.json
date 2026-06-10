@@ -1,0 +1,223 @@
+{
+  "novels": [
+    {
+      "id": "santi",
+      "title": "三体",
+      "author": "刘慈欣",
+      "cover": "https://img1.doubanio.com/view/subject/l/public/s2768378.jpg",
+      "description": "地球文明向宇宙发出的第一声啼鸣，以太阳为中心，向宇宙深处飞驰……",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "疯狂年代",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第1章_疯狂年代_导演版.mp3",
+          "size_mb": 13.1
+        },
+        {
+          "id": 2,
+          "title": "寂静的春天",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第2章_寂静的春天_导演版.mp3",
+          "size_mb": 6.4
+        },
+        {
+          "id": 3,
+          "title": "红岸之一",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第3章_红岸之一_导演版.mp3",
+          "size_mb": 7.3
+        },
+        {
+          "id": 4,
+          "title": "科学边界",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第4章_科学边界_导演版.mp3",
+          "size_mb": 35.1
+        },
+        {
+          "id": 5,
+          "title": "台球",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第5章_台球_导演版.mp3",
+          "size_mb": 27.9
+        },
+        {
+          "id": 6,
+          "title": "射手和农场主",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第6章_射手和农场主_导演版.mp3",
+          "size_mb": 68.0
+        },
+        {
+          "id": 7,
+          "title": "三体、周文王、长夜",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第7章_三体、周文王、长夜_导演版.mp3",
+          "size_mb": 56.7
+        },
+        {
+          "id": 8,
+          "title": "叶文洁",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第8章_叶文洁_导演版.mp3",
+          "size_mb": 23.5
+        },
+        {
+          "id": 9,
+          "title": "宇宙闪烁",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第9章_宇宙闪烁_导演版.mp3",
+          "size_mb": 36.8
+        },
+        {
+          "id": 10,
+          "title": "大史",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第10章_大史_导演版.mp3",
+          "size_mb": 21.8
+        },
+        {
+          "id": 11,
+          "title": "三体、墨子、烈焰",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第11章_三体、墨子、烈焰_导演版.mp3",
+          "size_mb": 50.4
+        },
+        {
+          "id": 12,
+          "title": "红岸之二",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第12章_红岸之二_导演版.mp3",
+          "size_mb": 38.8
+        },
+        {
+          "id": 13,
+          "title": "红岸之三",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第13章_红岸之三_导演版.mp3",
+          "size_mb": 21.6
+        },
+        {
+          "id": 14,
+          "title": "红岸之四",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第14章_红岸之四_导演版.mp3",
+          "size_mb": 16.4
+        },
+        {
+          "id": 15,
+          "title": "三体、哥白尼、宇宙橄榄球、三日凌空",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第15章_三体、哥白尼、宇宙橄榄球、三日凌空_导演版.mp3",
+          "size_mb": 30.5
+        },
+        {
+          "id": 16,
+          "title": "三体问题",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第16章_三体问题_导演版.mp3",
+          "size_mb": 64.3
+        },
+        {
+          "id": 17,
+          "title": "三体、牛顿、冯诺依曼、秦始皇、三日连珠",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第17章_三体、牛顿、冯诺依曼、秦始皇、三日连珠_导演版.mp3",
+          "size_mb": 74.7
+        },
+        {
+          "id": 18,
+          "title": "聚会",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第18章_聚会_导演版.mp3",
+          "size_mb": 25.5
+        },
+        {
+          "id": 19,
+          "title": "三体、爱因斯坦、单摆、大撕裂",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第19章_三体、爱因斯坦、单摆、大撕裂_导演版.mp3",
+          "size_mb": 42.2
+        },
+        {
+          "id": 20,
+          "title": "三体、远征",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第20章_三体、远征_导演版.mp3",
+          "size_mb": 13.7
+        },
+        {
+          "id": 21,
+          "title": "地球叛军",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第21章_地球叛军_导演版.mp3",
+          "size_mb": 24.3
+        },
+        {
+          "id": 22,
+          "title": "红岸之五",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第22章_红岸之五_导演版.mp3",
+          "size_mb": 37.8
+        },
+        {
+          "id": 23,
+          "title": "红岸之六",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第23章_红岸之六_导演版.mp3",
+          "size_mb": 16.1
+        },
+        {
+          "id": 24,
+          "title": "叛乱",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第24章_叛乱_导演版.mp3",
+          "size_mb": 2.0
+        },
+        {
+          "id": 25,
+          "title": "雷志成、杨卫宁之死",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第25章_雷志成、杨卫宁之死_导演版.mp3",
+          "size_mb": 15.6
+        },
+        {
+          "id": 26,
+          "title": "无人忏悔",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第26章_无人忏悔_导演版.mp3",
+          "size_mb": 42.2
+        },
+        {
+          "id": 27,
+          "title": "伊文斯",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第27章_伊文斯_导演版.mp3",
+          "size_mb": 29.8
+        },
+        {
+          "id": 28,
+          "title": "第二红岸基地",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第28章_第二红岸基地_导演版.mp3",
+          "size_mb": 6.1
+        },
+        {
+          "id": 29,
+          "title": "地球三体运动",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第29章_地球三体运动_导演版.mp3",
+          "size_mb": 10.9
+        },
+        {
+          "id": 30,
+          "title": "两个质子",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第30章_两个质子_导演版.mp3",
+          "size_mb": 22.4
+        },
+        {
+          "id": 31,
+          "title": "古筝行动",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第31章_古筝行动_导演版.mp3",
+          "size_mb": 63.9
+        },
+        {
+          "id": 32,
+          "title": "监听员",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第32章_监听员_导演版.mp3",
+          "size_mb": 41.6
+        },
+        {
+          "id": 33,
+          "title": "智子",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第33章_智子_导演版.mp3",
+          "size_mb": 92.5
+        },
+        {
+          "id": 34,
+          "title": "虫子",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第34章_虫子_导演版.mp3",
+          "size_mb": 16.0
+        },
+        {
+          "id": 35,
+          "title": "尾声、遗址",
+          "file": "https://github.com/tonychuang738-lang/novelsite/releases/download/audio-v1/三体_第35章_尾声、遗址_导演版.mp3",
+          "size_mb": 4.9
+        }
+      ]
+    }
+  ]
+}
