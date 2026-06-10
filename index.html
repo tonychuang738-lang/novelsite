@@ -181,13 +181,26 @@ body {
 .shuffle-btn:hover { color: var(--text-primary); }
 .search-box {
   margin-left: auto;
-  padding: 8px 16px; border-radius: 20px;
+  padding: 8px 16px; padding-right: 60px; border-radius: 20px;
   background: var(--bg-elevated); border: 1px solid var(--border);
   color: var(--text-primary); font-size: 14px;
   width: 240px; outline: none;
 }
 .search-box:focus { border-color: var(--accent); }
 .search-box::placeholder { color: var(--text-subdued); }
+.search-wrap { position: relative; display: flex; align-items: center; margin-left: auto; }
+.search-count {
+  position: absolute; right: 36px; top: 50%; transform: translateY(-50%);
+  font-size: 11px; color: var(--accent); pointer-events: none;
+  opacity: 0; transition: opacity 0.2s;
+}
+.search-count.visible { opacity: 1; }
+.search-clear {
+  position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+  background: none; border: none; color: var(--text-subdued); font-size: 16px;
+  cursor: pointer; padding: 4px 8px; line-height: 1;
+}
+.search-clear:hover { color: var(--text-primary); }
 
 /* Chapter List */
 .chapter-list { padding: 0 32px 120px; }
@@ -642,7 +655,11 @@ function renderNovelView() {
       <button class="shuffle-btn" id="heroShuffleBtn" onclick="playShuffle()" title="随机播放">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z"/></svg>
       </button>
-      <input type="text" class="search-box" placeholder="搜索章节..." oninput="filterChapters(this.value)">
+      <div class="search-wrap">
+        <input type="text" class="search-box" id="searchInput" placeholder="搜索章節..." oninput="onSearchInput(this.value)" oncompositionstart="onCompositionStart()" oncompositionend="onCompositionEnd(event)">
+        <span class="search-count" id="searchCount"></span>
+        <button class="search-clear" id="searchClear" onclick="clearSearch()" style="display:none">✕</button>
+      </div>
     </div>
     <div class="chapter-list">
       <div class="chapter-list-header">
@@ -662,7 +679,8 @@ function renderNovelView() {
 function renderChapterList(chapters, filter = "") {
   const novel = currentNovel;
   return chapters.map((ch, i) => {
-    if (filter && !ch.title.includes(filter) && !`第${ch.id}章`.includes(filter)) return "";
+    const q = (filter || "").toLowerCase();
+    if (q && !ch.title.toLowerCase().includes(q) && !`第${ch.id}章`.includes(q) && String(ch.id) !== filter) return "";
     const progress = getChapterProgress(novel.id, ch.id);
     const isCurrent = currentNovel && currentNovel.id === novel.id && currentChapterIndex === i;
     return `
@@ -686,15 +704,60 @@ function renderChapterList(chapters, filter = "") {
 
 function highlightMatch(text, filter) {
   if (!filter) return text;
-  const idx = text.indexOf(filter);
+  const idx = text.toLowerCase().indexOf(filter.toLowerCase());
   if (idx === -1) return text;
-  return text.substring(0, idx) + '<span class="highlight">' + filter + '</span>' + text.substring(idx + filter.length);
+  return text.substring(0, idx) + '<span class="highlight">' + text.substring(idx, idx + filter.length) + '</span>' + text.substring(idx + filter.length);
+}
+
+let _isComposing = false;
+let _searchTimer = null;
+
+function onCompositionStart() { _isComposing = true; }
+function onCompositionEnd(e) {
+  _isComposing = false;
+  doSearch(e.target.value);
+}
+
+function onSearchInput(value) {
+  if (_isComposing) return; // ignore during IME composition
+  doSearch(value);
+}
+
+function doSearch(query) {
+  clearTimeout(_searchTimer);
+  _searchTimer = setTimeout(() => filterChapters(query), 100);
+}
+
+function clearSearch() {
+  const input = document.getElementById("searchInput");
+  if (input) { input.value = ""; input.focus(); }
+  filterChapters("");
 }
 
 function filterChapters(query) {
   const body = document.getElementById("chapterListBody");
-  if (body) {
-    body.innerHTML = renderChapterList(currentNovel.chapters, query);
+  const countEl = document.getElementById("searchCount");
+  const clearBtn = document.getElementById("searchClear");
+  if (!body) return;
+
+  const q = (query || "").trim();
+  body.innerHTML = renderChapterList(currentNovel.chapters, q);
+
+  if (q) {
+    const total = currentNovel.chapters.length;
+    const matched = currentNovel.chapters.filter(ch =>
+      ch.title.toLowerCase().includes(q.toLowerCase()) ||
+      `第${ch.id}章`.includes(q) ||
+      String(ch.id) === q
+    ).length;
+    if (countEl) { countEl.textContent = matched + "/" + total; countEl.classList.add("visible"); }
+    if (clearBtn) clearBtn.style.display = "block";
+    if (matched === 0) {
+      body.innerHTML = '<div style="text-align:center;padding:40px;color:var(--text-subdued)">搵唔到相關章節</div>';
+    }
+  } else {
+    if (countEl) { countEl.textContent = ""; countEl.classList.remove("visible"); }
+    if (clearBtn) clearBtn.style.display = "none";
   }
 }
 
