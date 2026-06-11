@@ -11,281 +11,281 @@
           "id": 1,
           "title": "疯狂年代",
           "file": "/api/audio/chapter_01.mp3",
-          "size_mb": 4.4,
-          "fileSize": 4604709,
-          "durationSec": 544
+          "size_mb": 6.8,
+          "fileSize": 7163457,
+          "durationSec": 796
         },
         {
           "id": 2,
           "title": "寂静的春天",
           "file": "/api/audio/chapter_02.mp3",
-          "size_mb": 1.9,
-          "fileSize": 1946013,
-          "durationSec": 241
+          "size_mb": 3.8,
+          "fileSize": 3997825,
+          "durationSec": 541
         },
         {
           "id": 3,
           "title": "红岸之一",
           "file": "/api/audio/chapter_03.mp3",
-          "size_mb": 2.2,
-          "fileSize": 2270085,
-          "durationSec": 278
+          "size_mb": 3.8,
+          "fileSize": 3955274,
+          "durationSec": 474
         },
         {
           "id": 4,
           "title": "科学边界",
           "file": "/api/audio/chapter_04.mp3",
-          "size_mb": 8.7,
-          "fileSize": 9159357,
-          "durationSec": 1101
+          "size_mb": 12.8,
+          "fileSize": 13466347,
+          "durationSec": 1401
         },
         {
           "id": 5,
           "title": "台球",
           "file": "/api/audio/chapter_05.mp3",
-          "size_mb": 5.4,
-          "fileSize": 5618157,
-          "durationSec": 675
+          "size_mb": 8.0,
+          "fileSize": 8406609,
+          "durationSec": 816
         },
         {
           "id": 6,
           "title": "射手和农场主",
           "file": "/api/audio/chapter_06.mp3",
-          "size_mb": 22.4,
-          "fileSize": 23472045,
-          "durationSec": 2794
+          "size_mb": 30.3,
+          "fileSize": 31767861,
+          "durationSec": 3094
         },
         {
           "id": 7,
           "title": "三体、周文王、长夜",
           "file": "/api/audio/chapter_07.mp3",
-          "size_mb": 18.8,
-          "fileSize": 19682037,
-          "durationSec": 2346
+          "size_mb": 27.0,
+          "fileSize": 28304500,
+          "durationSec": 2646
         },
         {
           "id": 8,
           "title": "叶文洁",
           "file": "/api/audio/chapter_08.mp3",
-          "size_mb": 7.3,
-          "fileSize": 7691061,
-          "durationSec": 909
+          "size_mb": 10.8,
+          "fileSize": 11329889,
+          "durationSec": 1104
         },
         {
           "id": 9,
           "title": "宇宙闪烁",
           "file": "/api/audio/chapter_09.mp3",
-          "size_mb": 13.4,
-          "fileSize": 14059077,
-          "durationSec": 1660
+          "size_mb": 19.4,
+          "fileSize": 20388998,
+          "durationSec": 1946
         },
         {
           "id": 10,
           "title": "大史",
           "file": "/api/audio/chapter_10.mp3",
-          "size_mb": 7.7,
-          "fileSize": 8065869,
-          "durationSec": 971
+          "size_mb": 11.7,
+          "fileSize": 12283625,
+          "durationSec": 1217
         },
         {
           "id": 11,
           "title": "三体、墨子、烈焰",
           "file": "/api/audio/chapter_11.mp3",
-          "size_mb": 14.0,
-          "fileSize": 14657685,
-          "durationSec": 1747
+          "size_mb": 20.5,
+          "fileSize": 21448518,
+          "durationSec": 2047
         },
         {
           "id": 12,
           "title": "红岸之二",
           "file": "/api/audio/chapter_12.mp3",
-          "size_mb": 11.4,
-          "fileSize": 11903397,
-          "durationSec": 1395
+          "size_mb": 16.4,
+          "fileSize": 17197316,
+          "durationSec": 1644
         },
         {
           "id": 13,
           "title": "红岸之三",
           "file": "/api/audio/chapter_13.mp3",
-          "size_mb": 7.6,
-          "fileSize": 8014005,
-          "durationSec": 968
+          "size_mb": 11.0,
+          "fileSize": 11576825,
+          "durationSec": 1069
         },
         {
           "id": 14,
           "title": "红岸之四",
           "file": "/api/audio/chapter_14.mp3",
-          "size_mb": 6.1,
-          "fileSize": 6407901,
-          "durationSec": 751
+          "size_mb": 8.7,
+          "fileSize": 9132003,
+          "durationSec": 859
         },
         {
           "id": 15,
           "title": "三体、哥白尼、宇宙橄榄球、三日凌空",
           "file": "/api/audio/chapter_15.mp3",
-          "size_mb": 9.7,
-          "fileSize": 10133253,
-          "durationSec": 1187
+          "size_mb": 13.9,
+          "fileSize": 14532314,
+          "durationSec": 1379
         },
         {
           "id": 16,
           "title": "三体问题",
           "file": "/api/audio/chapter_16.mp3",
-          "size_mb": 17.1,
-          "fileSize": 17916069,
-          "durationSec": 2140
+          "size_mb": 23.5,
+          "fileSize": 24606026,
+          "durationSec": 2440
         },
         {
           "id": 17,
           "title": "三体、牛顿、冯诺依曼、秦始皇、三日连珠",
           "file": "/api/audio/chapter_17.mp3",
-          "size_mb": 19.9,
-          "fileSize": 20823981,
-          "durationSec": 2488
+          "size_mb": 28.6,
+          "fileSize": 29938578,
+          "durationSec": 2788
         },
         {
           "id": 18,
           "title": "聚会",
           "file": "/api/audio/chapter_18.mp3",
-          "size_mb": 7.2,
-          "fileSize": 7499373,
-          "durationSec": 901
+          "size_mb": 10.6,
+          "fileSize": 11068142,
+          "durationSec": 1052
         },
         {
           "id": 19,
           "title": "三体、爱因斯坦、单摆、大撕裂",
           "file": "/api/audio/chapter_19.mp3",
-          "size_mb": 13.0,
-          "fileSize": 13647045,
-          "durationSec": 1597
+          "size_mb": 18.5,
+          "fileSize": 19432720,
+          "durationSec": 1828
         },
         {
           "id": 20,
           "title": "三体、远征",
           "file": "/api/audio/chapter_20.mp3",
-          "size_mb": 2.8,
-          "fileSize": 2974437,
-          "durationSec": 347
+          "size_mb": 4.3,
+          "fileSize": 4487792,
+          "durationSec": 448
         },
         {
           "id": 21,
           "title": "地球叛军",
           "file": "/api/audio/chapter_21.mp3",
-          "size_mb": 8.7,
-          "fileSize": 9115365,
-          "durationSec": 1078
+          "size_mb": 12.8,
+          "fileSize": 13402536,
+          "durationSec": 1306
         },
         {
           "id": 22,
           "title": "红岸之五",
           "file": "/api/audio/chapter_22.mp3",
-          "size_mb": 12.7,
-          "fileSize": 13310109,
-          "durationSec": 1544
+          "size_mb": 18.0,
+          "fileSize": 18907312,
+          "durationSec": 1799
         },
         {
           "id": 23,
           "title": "红岸之六",
           "file": "/api/audio/chapter_23.mp3",
-          "size_mb": 6.0,
-          "fileSize": 6283485,
-          "durationSec": 733
+          "size_mb": 8.9,
+          "fileSize": 9306038,
+          "durationSec": 924
         },
         {
           "id": 24,
           "title": "叛乱",
           "file": "/api/audio/chapter_24.mp3",
-          "size_mb": 0.7,
-          "fileSize": 695085,
-          "durationSec": 83
+          "size_mb": 1.6,
+          "fileSize": 1697148,
+          "durationSec": 246
         },
         {
           "id": 25,
           "title": "雷志成、杨卫宁之死",
           "file": "/api/audio/chapter_25.mp3",
-          "size_mb": 5.6,
-          "fileSize": 5821509,
-          "durationSec": 696
+          "size_mb": 8.2,
+          "fileSize": 8592225,
+          "durationSec": 826
         },
         {
           "id": 26,
           "title": "无人忏悔",
           "file": "/api/audio/chapter_26.mp3",
-          "size_mb": 13.9,
-          "fileSize": 14595669,
-          "durationSec": 1730
+          "size_mb": 19.5,
+          "fileSize": 20432261,
+          "durationSec": 2027
         },
         {
           "id": 27,
           "title": "伊文斯",
           "file": "/api/audio/chapter_27.mp3",
-          "size_mb": 10.8,
-          "fileSize": 11356293,
-          "durationSec": 1332
+          "size_mb": 15.7,
+          "fileSize": 16446243,
+          "durationSec": 1578
         },
         {
           "id": 28,
           "title": "第二红岸基地",
           "file": "/api/audio/chapter_28.mp3",
-          "size_mb": 2.3,
-          "fileSize": 2416293,
-          "durationSec": 282
+          "size_mb": 3.5,
+          "fileSize": 3643434,
+          "durationSec": 362
         },
         {
           "id": 29,
           "title": "地球三体运动",
           "file": "/api/audio/chapter_29.mp3",
-          "size_mb": 4.3,
-          "fileSize": 4477509,
-          "durationSec": 511
+          "size_mb": 6.3,
+          "fileSize": 6650533,
+          "durationSec": 665
         },
         {
           "id": 30,
           "title": "两个质子",
           "file": "/api/audio/chapter_30.mp3",
-          "size_mb": 8.0,
-          "fileSize": 8375301,
-          "durationSec": 998
+          "size_mb": 11.7,
+          "fileSize": 12289762,
+          "durationSec": 1178
         },
         {
           "id": 31,
           "title": "古筝行动",
           "file": "/api/audio/chapter_31.mp3",
-          "size_mb": 18.1,
-          "fileSize": 18983709,
-          "durationSec": 2223
+          "size_mb": 25.7,
+          "fileSize": 26918814,
+          "durationSec": 2523
         },
         {
           "id": 32,
           "title": "监听员",
           "file": "/api/audio/chapter_32.mp3",
-          "size_mb": 13.3,
-          "fileSize": 13925805,
-          "durationSec": 1633
+          "size_mb": 19.0,
+          "fileSize": 19891769,
+          "durationSec": 1877
         },
         {
           "id": 33,
           "title": "智子",
           "file": "/api/audio/chapter_33.mp3",
-          "size_mb": 31.7,
-          "fileSize": 33231069,
-          "durationSec": 3865
+          "size_mb": 43.7,
+          "fileSize": 45812422,
+          "durationSec": 4165
         },
         {
           "id": 34,
           "title": "虫子",
           "file": "/api/audio/chapter_34.mp3",
-          "size_mb": 5.8,
-          "fileSize": 6053229,
-          "durationSec": 718
+          "size_mb": 8.6,
+          "fileSize": 8983693,
+          "durationSec": 877
         },
         {
           "id": 35,
           "title": "尾声、遗址",
           "file": "/api/audio/chapter_35.mp3",
-          "size_mb": 1.8,
-          "fileSize": 1895589,
-          "durationSec": 222
+          "size_mb": 2.7,
+          "fileSize": 2830145,
+          "durationSec": 275
         }
       ]
     }
