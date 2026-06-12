@@ -1,6 +1,11 @@
 const GITHUB_OWNER = "tonychuang738-lang";
 const GITHUB_REPO = "novelsite";
-const GITHUB_TAG = "audio-v1";
+
+// 根据文件名前缀选择Release tag
+function getTag(filename) {
+  if (filename.startsWith("renshijian_")) return "audio-renshijian-v1";
+  return "audio-v1"; // 三体
+}
 
 export async function onRequest(context) {
   const { request, params } = context;
@@ -10,7 +15,8 @@ export async function onRequest(context) {
     return new Response("Invalid filename", { status: 400 });
   }
 
-  const githubUrl = `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/releases/download/${GITHUB_TAG}/${filename}`;
+  const tag = getTag(filename);
+  const githubUrl = `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/releases/download/${tag}/${filename}`;
 
   const headers = new Headers();
   const rangeHeader = request.headers.get("Range");

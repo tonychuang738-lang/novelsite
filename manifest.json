@@ -4,7 +4,7 @@
       "id": "santi",
       "title": "三体",
       "author": "刘慈欣",
-      "cover": "https://img1.doubanio.com/view/subject/l/public/s2768378.jpg",
+      "cover": "covers/santi.jpg",
       "description": "地球文明向宇宙发出的第一声啼鸣，以太阳为中心，向宇宙深处飞驰……",
       "chapters": [
         {
@@ -286,6 +286,447 @@
           "size_mb": 1.9,
           "fileSize": 1975317,
           "durationSec": 275
+        }
+      ]
+    },
+    {
+      "id": "renshijian",
+      "title": "人世间",
+      "author": "梁晓声",
+      "cover": "covers/renshijian.jpg",
+      "description": "一部关于中国社会变迁的史诗巨著，讲述周家三代人的命运沉浮……",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "（上部） 第一章",
+          "file": "/api/audio/renshijian_ch01.mp3",
+          "size_mb": 14.5,
+          "fileSize": 15204352,
+          "durationSec": 1878
+        },
+        {
+          "id": 2,
+          "title": "（上部） 第二章",
+          "file": "/api/audio/renshijian_ch02.mp3",
+          "size_mb": 14.1,
+          "fileSize": 14795541,
+          "durationSec": 616
+        },
+        {
+          "id": 3,
+          "title": "（上部） 第三章",
+          "file": "/api/audio/renshijian_ch03.mp3",
+          "size_mb": 5.3,
+          "fileSize": 5557509,
+          "durationSec": 231
+        },
+        {
+          "id": 4,
+          "title": "（上部） 第四章",
+          "file": "/api/audio/renshijian_ch04.mp3",
+          "size_mb": 6.8,
+          "fileSize": 7091517,
+          "durationSec": 295
+        },
+        {
+          "id": 5,
+          "title": "（上部） 第五章",
+          "file": "/api/audio/renshijian_ch05.mp3",
+          "size_mb": 24.9,
+          "fileSize": 26082285,
+          "durationSec": 1086
+        },
+        {
+          "id": 6,
+          "title": "（上部） 第六章",
+          "file": "/api/audio/renshijian_ch06.mp3",
+          "size_mb": 11.0,
+          "fileSize": 11523477,
+          "durationSec": 480
+        },
+        {
+          "id": 7,
+          "title": "（上部） 第七章",
+          "file": "/api/audio/renshijian_ch07.mp3",
+          "size_mb": 35.7,
+          "fileSize": 37385661,
+          "durationSec": 1557
+        },
+        {
+          "id": 8,
+          "title": "（上部） 第八章",
+          "file": "/api/audio/renshijian_ch08.mp3",
+          "size_mb": 43.3,
+          "fileSize": 45433005,
+          "durationSec": 1893
+        },
+        {
+          "id": 9,
+          "title": "（上部） 第九章",
+          "file": "/api/audio/renshijian_ch09.mp3",
+          "size_mb": 37.7,
+          "fileSize": 39509277,
+          "durationSec": 1646
+        },
+        {
+          "id": 10,
+          "title": "（上部） 第十章",
+          "file": "/api/audio/renshijian_ch10.mp3",
+          "size_mb": 81.3,
+          "fileSize": 85301205,
+          "durationSec": 3554
+        },
+        {
+          "id": 11,
+          "title": "（上部） 第十一章",
+          "file": "/api/audio/renshijian_ch11.mp3",
+          "size_mb": 42.5,
+          "fileSize": 44583909,
+          "durationSec": 1857
+        },
+        {
+          "id": 12,
+          "title": "（上部） 第十二章",
+          "file": "/api/audio/renshijian_ch12.mp3",
+          "size_mb": 22.9,
+          "fileSize": 24049677,
+          "durationSec": 1002
+        },
+        {
+          "id": 13,
+          "title": "（上部） 第十三章",
+          "file": "/api/audio/renshijian_ch13.mp3",
+          "size_mb": 20.4,
+          "fileSize": 21374997,
+          "durationSec": 890
+        },
+        {
+          "id": 14,
+          "title": "（上部） 第十四章",
+          "file": "/api/audio/renshijian_ch14.mp3",
+          "size_mb": 54.3,
+          "fileSize": 56948469,
+          "durationSec": 2372
+        },
+        {
+          "id": 15,
+          "title": "（上部） 第十五章",
+          "file": "/api/audio/renshijian_ch15.mp3",
+          "size_mb": 12.2,
+          "fileSize": 12766677,
+          "durationSec": 531
+        },
+        {
+          "id": 16,
+          "title": "（上部） 第十六章",
+          "file": "/api/audio/renshijian_ch16.mp3",
+          "size_mb": 11.6,
+          "fileSize": 12212109,
+          "durationSec": 508
+        },
+        {
+          "id": 17,
+          "title": "（上部） 第十七章",
+          "file": "/api/audio/renshijian_ch17.mp3",
+          "size_mb": 37.3,
+          "fileSize": 39084261,
+          "durationSec": 1628
+        },
+        {
+          "id": 18,
+          "title": "（上部） 第十八章",
+          "file": "/api/audio/renshijian_ch18.mp3",
+          "size_mb": 14.8,
+          "fileSize": 15497685,
+          "durationSec": 645
+        },
+        {
+          "id": 19,
+          "title": "（上部） 第十九章",
+          "file": "/api/audio/renshijian_ch19.mp3",
+          "size_mb": 9.5,
+          "fileSize": 9944853,
+          "durationSec": 414
+        },
+        {
+          "id": 20,
+          "title": "（中部） 第一章",
+          "file": "/api/audio/renshijian_ch20.mp3",
+          "size_mb": 52.9,
+          "fileSize": 55517925,
+          "durationSec": 2313
+        },
+        {
+          "id": 21,
+          "title": "（中部） 第二章",
+          "file": "/api/audio/renshijian_ch21.mp3",
+          "size_mb": 10.4,
+          "fileSize": 10876965,
+          "durationSec": 453
+        },
+        {
+          "id": 22,
+          "title": "（中部） 第三章",
+          "file": "/api/audio/renshijian_ch22.mp3",
+          "size_mb": 10.5,
+          "fileSize": 11018061,
+          "durationSec": 459
+        },
+        {
+          "id": 23,
+          "title": "（中部） 第四章",
+          "file": "/api/audio/renshijian_ch23.mp3",
+          "size_mb": 23.8,
+          "fileSize": 24960429,
+          "durationSec": 1040
+        },
+        {
+          "id": 24,
+          "title": "（中部） 第五章",
+          "file": "/api/audio/renshijian_ch24.mp3",
+          "size_mb": 50.7,
+          "fileSize": 53115381,
+          "durationSec": 2213
+        },
+        {
+          "id": 25,
+          "title": "（中部） 第六章",
+          "file": "/api/audio/renshijian_ch25.mp3",
+          "size_mb": 8.7,
+          "fileSize": 9156693,
+          "durationSec": 381
+        },
+        {
+          "id": 26,
+          "title": "（中部） 第七章",
+          "file": "/api/audio/renshijian_ch26.mp3",
+          "size_mb": 38.7,
+          "fileSize": 40537245,
+          "durationSec": 1689
+        },
+        {
+          "id": 27,
+          "title": "（中部） 第八章",
+          "file": "/api/audio/renshijian_ch27.mp3",
+          "size_mb": 27.3,
+          "fileSize": 28645077,
+          "durationSec": 1193
+        },
+        {
+          "id": 28,
+          "title": "（中部） 第九章",
+          "file": "/api/audio/renshijian_ch28.mp3",
+          "size_mb": 40.9,
+          "fileSize": 42868629,
+          "durationSec": 1786
+        },
+        {
+          "id": 29,
+          "title": "（中部） 第十章",
+          "file": "/api/audio/renshijian_ch29.mp3",
+          "size_mb": 43.9,
+          "fileSize": 45989373,
+          "durationSec": 1916
+        },
+        {
+          "id": 30,
+          "title": "（中部） 第十一章",
+          "file": "/api/audio/renshijian_ch30.mp3",
+          "size_mb": 14.5,
+          "fileSize": 15187701,
+          "durationSec": 632
+        },
+        {
+          "id": 31,
+          "title": "（中部） 第十二章",
+          "file": "/api/audio/renshijian_ch31.mp3",
+          "size_mb": 23.1,
+          "fileSize": 24211965,
+          "durationSec": 1008
+        },
+        {
+          "id": 32,
+          "title": "（中部） 第十三章",
+          "file": "/api/audio/renshijian_ch32.mp3",
+          "size_mb": 50.5,
+          "fileSize": 52906869,
+          "durationSec": 2204
+        },
+        {
+          "id": 33,
+          "title": "（中部） 第十四章",
+          "file": "/api/audio/renshijian_ch33.mp3",
+          "size_mb": 5.6,
+          "fileSize": 5906949,
+          "durationSec": 246
+        },
+        {
+          "id": 34,
+          "title": "（中部） 第十五章",
+          "file": "/api/audio/renshijian_ch34.mp3",
+          "size_mb": 14.7,
+          "fileSize": 15452397,
+          "durationSec": 643
+        },
+        {
+          "id": 35,
+          "title": "（中部） 第十六章",
+          "file": "/api/audio/renshijian_ch35.mp3",
+          "size_mb": 45.7,
+          "fileSize": 47874021,
+          "durationSec": 1994
+        },
+        {
+          "id": 36,
+          "title": "（中部） 第十七章",
+          "file": "/api/audio/renshijian_ch36.mp3",
+          "size_mb": 21.6,
+          "fileSize": 22610085,
+          "durationSec": 942
+        },
+        {
+          "id": 37,
+          "title": "（中部） 第十八章",
+          "file": "/api/audio/renshijian_ch37.mp3",
+          "size_mb": 11.7,
+          "fileSize": 12293901,
+          "durationSec": 512
+        },
+        {
+          "id": 38,
+          "title": "（中部） 第十九章",
+          "file": "/api/audio/renshijian_ch38.mp3",
+          "size_mb": 12.4,
+          "fileSize": 12984477,
+          "durationSec": 541
+        },
+        {
+          "id": 39,
+          "title": "（下部） 第一章",
+          "file": "/api/audio/renshijian_ch39.mp3",
+          "size_mb": 46.7,
+          "fileSize": 48944085,
+          "durationSec": 2039
+        },
+        {
+          "id": 40,
+          "title": "（下部） 第二章",
+          "file": "/api/audio/renshijian_ch40.mp3",
+          "size_mb": 15.1,
+          "fileSize": 15813021,
+          "durationSec": 658
+        },
+        {
+          "id": 41,
+          "title": "（下部） 第三章",
+          "file": "/api/audio/renshijian_ch41.mp3",
+          "size_mb": 45.0,
+          "fileSize": 47206581,
+          "durationSec": 1966
+        },
+        {
+          "id": 42,
+          "title": "（下部） 第四章",
+          "file": "/api/audio/renshijian_ch42.mp3",
+          "size_mb": 52.2,
+          "fileSize": 54750573,
+          "durationSec": 2281
+        },
+        {
+          "id": 43,
+          "title": "（下部） 第五章",
+          "file": "/api/audio/renshijian_ch43.mp3",
+          "size_mb": 45.6,
+          "fileSize": 47792469,
+          "durationSec": 1991
+        },
+        {
+          "id": 44,
+          "title": "（下部） 第六章",
+          "file": "/api/audio/renshijian_ch44.mp3",
+          "size_mb": 58.1,
+          "fileSize": 60926733,
+          "durationSec": 2538
+        },
+        {
+          "id": 45,
+          "title": "（下部） 第七章",
+          "file": "/api/audio/renshijian_ch45.mp3",
+          "size_mb": 21.2,
+          "fileSize": 22201725,
+          "durationSec": 925
+        },
+        {
+          "id": 46,
+          "title": "（下部） 第八章",
+          "file": "/api/audio/renshijian_ch46.mp3",
+          "size_mb": 45.6,
+          "fileSize": 47832669,
+          "durationSec": 1993
+        },
+        {
+          "id": 47,
+          "title": "（下部） 第九章",
+          "file": "/api/audio/renshijian_ch47.mp3",
+          "size_mb": 43.4,
+          "fileSize": 45522885,
+          "durationSec": 1896
+        },
+        {
+          "id": 48,
+          "title": "（下部） 第十章",
+          "file": "/api/audio/renshijian_ch48.mp3",
+          "size_mb": 15.9,
+          "fileSize": 16664445,
+          "durationSec": 694
+        },
+        {
+          "id": 49,
+          "title": "（下部） 第十一章",
+          "file": "/api/audio/renshijian_ch49.mp3",
+          "size_mb": 26.9,
+          "fileSize": 28247469,
+          "durationSec": 1176
+        },
+        {
+          "id": 50,
+          "title": "（下部） 第十二章",
+          "file": "/api/audio/renshijian_ch50.mp3",
+          "size_mb": 40.5,
+          "fileSize": 42511725,
+          "durationSec": 1771
+        },
+        {
+          "id": 51,
+          "title": "（下部） 第十三章",
+          "file": "/api/audio/renshijian_ch51.mp3",
+          "size_mb": 33.0,
+          "fileSize": 34635309,
+          "durationSec": 1443
+        },
+        {
+          "id": 52,
+          "title": "（下部） 第十四章",
+          "file": "/api/audio/renshijian_ch52.mp3",
+          "size_mb": 29.4,
+          "fileSize": 30777621,
+          "durationSec": 1282
+        },
+        {
+          "id": 53,
+          "title": "（下部） 第十五章",
+          "file": "/api/audio/renshijian_ch53.mp3",
+          "size_mb": 17.0,
+          "fileSize": 17789493,
+          "durationSec": 741
+        },
+        {
+          "id": 54,
+          "title": "（下部） 第十六章",
+          "file": "/api/audio/renshijian_ch54.mp3",
+          "size_mb": 22.9,
+          "fileSize": 24049605,
+          "durationSec": 1002
         }
       ]
     }

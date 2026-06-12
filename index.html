@@ -6,43 +6,33 @@
 <title>小说新天地</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap');
-
 :root {
   --bg-primary: #121212;
   --bg-secondary: #181818;
   --bg-elevated: #282828;
-  --bg-highlight: #1a1a1a;
   --bg-card: #1e1e1e;
   --text-primary: #fff;
   --text-secondary: #b3b3b3;
   --text-subdued: #6a6a6a;
   --accent: #1db954;
   --accent-hover: #1ed760;
-  --accent-glow: rgba(29, 185, 84, 0.3);
+  --accent-glow: rgba(29,185,84,0.3);
   --border: rgba(255,255,255,0.06);
   --danger: #e74c3c;
-  --gold: #f1c40f;
-  --purple: #9b59b6;
-  --blue: #3498db;
-  --player-bg: #181818;
   --sidebar-width: 280px;
-  --player-height: 96px;
-  --player-height-mobile: 140px;
-  --topbar-height: 64px;
+  --tabbar-height: 64px;
+  --mini-player-height: 64px;
 }
 
 * { margin:0; padding:0; box-sizing:border-box; }
-
 body {
-  font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
-  background: var(--bg-primary);
-  color: var(--text-primary);
-  overflow: hidden;
-  height: 100vh;
+  font-family: -apple-system, 'PingFang SC', 'Helvetica Neue', 'Microsoft YaHei', sans-serif;
+  background: var(--bg-primary); color: var(--text-primary);
+  overflow: hidden; height: 100vh;
+  -webkit-tap-highlight-color: transparent;
 }
 
-/* ── Login Screen ── */
+/* ═══ Login ═══ */
 .login-screen {
   position: fixed; inset: 0; z-index: 9999;
   background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
@@ -51,23 +41,18 @@ body {
 }
 .login-screen.hidden { opacity: 0; transform: scale(1.1); pointer-events: none; }
 .login-box {
-  background: rgba(30,30,30,0.9);
-  backdrop-filter: blur(20px);
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 24px;
-  padding: 48px 40px;
-  width: 400px;
-  text-align: center;
+  background: rgba(30,30,30,0.9); backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.1); border-radius: 24px;
+  padding: 48px 40px; width: min(400px, 90vw); text-align: center;
   box-shadow: 0 32px 64px rgba(0,0,0,0.5);
 }
 .login-logo { font-size: 64px; margin-bottom: 16px; }
-.login-title { font-size: 28px; font-weight: 900; margin-bottom: 8px; background: linear-gradient(135deg, var(--accent), var(--blue)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.login-title { font-size: 28px; font-weight: 900; margin-bottom: 8px; background: linear-gradient(135deg, var(--accent), #3498db); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 .login-subtitle { color: var(--text-secondary); font-size: 14px; margin-bottom: 32px; }
 .login-input {
   width: 100%; padding: 14px 20px; border-radius: 12px;
   background: var(--bg-elevated); border: 1px solid var(--border);
-  color: var(--text-primary); font-size: 16px;
-  outline: none; transition: border 0.3s;
+  color: var(--text-primary); font-size: 16px; outline: none;
 }
 .login-input:focus { border-color: var(--accent); }
 .login-input::placeholder { color: var(--text-subdued); }
@@ -76,29 +61,26 @@ body {
   background: var(--accent); color: #000; font-size: 16px; font-weight: 700;
   cursor: pointer; margin-top: 16px; transition: all 0.3s;
 }
-.login-btn:hover { background: var(--accent-hover); transform: translateY(-2px); box-shadow: 0 8px 24px var(--accent-glow); }
+.login-btn:hover { background: var(--accent-hover); transform: translateY(-2px); }
 .login-error { color: var(--danger); font-size: 13px; margin-top: 12px; min-height: 20px; }
 
-/* ── App Layout ── */
-.app { display: flex; height: 100vh; padding-bottom: var(--player-height); }
+/* ═══ App Shell ═══ */
+.app { display: flex; height: 100vh; }
 .app.hidden { display: none; }
 
-/* ── Sidebar ── */
+/* ═══ Desktop Sidebar ═══ */
 .sidebar {
   width: var(--sidebar-width); min-width: var(--sidebar-width);
-  background: #000; padding: 24px 16px;
-  display: flex; flex-direction: column;
-  overflow-y: auto;
-  border-right: 1px solid var(--border);
+  background: #000; display: flex; flex-direction: column;
+  overflow-y: auto; border-right: 1px solid var(--border);
 }
 .sidebar-logo {
   display: flex; align-items: center; gap: 12px;
-  padding: 0 8px 24px; border-bottom: 1px solid var(--border);
-  margin-bottom: 24px;
+  padding: 24px 16px 20px; border-bottom: 1px solid var(--border);
 }
 .sidebar-logo-icon { font-size: 32px; }
 .sidebar-logo-text { font-size: 20px; font-weight: 900; }
-.sidebar-section { margin-bottom: 24px; }
+.sidebar-section { padding: 16px; }
 .sidebar-section-title {
   font-size: 11px; font-weight: 700; text-transform: uppercase;
   letter-spacing: 1.5px; color: var(--text-subdued);
@@ -113,82 +95,96 @@ body {
 .novel-item.active { background: var(--bg-elevated); }
 .novel-item-cover {
   width: 48px; height: 48px; border-radius: 6px;
-  object-fit: cover; background: var(--bg-elevated);
+  object-fit: cover; background: var(--bg-elevated); flex-shrink: 0;
 }
 .novel-item-info { flex: 1; min-width: 0; }
 .novel-item-title { font-size: 14px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .novel-item-author { font-size: 12px; color: var(--text-subdued); }
+.sidebar-footer {
+  margin-top: auto; padding: 16px; border-top: 1px solid var(--border);
+}
+.sidebar-footer-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 12px; border-radius: 8px;
+  cursor: pointer; transition: background 0.2s;
+  font-size: 14px; color: var(--text-secondary);
+}
+.sidebar-footer-item:hover { background: var(--bg-elevated); color: var(--text-primary); }
 
-/* ── Main Content ── */
-.main { flex: 1; overflow-y: auto; padding: 0; }
+/* ═══ Main Content ═══ */
+.main-wrap { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+.main { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; }
 
-/* Top Bar */
 .topbar {
   position: sticky; top: 0; z-index: 10;
-  height: var(--topbar-height);
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 0 32px;
-  background: linear-gradient(180deg, rgba(18,18,18,0.95) 0%, rgba(18,18,18,0.8) 100%);
-  backdrop-filter: blur(12px);
+  height: 56px; display: flex; align-items: center; justify-content: space-between;
+  padding: 0 24px;
+  background: linear-gradient(180deg, rgba(18,18,18,0.97) 60%, rgba(18,18,18,0.85) 100%);
+  backdrop-filter: blur(16px);
 }
-.topbar-nav { display: flex; gap: 8px; }
+.topbar-left { display: flex; align-items: center; gap: 12px; }
 .topbar-btn {
   width: 32px; height: 32px; border-radius: 50%;
   background: rgba(0,0,0,0.7); border: none;
-  color: var(--text-primary); font-size: 18px;
-  cursor: pointer; display: grid; place-items: center;
+  color: var(--text-primary); font-size: 18px; cursor: pointer;
+  display: grid; place-items: center;
 }
-.topbar-title { font-size: 24px; font-weight: 900; }
+.topbar-title { font-size: 20px; font-weight: 900; }
+.topbar-right { display: flex; align-items: center; gap: 8px; }
 
-/* Novel Hero */
+/* ═══ Novel Hero ═══ */
 .novel-hero {
-  position: relative; padding: 40px 32px 32px;
-  background: linear-gradient(180deg, rgba(29,185,84,0.3) 0%, var(--bg-primary) 100%);
-  min-height: 280px;
-  display: flex; align-items: flex-end; gap: 24px;
+  position: relative; padding: 32px 24px 24px;
+  min-height: 240px;
+  display: flex; align-items: flex-end; gap: 20px;
 }
+.novel-hero-bg {
+  position: absolute; inset: 0; z-index: 0;
+  background-size: cover; background-position: center;
+  filter: blur(40px) brightness(0.4); transform: scale(1.2);
+}
+.novel-hero-bg::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(180deg, transparent 0%, var(--bg-primary) 100%);
+}
+.novel-hero > * { position: relative; z-index: 1; }
 .novel-hero-cover {
-  width: 200px; height: 200px; border-radius: 12px;
-  object-fit: cover; box-shadow: 0 16px 48px rgba(0,0,0,0.5);
+  width: 180px; height: 180px; border-radius: 12px;
+  object-fit: cover; box-shadow: 0 16px 48px rgba(0,0,0,0.6);
   flex-shrink: 0;
 }
-.novel-hero-info { flex: 1; }
-.novel-hero-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
-.novel-hero-title { font-size: 48px; font-weight: 900; line-height: 1.1; margin-bottom: 8px; }
-.novel-hero-meta { font-size: 14px; color: var(--text-secondary); }
-.novel-hero-meta span { color: var(--text-subdued); }
-.novel-hero-desc { font-size: 14px; color: var(--text-secondary); margin-top: 12px; max-width: 600px; line-height: 1.6; }
+.novel-hero-info { flex: 1; min-width: 0; }
+.novel-hero-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--accent); margin-bottom: 6px; }
+.novel-hero-title { font-size: 40px; font-weight: 900; line-height: 1.1; margin-bottom: 8px; }
+.novel-hero-meta { font-size: 14px; color: var(--text-secondary); line-height: 1.8; }
+.novel-hero-meta strong { color: var(--text-primary); }
+.novel-hero-meta span { color: var(--text-subdued); margin: 0 4px; }
+.novel-hero-desc { font-size: 13px; color: var(--text-secondary); margin-top: 10px; line-height: 1.7; max-width: 560px; }
 
 /* Controls Bar */
 .controls-bar {
-  padding: 24px 32px;
-  display: flex; align-items: center; gap: 16px;
+  padding: 20px 24px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
 }
 .play-all-btn {
-  width: 56px; height: 56px; border-radius: 50%;
-  background: var(--accent); border: none;
-  color: #000; font-size: 24px;
-  cursor: pointer; transition: all 0.3s;
-  display: grid; place-items: center;
-  box-shadow: 0 8px 24px var(--accent-glow);
+  width: 52px; height: 52px; border-radius: 50%;
+  background: var(--accent); border: none; color: #000;
+  font-size: 22px; cursor: pointer; transition: all 0.3s;
+  display: grid; place-items: center; box-shadow: 0 8px 24px var(--accent-glow);
 }
 .play-all-btn:hover { transform: scale(1.06); background: var(--accent-hover); }
 .shuffle-btn {
-  background: none; border: none;
-  color: var(--text-secondary); font-size: 24px;
-  cursor: pointer; transition: color 0.2s;
+  background: none; border: none; color: var(--text-secondary);
+  font-size: 22px; cursor: pointer; transition: color 0.2s;
 }
 .shuffle-btn:hover { color: var(--text-primary); }
-.search-box {
-  margin-left: auto;
-  padding: 8px 16px; padding-right: 60px; border-radius: 20px;
-  background: var(--bg-elevated); border: 1px solid var(--border);
-  color: var(--text-primary); font-size: 14px;
-  width: 240px; outline: none;
-}
-.search-box:focus { border-color: var(--accent); }
-.search-box::placeholder { color: var(--text-subdued); }
 .search-wrap { position: relative; display: flex; align-items: center; margin-left: auto; }
+.search-box {
+  padding: 8px 56px 8px 16px; border-radius: 20px;
+  background: var(--bg-elevated); border: 1px solid var(--border);
+  color: var(--text-primary); font-size: 14px; width: 220px; outline: none;
+}
+.search-box:focus { border-color: var(--accent); width: 260px; }
+.search-box::placeholder { color: var(--text-subdued); }
 .search-count {
   position: absolute; right: 36px; top: 50%; transform: translateY(-50%);
   font-size: 11px; color: var(--accent); pointer-events: none;
@@ -198,234 +194,258 @@ body {
 .search-clear {
   position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
   background: none; border: none; color: var(--text-subdued); font-size: 16px;
-  cursor: pointer; padding: 4px 8px; line-height: 1;
+  cursor: pointer; padding: 4px 8px;
 }
 .search-clear:hover { color: var(--text-primary); }
 
-/* Chapter List */
-.chapter-list { padding: 0 32px 120px; }
+/* ═══ Chapter List ═══ */
+.chapter-list { padding: 0 24px 200px; }
 .chapter-list-header {
-  display: grid;
-  grid-template-columns: 40px 1fr 100px 80px;
-  padding: 8px 16px;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 4px;
+  display: grid; grid-template-columns: 40px 1fr 100px 72px;
+  padding: 8px 12px; border-bottom: 1px solid var(--border);
   font-size: 12px; color: var(--text-subdued);
   text-transform: uppercase; letter-spacing: 1px;
 }
 .chapter-item {
-  display: grid;
-  grid-template-columns: 40px 60px 1fr 100px 80px;
-  align-items: center;
-  padding: 12px 16px; border-radius: 8px;
-  cursor: pointer; transition: background 0.2s;
-  gap: 8px;
+  display: grid; grid-template-columns: 40px 48px 1fr 100px 72px;
+  align-items: center; padding: 10px 12px; border-radius: 8px;
+  cursor: pointer; transition: background 0.15s; gap: 8px;
 }
 .chapter-item:hover { background: rgba(255,255,255,0.06); }
 .chapter-item.playing { background: rgba(29,185,84,0.1); }
-.chapter-num {
-  font-size: 16px; font-weight: 400; color: var(--text-secondary);
-  text-align: center;
-}
+.chapter-num { font-size: 15px; color: var(--text-secondary); text-align: center; }
 .chapter-item.playing .chapter-num { color: var(--accent); }
 .chapter-cover {
   width: 48px; height: 48px; border-radius: 6px;
-  object-fit: cover; background: var(--bg-elevated);
+  object-fit: cover; background: var(--bg-elevated); flex-shrink: 0;
 }
 .chapter-info { min-width: 0; }
-.chapter-title { font-size: 15px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.chapter-title .highlight { color: var(--accent); }
+.chapter-title { font-size: 14px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.chapter-title .highlight { color: var(--accent); background: rgba(29,185,84,0.15); border-radius: 2px; padding: 0 2px; }
 .chapter-novel { font-size: 12px; color: var(--text-subdued); margin-top: 2px; }
-.chapter-duration { font-size: 13px; color: var(--text-subdued); text-align: right; }
-.chapter-progress-bar {
-  height: 4px; border-radius: 2px;
-  background: var(--bg-elevated);
-  overflow: hidden; position: relative;
-}
-.chapter-progress-fill {
-  height: 100%; border-radius: 2px;
-  background: var(--accent);
-  transition: width 0.3s;
-}
-.chapter-actions {
-  display: flex; gap: 8px; opacity: 0;
-  transition: opacity 0.2s;
-}
-.chapter-item:hover .chapter-actions { opacity: 1; }
+.chapter-progress-bar { height: 4px; border-radius: 2px; background: var(--bg-elevated); overflow: hidden; }
+.chapter-progress-fill { height: 100%; border-radius: 2px; background: var(--accent); transition: width 0.3s; }
+.chapter-size { font-size: 13px; color: var(--text-subdued); text-align: right; }
 
-/* ── Bottom Player ── */
-.player {
+/* ═══ Bottom Player (Desktop) ═══ */
+.player-bar {
   position: fixed; bottom: 0; left: 0; right: 0;
-  height: var(--player-height);
-  background: var(--player-bg);
+  height: 72px; background: var(--bg-secondary);
   border-top: 1px solid var(--border);
-  display: grid;
-  grid-template-columns: 280px 1fr 200px;
-  align-items: center;
-  padding: 0 16px env(safe-area-inset-bottom, 0px);
+  display: grid; grid-template-columns: 240px 1fr 200px;
+  align-items: center; padding: 0 16px;
   z-index: 100;
 }
-.player.hidden { display: none; }
-
-.player-info {
-  display: flex; align-items: center; gap: 12px;
-  min-width: 0;
-}
-.player-cover {
-  width: 56px; height: 56px; border-radius: 6px;
-  object-fit: cover; flex-shrink: 0;
-  background: var(--bg-elevated);
-}
-.player-text { min-width: 0; }
-.player-title {
-  font-size: 14px; font-weight: 500;
-  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-}
-.player-novel {
-  font-size: 11px; color: var(--text-subdued);
-  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  margin-top: 2px;
-}
-.player-like {
-  background: none; border: none;
-  color: var(--text-subdued); font-size: 18px;
-  cursor: pointer; transition: color 0.2s;
-}
-.player-like:hover { color: var(--accent); }
-
-.player-controls {
-  display: flex; flex-direction: column; align-items: center; gap: 4px;
-  max-width: 600px; margin: 0 auto; width: 100%;
-}
-.player-buttons {
-  display: flex; align-items: center; gap: 16px;
-}
-.player-btn {
-  background: none; border: none;
-  color: var(--text-secondary); font-size: 18px;
+.player-bar.hidden { display: none; }
+.pbar-info { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.pbar-cover { width: 48px; height: 48px; border-radius: 6px; object-fit: cover; flex-shrink: 0; background: var(--bg-elevated); }
+.pbar-text { min-width: 0; }
+.pbar-title { font-size: 13px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pbar-novel { font-size: 11px; color: var(--text-subdued); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 1px; }
+.pbar-like { background: none; border: none; color: var(--text-subdued); font-size: 16px; cursor: pointer; }
+.pbar-like:hover { color: var(--accent); }
+.pbar-controls { display: flex; flex-direction: column; align-items: center; gap: 2px; max-width: 560px; margin: 0 auto; width: 100%; }
+.pbar-buttons { display: flex; align-items: center; gap: 12px; }
+.pbar-btn {
+  background: none; border: none; color: var(--text-secondary);
   cursor: pointer; transition: all 0.2s;
-  width: 32px; height: 32px; display: grid; place-items: center;
-  border-radius: 50%;
+  width: 32px; height: 32px; display: grid; place-items: center; border-radius: 50%;
 }
-.player-btn:hover { color: var(--text-primary); }
-.player-btn.play {
-  width: 36px; height: 36px;
-  background: var(--text-primary); color: #000;
-  font-size: 16px;
-}
-.player-btn.play:hover { transform: scale(1.06); }
-.player-progress {
-  display: flex; align-items: center; gap: 8px; width: 100%;
-}
-.player-time { font-size: 11px; color: var(--text-subdued); min-width: 40px; text-align: center; }
-.player-slider-wrap {
-  flex: 1; height: 12px;
-  display: flex; align-items: center;
-  cursor: pointer; position: relative;
-}
-.player-slider {
-  width: 100%; height: 4px; border-radius: 2px;
-  background: rgba(255,255,255,0.1);
-  position: relative; overflow: visible;
-}
-.player-slider-fill {
-  height: 100%; border-radius: 2px;
-  background: var(--text-primary);
-  position: relative;
-  transition: background 0.2s;
-}
-.player-slider-wrap:hover .player-slider-fill { background: var(--accent); }
-.player-slider-thumb {
-  width: 12px; height: 12px; border-radius: 50%;
-  background: var(--text-primary);
+.pbar-btn:hover { color: var(--text-primary); }
+.pbar-btn.play { width: 36px; height: 36px; background: var(--text-primary); color: #000; }
+.pbar-btn.play:hover { transform: scale(1.06); }
+.pbar-progress { display: flex; align-items: center; gap: 8px; width: 100%; }
+.pbar-time { font-size: 11px; color: var(--text-subdued); min-width: 40px; text-align: center; }
+.pbar-slider-wrap { flex: 1; height: 12px; display: flex; align-items: center; cursor: pointer; position: relative; }
+.pbar-slider { width: 100%; height: 4px; border-radius: 2px; background: rgba(255,255,255,0.1); position: relative; }
+.pbar-slider-fill { height: 100%; border-radius: 2px; background: var(--text-primary); position: relative; transition: background 0.2s; }
+.pbar-slider-wrap:hover .pbar-slider-fill { background: var(--accent); }
+.pbar-slider-thumb {
+  width: 12px; height: 12px; border-radius: 50%; background: var(--text-primary);
   position: absolute; right: -6px; top: -4px;
-  opacity: 0; transition: opacity 0.2s;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  opacity: 0; transition: opacity 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
-.player-slider-wrap:hover .player-slider-thumb { opacity: 1; }
-
-.player-extra {
-  display: flex; align-items: center; gap: 8px;
-  justify-content: flex-end;
-}
+.pbar-slider-wrap:hover .pbar-slider-thumb { opacity: 1; }
+.pbar-extra { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
 .speed-btn {
   background: var(--bg-elevated); border: 1px solid var(--border);
   color: var(--text-secondary); font-size: 11px; font-weight: 700;
-  padding: 4px 8px; border-radius: 4px;
-  cursor: pointer; transition: all 0.2s;
+  padding: 3px 7px; border-radius: 4px; cursor: pointer; transition: all 0.2s;
 }
 .speed-btn:hover { color: var(--text-primary); border-color: var(--text-subdued); }
 .speed-btn.active { color: var(--accent); border-color: var(--accent); }
-.volume-wrap {
-  display: flex; align-items: center; gap: 6px;
-}
-.volume-btn {
-  background: none; border: none;
-  color: var(--text-secondary); font-size: 18px;
-  cursor: pointer;
-}
+.volume-wrap { display: flex; align-items: center; gap: 6px; }
+.volume-btn { background: none; border: none; color: var(--text-secondary); font-size: 16px; cursor: pointer; }
 .volume-slider {
-  width: 80px; height: 4px;
-  -webkit-appearance: none; appearance: none;
-  background: rgba(255,255,255,0.1);
-  border-radius: 2px; outline: none;
-  cursor: pointer;
+  width: 72px; height: 4px; -webkit-appearance: none; appearance: none;
+  background: rgba(255,255,255,0.1); border-radius: 2px; outline: none; cursor: pointer;
 }
 .volume-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 12px; height: 12px; border-radius: 50%;
-  background: var(--text-primary); cursor: pointer;
+  -webkit-appearance: none; width: 12px; height: 12px;
+  border-radius: 50%; background: var(--text-primary); cursor: pointer;
 }
 
-/* ── Loading & Empty States ── */
-.loading {
-  display: flex; align-items: center; justify-content: center;
-  height: 200px; color: var(--text-subdued);
+/* ═══ Mobile Tab Bar ═══ */
+.tabbar { display: none; }
+.mobile-library { display: none; }
+
+/* ═══ Mobile Library View ═══ */
+.mobile-library-header {
+  padding: 20px 20px 12px;
+  display: flex; align-items: center; justify-content: space-between;
 }
+.mobile-library-title { font-size: 24px; font-weight: 900; }
+.mobile-library-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 16px; padding: 0 20px 160px;
+}
+.mobile-book-card { cursor: pointer; transition: transform 0.2s; }
+.mobile-book-card:active { transform: scale(0.96); }
+.mobile-book-cover {
+  width: 100%; aspect-ratio: 1; border-radius: 12px;
+  object-fit: cover; background: var(--bg-elevated);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+.mobile-book-title { font-size: 14px; font-weight: 700; margin-top: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mobile-book-author { font-size: 12px; color: var(--text-subdued); margin-top: 2px; }
+.mobile-book-progress { height: 3px; border-radius: 2px; background: var(--bg-elevated); margin-top: 6px; overflow: hidden; }
+.mobile-book-progress-fill { height: 100%; border-radius: 2px; background: var(--accent); }
+
+/* ═══ Mobile Mini Player ═══ */
+.mobile-mini-player {
+  display: none;
+  position: fixed; bottom: var(--tabbar-height); left: 0; right: 0;
+  height: var(--mini-player-height);
+  background: #1a1a2e; border-top: 1px solid var(--border);
+  padding: 8px 16px;
+  z-index: 100; cursor: pointer;
+}
+.mobile-mini-player.hidden { display: none !important; }
+.mmp-inner { display: flex; align-items: center; gap: 12px; height: 100%; }
+.mmp-cover { width: 48px; height: 48px; border-radius: 8px; object-fit: cover; flex-shrink: 0; background: var(--bg-elevated); }
+.mmp-info { flex: 1; min-width: 0; }
+.mmp-title { font-size: 13px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mmp-novel { font-size: 11px; color: var(--text-subdued); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 1px; }
+.mmp-controls { display: flex; align-items: center; gap: 4px; flex-shrink: 0; }
+.mmp-btn { background: none; border: none; color: var(--text-primary); font-size: 22px; cursor: pointer; padding: 8px; display: grid; place-items: center; }
+.mmp-progress { position: absolute; top: 0; left: 0; right: 0; height: 2px; background: rgba(255,255,255,0.06); }
+.mmp-progress-fill { height: 100%; background: var(--accent); transition: width 0.3s; }
+
+/* ═══ Full-screen Player (Mobile) ═══ */
+.fullscreen-player {
+  display: none; position: fixed; inset: 0; z-index: 200;
+  background: linear-gradient(180deg, #1a1a2e 0%, #0a0a0a 100%);
+  flex-direction: column;
+  padding: env(safe-area-inset-top, 16px) 20px env(safe-area-inset-bottom, 20px);
+  overflow-y: auto;
+}
+.fullscreen-player.active { display: flex; }
+.fsp-header { display: flex; align-items: center; justify-content: space-between; padding: 8px 0 16px; flex-shrink: 0; }
+.fsp-close { background: none; border: none; color: var(--text-secondary); font-size: 24px; cursor: pointer; padding: 8px; }
+.fsp-header-title { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--text-subdued); }
+.fsp-header-action { background: none; border: none; color: var(--text-secondary); font-size: 20px; cursor: pointer; padding: 8px; }
+.fsp-cover-wrap { flex: 1; display: flex; align-items: center; justify-content: center; padding: 8px 0 24px; }
+.fsp-cover { width: min(320px, 80vw); aspect-ratio: 1; border-radius: 16px; object-fit: cover; box-shadow: 0 24px 64px rgba(0,0,0,0.6); }
+.fsp-info { text-align: center; padding: 0 0 16px; flex-shrink: 0; }
+.fsp-title { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
+.fsp-novel { font-size: 14px; color: var(--text-subdued); }
+.fsp-progress-wrap { padding: 8px 0; flex-shrink: 0; }
+.fsp-slider-wrap { width: 100%; height: 24px; display: flex; align-items: center; cursor: pointer; position: relative; }
+.fsp-slider { width: 100%; height: 4px; border-radius: 2px; background: rgba(255,255,255,0.15); position: relative; }
+.fsp-slider-fill { height: 100%; border-radius: 2px; background: var(--text-primary); position: relative; }
+.fsp-slider-thumb { width: 14px; height: 14px; border-radius: 50%; background: var(--text-primary); position: absolute; right: -7px; top: -5px; box-shadow: 0 2px 8px rgba(0,0,0,0.3); }
+.fsp-times { display: flex; justify-content: space-between; }
+.fsp-time { font-size: 12px; color: var(--text-subdued); }
+.fsp-controls { display: flex; align-items: center; justify-content: center; gap: 24px; padding: 8px 0 12px; flex-shrink: 0; }
+.fsp-btn { background: none; border: none; color: var(--text-secondary); cursor: pointer; padding: 8px; display: grid; place-items: center; }
+.fsp-btn:active { color: var(--text-primary); }
+.fsp-btn.play { width: 64px; height: 64px; border-radius: 50%; background: var(--text-primary); color: #000; font-size: 28px; }
+.fsp-btn.play:active { transform: scale(0.95); }
+.fsp-extras { display: flex; align-items: center; justify-content: space-between; padding: 0 16px 8px; flex-shrink: 0; }
+.fsp-extra-btn { background: none; border: none; color: var(--text-subdued); font-size: 18px; cursor: pointer; padding: 8px; }
+.fsp-extra-btn.active { color: var(--accent); }
+
+/* ═══ Loading & Empty ═══ */
+.loading { display: flex; align-items: center; justify-content: center; height: 200px; color: var(--text-subdued); }
 .loading-spinner {
-  width: 32px; height: 32px;
-  border: 3px solid var(--bg-elevated);
-  border-top-color: var(--accent);
-  border-radius: 50%;
-  animation: spin 0.8s linear infinite;
-  margin-right: 12px;
+  width: 32px; height: 32px; border: 3px solid var(--bg-elevated);
+  border-top-color: var(--accent); border-radius: 50%;
+  animation: spin 0.8s linear infinite; margin-right: 12px;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
-
-.empty-state {
-  text-align: center; padding: 60px 20px;
-  color: var(--text-subdued);
-}
+.empty-state { text-align: center; padding: 60px 20px; color: var(--text-subdued); }
 .empty-state-icon { font-size: 48px; margin-bottom: 16px; }
 .empty-state-text { font-size: 16px; }
 
-/* ── Responsive ── */
-@media (max-width: 900px) {
+/* ═══ Responsive ═══ */
+@media (max-width: 768px) {
   .sidebar { display: none; }
-  .app { padding-bottom: calc(var(--player-height-mobile) + env(safe-area-inset-bottom, 20px) + 12px); }
-  .player { grid-template-columns: 1fr; height: auto; min-height: var(--player-height-mobile); padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 20px)); }
-  .player-btn { font-size: 28px; padding: 12px; }
-  .player-btn.play { width: 56px; height: 56px; font-size: 26px; }
-  .player-slider { height: 8px; }
-  .player-slider-thumb { width: 20px; height: 20px; }
-  .player-time { font-size: 13px; }
-  .player-info, .player-extra { display: none; }
-  .novel-hero-cover { width: 120px; height: 120px; }
-  .novel-hero-title { font-size: 32px; }
-  .chapter-item { grid-template-columns: 32px 1fr 60px; }
-  .chapter-cover, .chapter-novel { display: none; }
+  .player-bar { display: none !important; }
+
+  .mobile-library { display: block; }
+  .tabbar {
+    display: flex; position: fixed;
+    bottom: 0; left: 0; right: 0;
+    height: var(--tabbar-height);
+    background: #0a0a0a;
+    border-top: 1px solid var(--border);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    z-index: 100;
+  }
+  .tab-item {
+    flex: 1; display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 4px; cursor: pointer; transition: color 0.2s;
+    color: var(--text-subdued); padding: 8px 0;
+  }
+  .tab-item.active { color: var(--text-primary); }
+  .tab-icon { font-size: 22px; }
+  .tab-label { font-size: 10px; font-weight: 600; }
+
+  .mobile-mini-player { display: block; }
+  .main-wrap { display: none; }
+  .main-wrap.mobile-active { display: flex; }
+
+  .chapter-list { padding-bottom: 180px; }
+  .chapter-list-header { display: none; }
+  .chapter-item { grid-template-columns: 32px 1fr 56px; padding: 12px 4px; }
+  .chapter-cover, .chapter-novel, .chapter-size { display: none; }
+  .chapter-num { font-size: 14px; }
+  .chapter-progress-bar { display: none; }
+
+  .novel-hero {
+    padding: 20px 16px 16px; min-height: 200px;
+    flex-direction: column; align-items: center; text-align: center; gap: 16px;
+  }
+  .novel-hero-cover { width: 140px; height: 140px; }
+  .novel-hero-title { font-size: 28px; }
+  .novel-hero-desc { display: none; }
+  .novel-hero-meta { font-size: 13px; }
+  .controls-bar { padding: 12px 16px; }
+  .search-box { width: 140px; }
+  .search-box:focus { width: 180px; }
+  .topbar { padding: 0 16px; }
+  .topbar-title { font-size: 18px; }
+}
+
+@media (max-width: 400px) {
+  .mobile-library-grid { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 12px; }
+  .fsp-controls { gap: 16px; }
 }
 
 /* Scrollbar */
-::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 4px; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
+
+.view-enter { animation: viewFadeIn 0.25s ease; }
+@keyframes viewFadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 </style>
 </head>
 <body>
 
-<!-- Login Screen -->
+<!-- Login -->
 <div class="login-screen" id="loginScreen">
   <div class="login-box">
     <div class="login-logo">📚</div>
@@ -437,10 +457,10 @@ body {
   </div>
 </div>
 
-<!-- Main App -->
+<!-- App -->
 <div class="app hidden" id="app">
-  <!-- Sidebar -->
-  <aside class="sidebar">
+  <!-- Desktop Sidebar -->
+  <aside class="sidebar" id="sidebar">
     <div class="sidebar-logo">
       <span class="sidebar-logo-icon">📚</span>
       <span class="sidebar-logo-text">小说新天地</span>
@@ -449,91 +469,191 @@ body {
       <div class="sidebar-section-title">书库</div>
       <div id="novelList"></div>
     </div>
-    <div class="sidebar-section" style="margin-top:auto; padding-top:16px; border-top:1px solid var(--border);">
-      <div class="sidebar-section-title">设置</div>
-      <div class="novel-item" onclick="logout()">
-        <span style="font-size:20px">🔒</span>
-        <div class="novel-item-info">
-          <div class="novel-item-title" style="font-size:13px">退出登录</div>
-        </div>
+    <div class="sidebar-footer">
+      <div class="sidebar-footer-item" onclick="logout()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M10.09 15.59L11.5 17l5-5-5-5-1.41 1.41L12.67 11H3v2h9.67l-2.58 2.59zM19 3H5c-1.11 0-2 .9-2 2v4h2V5h14v14H5v-4H3v4c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"/></svg>
+        退出登录
       </div>
     </div>
   </aside>
 
-  <!-- Main Content -->
-  <main class="main" id="mainContent">
-    <div class="topbar">
-      <div class="topbar-nav">
-        <button class="topbar-btn" onclick="history.back()">‹</button>
-        <button class="topbar-btn" onclick="history.forward()">›</button>
+  <!-- Main Content Area -->
+  <div class="main-wrap" id="mainWrap">
+    <main class="main" id="mainContent">
+      <div class="topbar">
+        <div class="topbar-left">
+          <button class="topbar-btn" onclick="history.back()">‹</button>
+          <button class="topbar-btn" onclick="history.forward()">›</button>
+        </div>
+        <div class="topbar-title" id="topbarTitle">小说新天地</div>
+        <div class="topbar-right" style="width:64px"></div>
       </div>
-      <div class="topbar-title" id="topbarTitle">小说新天地</div>
-      <div style="width:64px"></div>
+      <div id="contentArea">
+        <div class="loading"><div class="loading-spinner"></div>加载中...</div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Mobile Library View -->
+  <div class="mobile-library" id="mobileLibrary">
+    <div class="mobile-library-header">
+      <div class="mobile-library-title">📚 书库</div>
+      <div style="font-size:13px;color:var(--text-subdued)">📖 发现好书</div>
     </div>
-    <div id="contentArea">
-      <div class="loading"><div class="loading-spinner"></div>加载中...</div>
-    </div>
-  </main>
+    <div class="mobile-library-grid" id="mobileLibraryGrid"></div>
+  </div>
 </div>
 
-<!-- Bottom Player -->
-<div class="player hidden" id="player">
-  <div class="player-info">
-    <img class="player-cover" id="playerCover" src="" alt="">
-    <div class="player-text">
-      <div class="player-title" id="playerTitle">-</div>
-      <div class="player-novel" id="playerNovel">-</div>
-    </div>
-    <button class="player-like" onclick="toggleLike()">♡</button>
+<!-- Mobile Bottom Tab Bar -->
+<div class="tabbar" id="tabbar">
+  <div class="tab-item active" data-tab="library" onclick="switchTab('library')">
+    <span class="tab-icon">📚</span>
+    <span class="tab-label">书库</span>
   </div>
-  <div class="player-controls">
-    <div class="player-buttons">
-      <button class="player-btn" id="shuffleBtn" onclick="toggleShuffle()">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z"/></svg>
-      </button>
-      <button class="player-btn" onclick="prevChapter()">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
-      </button>
-      <button class="player-btn play" id="playBtn" onclick="togglePlay()">▶</button>
-      <button class="player-btn" onclick="nextChapter()">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
-      </button>
-      <button class="player-btn" id="repeatBtn" onclick="toggleRepeat()">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z"/></svg>
+  <div class="tab-item" data-tab="playing" onclick="switchTab('playing')">
+    <span class="tab-icon">🎧</span>
+    <span class="tab-label">播放中</span>
+  </div>
+  <div class="tab-item" data-tab="settings" onclick="switchTab('settings')">
+    <span class="tab-icon">⚙️</span>
+    <span class="tab-label">设置</span>
+  </div>
+</div>
+
+<!-- Mobile Mini Player -->
+<div class="mobile-mini-player hidden" id="mobileMiniPlayer" onclick="openFullscreenPlayer()">
+  <div class="mmp-progress"><div class="mmp-progress-fill" id="mmpProgressFill" style="width:0%"></div></div>
+  <div class="mmp-inner">
+    <img class="mmp-cover" id="mmpCover" src="" alt="">
+    <div class="mmp-info">
+      <div class="mmp-title" id="mmpTitle">-</div>
+      <div class="mmp-novel" id="mmpNovel">-</div>
+    </div>
+    <div class="mmp-controls" onclick="event.stopPropagation()">
+      <button class="mmp-btn" id="mmpPlayBtn" onclick="togglePlay()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
       </button>
     </div>
-    <div class="player-progress">
-      <span class="player-time" id="currentTime">0:00</span>
-      <div class="player-slider-wrap" id="progressBar">
-        <div class="player-slider">
-          <div class="player-slider-fill" id="progressFill" style="width:0%">
-            <div class="player-slider-thumb"></div>
+  </div>
+</div>
+
+<!-- Full-screen Player (Mobile) -->
+<div class="fullscreen-player" id="fullscreenPlayer">
+  <div class="fsp-header">
+    <button class="fsp-close" onclick="closeFullscreenPlayer()">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+    </button>
+    <div class="fsp-header-title" id="fspHeaderTitle">正在播放</div>
+    <button class="fsp-header-action" onclick="toggleLike()"><span id="fspLike">♡</span></button>
+  </div>
+  <div class="fsp-cover-wrap">
+    <img class="fsp-cover" id="fspCover" src="" alt="">
+  </div>
+  <div class="fsp-info">
+    <div class="fsp-title" id="fspTitle">-</div>
+    <div class="fsp-novel" id="fspNovel">-</div>
+  </div>
+  <div class="fsp-progress-wrap">
+    <div class="fsp-slider-wrap" id="fspProgressBar">
+      <div class="fsp-slider">
+        <div class="fsp-slider-fill" id="fspProgressFill" style="width:0%">
+          <div class="fsp-slider-thumb"></div>
+        </div>
+      </div>
+    </div>
+    <div class="fsp-times">
+      <span class="fsp-time" id="fspCurrentTime">0:00</span>
+      <span class="fsp-time" id="fspTotalTime">0:00</span>
+    </div>
+  </div>
+  <div class="fsp-controls">
+    <button class="fsp-btn" id="fspShuffleBtn" onclick="toggleShuffle()">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z"/></svg>
+    </button>
+    <button class="fsp-btn" onclick="prevChapter()">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
+    </button>
+    <button class="fsp-btn play" id="fspPlayBtn" onclick="togglePlay()">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+    </button>
+    <button class="fsp-btn" onclick="nextChapter()">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
+    </button>
+    <button class="fsp-btn" id="fspRepeatBtn" onclick="toggleRepeat()">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z"/></svg>
+    </button>
+  </div>
+  <div class="fsp-extras">
+    <button class="fsp-extra-btn" id="fspSpeedBtn" onclick="cycleSpeed()">1x</button>
+    <div style="display:flex;align-items:center;gap:8px;">
+      <button class="fsp-extra-btn" onclick="toggleMute()"><span id="fspVolumeIcon">🔊</span></button>
+      <input type="range" class="volume-slider" id="fspVolumeSlider" min="0" max="1" step="0.01" value="0.8" style="width:100px">
+    </div>
+  </div>
+</div>
+
+<!-- Desktop Player Bar -->
+<div class="player-bar hidden" id="playerBar">
+  <div class="pbar-info">
+    <img class="pbar-cover" id="pbarCover" src="" alt="">
+    <div class="pbar-text">
+      <div class="pbar-title" id="pbarTitle">-</div>
+      <div class="pbar-novel" id="pbarNovel">-</div>
+    </div>
+    <button class="pbar-like" onclick="toggleLike()">♡</button>
+  </div>
+  <div class="pbar-controls">
+    <div class="pbar-buttons">
+      <button class="pbar-btn" id="shuffleBtn" onclick="toggleShuffle()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z"/></svg>
+      </button>
+      <button class="pbar-btn" onclick="prevChapter()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
+      </button>
+      <button class="pbar-btn play" id="playBtn" onclick="togglePlay()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      </button>
+      <button class="pbar-btn" onclick="nextChapter()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
+      </button>
+      <button class="pbar-btn" id="repeatBtn" onclick="toggleRepeat()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z"/></svg>
+      </button>
+    </div>
+    <div class="pbar-progress">
+      <span class="pbar-time" id="currentTime">0:00</span>
+      <div class="pbar-slider-wrap" id="progressBar">
+        <div class="pbar-slider">
+          <div class="pbar-slider-fill" id="progressFill" style="width:0%">
+            <div class="pbar-slider-thumb"></div>
           </div>
         </div>
       </div>
-      <span class="player-time" id="totalTime">0:00</span>
+      <span class="pbar-time" id="totalTime">0:00</span>
     </div>
   </div>
-  <div class="player-extra">
+  <div class="pbar-extra">
     <button class="speed-btn" data-speed="0.75">0.75x</button>
     <button class="speed-btn active" data-speed="1">1x</button>
     <button class="speed-btn" data-speed="1.25">1.25x</button>
     <button class="speed-btn" data-speed="1.5">1.5x</button>
     <div class="volume-wrap">
-      <button class="volume-btn" onclick="toggleMute()">🔊</button>
+      <button class="volume-btn" onclick="toggleMute()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+      </button>
       <input type="range" class="volume-slider" id="volumeSlider" min="0" max="1" step="0.01" value="0.8">
     </div>
   </div>
 </div>
 
-<!-- Audio Element -->
+<!-- Audio -->
 <audio id="audioPlayer"></audio>
 
 <script>
 // ═══════════════════════════════════════════════════
 // Config
 // ═══════════════════════════════════════════════════
-const PASSWORD = "santi2024";  // Change this!
+const PASSWORD = "santi2024";
 const STORAGE_KEY = "novelsite_";
 const MANIFEST_URL = "manifest.json";
 
@@ -545,19 +665,16 @@ let currentNovel = null;
 let currentChapterIndex = -1;
 let isPlaying = false;
 let isShuffle = false;
-let repeatMode = 0; // 0=off, 1=all, 2=one
+let repeatMode = 0;
 let playbackRate = 1;
+let currentTab = 'library';
 
 // ═══════════════════════════════════════════════════
 // Auth
 // ═══════════════════════════════════════════════════
 function checkAuth() {
-  const saved = localStorage.getItem(STORAGE_KEY + "auth");
-  if (saved === "true") {
-    showApp();
-  }
+  if (localStorage.getItem(STORAGE_KEY + "auth") === "true") showApp();
 }
-
 function login() {
   const pwd = document.getElementById("loginPassword").value;
   if (pwd === PASSWORD) {
@@ -569,12 +686,10 @@ function login() {
     document.getElementById("loginPassword").focus();
   }
 }
-
 function logout() {
   localStorage.removeItem(STORAGE_KEY + "auth");
   location.reload();
 }
-
 function showApp() {
   document.getElementById("loginScreen").classList.add("hidden");
   document.getElementById("app").classList.remove("hidden");
@@ -589,7 +704,7 @@ async function loadManifest() {
     const resp = await fetch(MANIFEST_URL);
     manifest = await resp.json();
     renderSidebar();
-    // Load last novel or first
+    renderMobileLibrary();
     const lastNovel = localStorage.getItem(STORAGE_KEY + "lastNovel");
     const novel = manifest.novels.find(n => n.id === lastNovel) || manifest.novels[0];
     selectNovel(novel.id);
@@ -599,16 +714,111 @@ async function loadManifest() {
 }
 
 function renderSidebar() {
-  const container = document.getElementById("novelList");
-  container.innerHTML = manifest.novels.map(novel => `
+  document.getElementById("novelList").innerHTML = manifest.novels.map((novel, i) => {
+    const progress = getNovelProgress(novel.id);
+    const emojis = ['📖', '📕', '📗', '📘', '📙'];
+    return `
     <div class="novel-item" data-id="${novel.id}" onclick="selectNovel('${novel.id}')">
-      <img class="novel-item-cover" src="${novel.cover}" alt="${novel.title}" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23282828%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2260%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2240%22>📖</text></svg>'">
+      <img class="novel-item-cover" src="${novel.cover}" alt="${novel.title}" onerror="this.style.display='none'">
       <div class="novel-item-info">
-        <div class="novel-item-title">${novel.title}</div>
-        <div class="novel-item-author">${novel.author}</div>
+        <div class="novel-item-title">${emojis[i % emojis.length]} ${novel.title}</div>
+        <div class="novel-item-author">✍️ ${novel.author} · 🎵 ${novel.chapters.length}章${progress.percent > 0 ? ` · ✅ ${progress.percent}%` : ''}</div>
       </div>
     </div>
-  `).join("");
+  `}).join("");
+}
+
+function renderMobileLibrary() {
+  const grid = document.getElementById("mobileLibraryGrid");
+  let listeningHtml = '';
+  if (currentNovel && currentChapterIndex >= 0) {
+    const ch = currentNovel.chapters[currentChapterIndex];
+    const progress = getChapterProgress(currentNovel.id, ch.id);
+    listeningHtml = `
+      <div style="padding:0 20px 8px">
+        <div style="font-size:13px;color:var(--text-subdued);margin-bottom:10px">🎧 最近在听</div>
+        <div onclick="selectNovel('${currentNovel.id}'); switchTab('playing');"
+             style="display:flex;align-items:center;gap:14px;background:linear-gradient(135deg,rgba(29,185,84,0.15),rgba(29,185,84,0.05));border-radius:14px;padding:14px;cursor:pointer">
+          <img src="${currentNovel.cover}" style="width:56px;height:56px;border-radius:10px;object-fit:cover;box-shadow:0 4px 12px rgba(0,0,0,0.3)">
+          <div style="flex:1;min-width:0">
+            <div style="font-size:14px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${ch.title}</div>
+            <div style="font-size:12px;color:var(--text-subdued);margin-top:2px">${currentNovel.title} · 进度 ${progress.percent}%</div>
+          </div>
+          <div style="font-size:24px">${isPlaying ? '⏸️' : '▶️'}</div>
+        </div>
+      </div>
+    `;
+  }
+
+  const booksHtml = manifest.novels.map((novel, i) => {
+    const progress = getNovelProgress(novel.id);
+    const emojis = ['📖', '📕', '📗', '📘', '📙'];
+    return `
+      <div class="mobile-book-card" onclick="selectNovel('${novel.id}'); switchTab('playing');">
+        <div style="position:relative">
+          <img class="mobile-book-cover" src="${novel.cover}" alt="${novel.title}" onerror="this.style.display='none'">
+          ${progress.percent > 0 ? `<div style="position:absolute;top:8px;right:8px;background:rgba(0,0,0,0.7);color:var(--accent);font-size:10px;font-weight:700;padding:3px 6px;border-radius:6px;backdrop-filter:blur(4px)">✓ ${progress.percent}%</div>` : ''}
+        </div>
+        <div class="mobile-book-title">${emojis[i % emojis.length]} ${novel.title}</div>
+        <div class="mobile-book-author">✍️ ${novel.author} · 🎵 ${novel.chapters.length}章</div>
+        <div class="mobile-book-progress"><div class="mobile-book-progress-fill" style="width:${progress.percent}%"></div></div>
+      </div>
+    `;
+  }).join("");
+
+  grid.innerHTML = listeningHtml + booksHtml;
+}
+
+// ═══════════════════════════════════════════════════
+// Tab Navigation (Mobile)
+// ═══════════════════════════════════════════════════
+function switchTab(tab) {
+  currentTab = tab;
+  document.querySelectorAll('.tab-item').forEach(el => {
+    el.classList.toggle('active', el.dataset.tab === tab);
+  });
+
+  const mainWrap = document.getElementById('mainWrap');
+  const mobileLib = document.getElementById('mobileLibrary');
+
+  if (tab === 'library') {
+    mainWrap.classList.remove('mobile-active');
+    mobileLib.style.display = 'block';
+    renderMobileLibrary();
+  } else if (tab === 'playing') {
+    mainWrap.classList.add('mobile-active');
+    mobileLib.style.display = 'none';
+    if (currentNovel) renderNovelView();
+  } else if (tab === 'settings') {
+    mainWrap.classList.add('mobile-active');
+    mobileLib.style.display = 'none';
+    document.getElementById("contentArea").innerHTML = `
+      <div style="padding:40px 20px;text-align:center">
+        <div style="font-size:64px;margin-bottom:20px">⚙️</div>
+        <div style="font-size:22px;font-weight:900;margin-bottom:8px">设置</div>
+        <div style="font-size:13px;color:var(--text-subdued);margin-bottom:28px">管理你的账户</div>
+        <div style="background:var(--bg-elevated);border-radius:16px;padding:20px;max-width:360px;margin:0 auto;text-align:left">
+          <div style="display:flex;align-items:center;gap:14px;padding:14px 0;border-bottom:1px solid var(--border)">
+            <span style="font-size:24px">👤</span>
+            <div style="flex:1"><div style="font-size:14px;font-weight:600">用户</div><div style="font-size:12px;color:var(--text-subdued)">已登录</div></div>
+          </div>
+          <div style="display:flex;align-items:center;gap:14px;padding:14px 0;border-bottom:1px solid var(--border)">
+            <span style="font-size:24px">📚</span>
+            <div style="flex:1"><div style="font-size:14px;font-weight:600">书库</div><div style="font-size:12px;color:var(--text-subdued)">${manifest ? manifest.novels.length + ' 本小说' : '加载中...'}</div></div>
+          </div>
+          <div style="display:flex;align-items:center;gap:14px;padding:14px 0;border-bottom:1px solid var(--border)">
+            <span style="font-size:24px">🎵</span>
+            <div style="flex:1"><div style="font-size:14px;font-weight:600">总章节</div><div style="font-size:12px;color:var(--text-subdued)">${manifest ? manifest.novels.reduce((s,n) => s + n.chapters.length, 0) + ' 章' : '...'}</div></div>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 0;margin-top:8px">
+            <div style="display:flex;align-items:center;gap:14px"><span style="font-size:24px">🚪</span><span style="font-size:14px;font-weight:600">退出登录</span></div>
+            <button onclick="logout()" style="background:var(--danger);color:#fff;border:none;padding:10px 20px;border-radius:10px;font-size:13px;font-weight:600;cursor:pointer">退出</button>
+          </div>
+        </div>
+        <div style="margin-top:32px;font-size:12px;color:var(--text-subdued)">📖 小说新天地 v2.0 · Made with ❤️</div>
+      </div>
+    `;
+  }
 }
 
 // ═══════════════════════════════════════════════════
@@ -619,39 +829,39 @@ function selectNovel(novelId) {
   if (!novel) return;
   currentNovel = novel;
   localStorage.setItem(STORAGE_KEY + "lastNovel", novelId);
-
-  // Update sidebar active
   document.querySelectorAll(".novel-item").forEach(el => {
     el.classList.toggle("active", el.dataset.id === novelId);
   });
-
   renderNovelView();
 }
 
 function renderNovelView() {
   const novel = currentNovel;
+  if (!novel) return;
   document.getElementById("topbarTitle").textContent = novel.title;
-
   const progress = getNovelProgress(novel.id);
   const totalSize = novel.chapters.reduce((s, c) => s + (c.size_mb || 0), 0);
 
   document.getElementById("contentArea").innerHTML = `
-    <div class="novel-hero">
-      <img class="novel-hero-cover" src="${novel.cover}" alt="${novel.title}" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22><rect fill=%22%23282828%22 width=%22200%22 height=%22200%22/><text x=%22100%22 y=%22110%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2280%22>📖</text></svg>'">
+    <div class="novel-hero view-enter">
+      <div class="novel-hero-bg" style="background-image:url('${novel.cover}')"></div>
+      <img class="novel-hero-cover" src="${novel.cover}" alt="${novel.title}" onerror="this.style.display='none'">
       <div class="novel-hero-info">
-        <div class="novel-hero-label">有声书</div>
+        <div class="novel-hero-label">🎧 有声书</div>
         <div class="novel-hero-title">${novel.title}</div>
         <div class="novel-hero-meta">
-          <strong>${novel.author}</strong> <span>·</span>
-          ${novel.chapters.length} 章 <span>·</span>
-          ${totalSize.toFixed(0)}MB <span>·</span>
-          已听 ${progress.percent}%
+          <strong>${novel.author}</strong><span>·</span>
+          🎵 ${novel.chapters.length} 章<span>·</span>
+          💾 ${totalSize.toFixed(0)}MB<span>·</span>
+          📊 已听 ${progress.percent}%
         </div>
         <div class="novel-hero-desc">${novel.description}</div>
       </div>
     </div>
     <div class="controls-bar">
-      <button class="play-all-btn" id="heroPlayBtn" onclick="toggleHeroPlay()" title="播放/暂停">▶</button>
+      <button class="play-all-btn" id="heroPlayBtn" onclick="toggleHeroPlay()" title="播放/暂停">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      </button>
       <button class="shuffle-btn" id="heroShuffleBtn" onclick="playShuffle()" title="随机播放">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z"/></svg>
       </button>
@@ -662,16 +872,8 @@ function renderNovelView() {
       </div>
     </div>
     <div class="chapter-list">
-      <div class="chapter-list-header">
-        <div>#</div>
-        <div></div>
-        <div>章节</div>
-        <div>进度</div>
-        <div style="text-align:right">大小</div>
-      </div>
-      <div id="chapterListBody">
-        ${renderChapterList(novel.chapters)}
-      </div>
+      <div class="chapter-list-header"><div>#</div><div></div><div>章节</div><div>进度</div><div style="text-align:right">大小</div></div>
+      <div id="chapterListBody">${renderChapterList(novel.chapters)}</div>
     </div>
   `;
 }
@@ -691,12 +893,8 @@ function renderChapterList(chapters, filter = "") {
           <div class="chapter-title">${filter ? highlightMatch(ch.title, filter) : ch.title}</div>
           <div class="chapter-novel">${novel.title}</div>
         </div>
-        <div style="min-width:100px">
-          <div class="chapter-progress-bar">
-            <div class="chapter-progress-fill" style="width:${progress.percent}%"></div>
-          </div>
-        </div>
-        <div class="chapter-duration">${ch.size_mb ? ch.size_mb + 'MB' : '-'}</div>
+        <div style="min-width:100px"><div class="chapter-progress-bar"><div class="chapter-progress-fill" style="width:${progress.percent}%"></div></div></div>
+        <div class="chapter-size">${ch.size_mb ? ch.size_mb + 'MB' : '-'}</div>
       </div>
     `;
   }).join("");
@@ -711,50 +909,29 @@ function highlightMatch(text, filter) {
 
 let _isComposing = false;
 let _searchTimer = null;
-
 function onCompositionStart() { _isComposing = true; }
-function onCompositionEnd(e) {
-  _isComposing = false;
-  doSearch(e.target.value);
-}
-
-function onSearchInput(value) {
-  if (_isComposing) return; // ignore during IME composition
-  doSearch(value);
-}
-
-function doSearch(query) {
-  clearTimeout(_searchTimer);
-  _searchTimer = setTimeout(() => filterChapters(query), 100);
-}
-
+function onCompositionEnd(e) { _isComposing = false; doSearch(e.target.value); }
+function onSearchInput(value) { if (!_isComposing) doSearch(value); }
+function doSearch(query) { clearTimeout(_searchTimer); _searchTimer = setTimeout(() => filterChapters(query), 100); }
 function clearSearch() {
   const input = document.getElementById("searchInput");
   if (input) { input.value = ""; input.focus(); }
   filterChapters("");
 }
-
 function filterChapters(query) {
   const body = document.getElementById("chapterListBody");
   const countEl = document.getElementById("searchCount");
   const clearBtn = document.getElementById("searchClear");
   if (!body) return;
-
   const q = (query || "").trim();
   body.innerHTML = renderChapterList(currentNovel.chapters, q);
-
   if (q) {
-    const total = currentNovel.chapters.length;
     const matched = currentNovel.chapters.filter(ch =>
-      ch.title.toLowerCase().includes(q.toLowerCase()) ||
-      `第${ch.id}章`.includes(q) ||
-      String(ch.id) === q
+      ch.title.toLowerCase().includes(q.toLowerCase()) || `第${ch.id}章`.includes(q) || String(ch.id) === q
     ).length;
-    if (countEl) { countEl.textContent = matched + "/" + total; countEl.classList.add("visible"); }
+    if (countEl) { countEl.textContent = matched + "/" + currentNovel.chapters.length; countEl.classList.add("visible"); }
     if (clearBtn) clearBtn.style.display = "block";
-    if (matched === 0) {
-      body.innerHTML = '<div style="text-align:center;padding:40px;color:var(--text-subdued)">搵唔到相關章節</div>';
-    }
+    if (matched === 0) body.innerHTML = '<div style="text-align:center;padding:40px;color:var(--text-subdued)">搵唔到相關章節</div>';
   } else {
     if (countEl) { countEl.textContent = ""; countEl.classList.remove("visible"); }
     if (clearBtn) clearBtn.style.display = "none";
@@ -769,125 +946,110 @@ function playChapter(index) {
   currentChapterIndex = index;
   const chapter = currentNovel.chapters[index];
   const audio = document.getElementById("audioPlayer");
-
-  // Restore progress
   const saved = getChapterProgress(currentNovel.id, chapter.id);
   audio.src = chapter.file;
   audio.playbackRate = playbackRate;
   audio.currentTime = saved.currentTime || 0;
-
-  audio.play().then(() => {
-    isPlaying = true;
-    updatePlayerUI();
-    updateChapterHighlight();
-  }).catch(() => {
-    // Autoplay blocked, user needs to click
-    isPlaying = false;
-    updatePlayerUI();
-  });
-
-  // Show player
-  document.getElementById("player").classList.remove("hidden");
+  audio.play().then(() => { isPlaying = true; updateAllUI(); }).catch(() => { isPlaying = false; updateAllUI(); });
+  document.getElementById("playerBar").classList.remove("hidden");
+  document.getElementById("mobileMiniPlayer").classList.remove("hidden");
   updatePlayerInfo();
 }
 
 function togglePlay() {
   const audio = document.getElementById("audioPlayer");
-  if (!audio.src) {
-    if (currentNovel && currentNovel.chapters.length > 0) {
-      playChapter(0);
-    }
-    return;
-  }
-  if (isPlaying) {
-    audio.pause();
-    isPlaying = false;
-  } else {
-    audio.play();
-    isPlaying = true;
-  }
-  updatePlayerUI();
+  if (!audio.src) { if (currentNovel && currentNovel.chapters.length > 0) playChapter(0); return; }
+  if (isPlaying) { audio.pause(); isPlaying = false; } else { audio.play(); isPlaying = true; }
+  updateAllUI();
 }
 
 function toggleHeroPlay() {
   if (!currentNovel) return;
   const audio = document.getElementById("audioPlayer");
-  if (!audio.src || currentChapterIndex < 0) {
-    playChapter(0);
-  } else {
-    togglePlay();
-  }
+  if (!audio.src || currentChapterIndex < 0) playChapter(0); else togglePlay();
 }
 
-function prevChapter() {
-  if (currentChapterIndex > 0) {
-    playChapter(currentChapterIndex - 1);
-  }
-}
-
+function prevChapter() { if (currentChapterIndex > 0) playChapter(currentChapterIndex - 1); }
 function nextChapter() {
   if (!currentNovel) return;
-  if (isShuffle) {
-    const rand = Math.floor(Math.random() * currentNovel.chapters.length);
-    playChapter(rand);
-  } else if (currentChapterIndex < currentNovel.chapters.length - 1) {
-    playChapter(currentChapterIndex + 1);
-  } else if (repeatMode === 1) {
-    playChapter(0);
-  }
+  if (isShuffle) playChapter(Math.floor(Math.random() * currentNovel.chapters.length));
+  else if (currentChapterIndex < currentNovel.chapters.length - 1) playChapter(currentChapterIndex + 1);
+  else if (repeatMode === 1) playChapter(0);
 }
 
 function toggleShuffle() {
   isShuffle = !isShuffle;
-  document.getElementById("shuffleBtn").style.color = isShuffle ? "var(--accent)" : "var(--text-secondary)";
-  const heroBtn = document.getElementById("heroShuffleBtn");
-  if (heroBtn) heroBtn.style.color = isShuffle ? "var(--accent)" : "";
+  const color = isShuffle ? "var(--accent)" : "";
+  ["shuffleBtn", "heroShuffleBtn", "fspShuffleBtn"].forEach(id => { const el = document.getElementById(id); if (el) el.style.color = color || null; });
 }
-
-function toggleRepeat() {
-  repeatMode = (repeatMode + 1) % 3;
-  const btn = document.getElementById("repeatBtn");
-  btn.innerHTML = repeatMode === 2
+function toggleRepeat() { repeatMode = (repeatMode + 1) % 3; updateRepeatButtons(); }
+function updateRepeatButtons() {
+  const icon = repeatMode === 2
     ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z"/><text x="12" y="14" text-anchor="middle" font-size="8" font-weight="bold" fill="currentColor">1</text></svg>'
     : '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z"/></svg>';
-  btn.style.color = repeatMode > 0 ? "var(--accent)" : "var(--text-secondary)";
+  const color = repeatMode > 0 ? "var(--accent)" : "var(--text-secondary)";
+  ["repeatBtn", "fspRepeatBtn"].forEach(id => { const el = document.getElementById(id); if (el) { el.innerHTML = icon; el.style.color = color; } });
 }
-
-function playShuffle() {
-  if (!currentNovel) return;
-  isShuffle = true;
-  const rand = Math.floor(Math.random() * currentNovel.chapters.length);
-  playChapter(rand);
+function playShuffle() { if (!currentNovel) return; isShuffle = true; playChapter(Math.floor(Math.random() * currentNovel.chapters.length)); }
+function cycleSpeed() {
+  const speeds = [0.75, 1, 1.25, 1.5];
+  playbackRate = speeds[(speeds.indexOf(playbackRate) + 1) % speeds.length];
+  document.getElementById("audioPlayer").playbackRate = playbackRate;
+  const fspBtn = document.getElementById("fspSpeedBtn"); if (fspBtn) fspBtn.textContent = playbackRate + "x";
+  document.querySelectorAll(".speed-btn").forEach(b => b.classList.toggle("active", parseFloat(b.dataset.speed) === playbackRate));
 }
 
 // ═══════════════════════════════════════════════════
-// Player UI
+// Fullscreen Player (Mobile)
 // ═══════════════════════════════════════════════════
-function updatePlayerUI() {
-  // Bottom player button
-  const btn = document.getElementById("playBtn");
-  if (btn) {
-    btn.innerHTML = isPlaying
-      ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>'
-      : '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
-  }
-  // Top hero button
-  const heroBtn = document.getElementById("heroPlayBtn");
-  if (heroBtn) {
-    heroBtn.innerHTML = isPlaying
-      ? '<svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>'
-      : '<svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
-  }
+function openFullscreenPlayer() { document.getElementById("fullscreenPlayer").classList.add("active"); updateFullscreenPlayerInfo(); }
+function closeFullscreenPlayer() { document.getElementById("fullscreenPlayer").classList.remove("active"); }
+
+// ═══════════════════════════════════════════════════
+// UI Sync
+// ═══════════════════════════════════════════════════
+const playIcon = '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
+const pauseIcon = '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>';
+const playIconLg = '<svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
+const pauseIconLg = '<svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>';
+const playIconSm = '<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
+const pauseIconSm = '<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>';
+
+function updateAllUI() {
+  const icon = isPlaying ? pauseIcon : playIcon;
+  const iconLg = isPlaying ? pauseIconLg : playIconLg;
+  const iconSm = isPlaying ? pauseIconSm : playIconSm;
+  const btn = document.getElementById("playBtn"); if (btn) btn.innerHTML = icon;
+  const heroBtn = document.getElementById("heroPlayBtn"); if (heroBtn) heroBtn.innerHTML = iconLg;
+  const mmpBtn = document.getElementById("mmpPlayBtn"); if (mmpBtn) mmpBtn.innerHTML = iconSm;
+  const fspBtn = document.getElementById("fspPlayBtn"); if (fspBtn) fspBtn.innerHTML = iconLg;
   updateChapterHighlight();
 }
 
 function updatePlayerInfo() {
   if (!currentNovel || currentChapterIndex < 0) return;
   const chapter = currentNovel.chapters[currentChapterIndex];
-  document.getElementById("playerCover").src = currentNovel.cover;
-  document.getElementById("playerTitle").textContent = chapter.title;
-  document.getElementById("playerNovel").textContent = `${currentNovel.title} · 第${chapter.id}章`;
-  document.title = `${chapter.title} - 小说新天地`;
+  document.getElementById("pbarCover").src = currentNovel.cover;
+  document.getElementById("pbarTitle").textContent = chapter.title;
+  document.getElementById("pbarNovel").textContent = currentNovel.title + " · 第" + chapter.id + "章";
+  document.getElementById("mmpCover").src = currentNovel.cover;
+  document.getElementById("mmpTitle").textContent = chapter.title;
+  document.getElementById("mmpNovel").textContent = currentNovel.title;
+  document.getElementById("fspCover").src = currentNovel.cover;
+  document.getElementById("fspTitle").textContent = chapter.title;
+  document.getElementById("fspNovel").textContent = currentNovel.title;
+  document.title = chapter.title + " - 小说新天地";
+}
+
+function updateFullscreenPlayerInfo() {
+  updatePlayerInfo();
+  const audio = document.getElementById("audioPlayer");
+  if (audio.duration) {
+    document.getElementById("fspProgressFill").style.width = (audio.currentTime / audio.duration) * 100 + "%";
+    document.getElementById("fspCurrentTime").textContent = formatTime(audio.currentTime);
+    document.getElementById("fspTotalTime").textContent = formatTime(audio.duration);
+  }
+  document.getElementById("fspSpeedBtn").textContent = playbackRate + "x";
 }
 
 function updateChapterHighlight() {
@@ -895,158 +1057,99 @@ function updateChapterHighlight() {
     const idx = parseInt(el.dataset.index);
     el.classList.toggle("playing", idx === currentChapterIndex);
     const num = el.querySelector(".chapter-num");
-    if (num) {
-      num.textContent = (idx === currentChapterIndex && isPlaying) ? "♫" : currentNovel.chapters[idx].id;
-    }
+    if (num) num.textContent = (idx === currentChapterIndex && isPlaying) ? "♫" : currentNovel.chapters[idx].id;
   });
 }
 
 // ═══════════════════════════════════════════════════
-// Progress & Save
+// Progress
 // ═══════════════════════════════════════════════════
 function getChapterProgress(novelId, chapterId) {
-  try {
-    const data = JSON.parse(localStorage.getItem(STORAGE_KEY + "progress") || "{}");
-    return data[`${novelId}_${chapterId}`] || { currentTime: 0, duration: 0, percent: 0 };
-  } catch { return { currentTime: 0, duration: 0, percent: 0 }; }
+  try { return (JSON.parse(localStorage.getItem(STORAGE_KEY + "progress") || "{}"))[`${novelId}_${chapterId}`] || { currentTime: 0, duration: 0, percent: 0 }; }
+  catch { return { currentTime: 0, duration: 0, percent: 0 }; }
 }
-
 function saveChapterProgress(novelId, chapterId, currentTime, duration) {
   try {
     const data = JSON.parse(localStorage.getItem(STORAGE_KEY + "progress") || "{}");
-    const percent = duration > 0 ? Math.round((currentTime / duration) * 100) : 0;
-    data[`${novelId}_${chapterId}`] = { currentTime, duration, percent };
+    data[`${novelId}_${chapterId}`] = { currentTime, duration, percent: duration > 0 ? Math.round((currentTime / duration) * 100) : 0 };
     localStorage.setItem(STORAGE_KEY + "progress", JSON.stringify(data));
   } catch {}
 }
-
 function getNovelProgress(novelId) {
-  if (!currentNovel) return { percent: 0 };
-  let totalPercent = 0;
-  let count = 0;
-  currentNovel.chapters.forEach(ch => {
-    const p = getChapterProgress(novelId, ch.id);
-    if (p.percent > 0) {
-      totalPercent += p.percent;
-      count++;
-    }
-  });
-  return { percent: count > 0 ? Math.round(totalPercent / currentNovel.chapters.length) : 0 };
+  if (!manifest) return { percent: 0 };
+  const novel = manifest.novels.find(n => n.id === novelId);
+  if (!novel) return { percent: 0 };
+  let total = 0;
+  novel.chapters.forEach(ch => { total += getChapterProgress(novelId, ch.id).percent; });
+  return { percent: Math.round(total / novel.chapters.length) };
 }
+function toggleLike() {}
 
 // ═══════════════════════════════════════════════════
 // Audio Events
 // ═══════════════════════════════════════════════════
 function initAudioEvents() {
   const audio = document.getElementById("audioPlayer");
-
   audio.addEventListener("timeupdate", () => {
     if (!audio.duration) return;
     const percent = (audio.currentTime / audio.duration) * 100;
     document.getElementById("progressFill").style.width = percent + "%";
     document.getElementById("currentTime").textContent = formatTime(audio.currentTime);
     document.getElementById("totalTime").textContent = formatTime(audio.duration);
-
-    // Save progress
+    document.getElementById("mmpProgressFill").style.width = percent + "%";
+    document.getElementById("fspProgressFill").style.width = percent + "%";
+    document.getElementById("fspCurrentTime").textContent = formatTime(audio.currentTime);
+    document.getElementById("fspTotalTime").textContent = formatTime(audio.duration);
     if (currentNovel && currentChapterIndex >= 0) {
-      const chapter = currentNovel.chapters[currentChapterIndex];
-      saveChapterProgress(currentNovel.id, chapter.id, audio.currentTime, audio.duration);
+      saveChapterProgress(currentNovel.id, currentNovel.chapters[currentChapterIndex].id, audio.currentTime, audio.duration);
     }
   });
+  audio.addEventListener("ended", () => { if (repeatMode === 2) { audio.currentTime = 0; audio.play(); } else nextChapter(); });
+  audio.addEventListener("pause", () => { isPlaying = false; updateAllUI(); });
+  audio.addEventListener("play", () => { isPlaying = true; updateAllUI(); });
 
-  audio.addEventListener("ended", () => {
-    if (repeatMode === 2) {
-      audio.currentTime = 0;
-      audio.play();
-    } else {
-      nextChapter();
-    }
-  });
+  initProgressBarDrag("progressBar", (pct) => { if (audio.duration) audio.currentTime = pct * audio.duration; });
+  initProgressBarDrag("fspProgressBar", (pct) => { if (audio.duration) audio.currentTime = pct * audio.duration; });
 
-  audio.addEventListener("pause", () => {
-    isPlaying = false;
-    updatePlayerUI();
-    updateChapterHighlight();
-  });
-
-  audio.addEventListener("play", () => {
-    isPlaying = true;
-    updatePlayerUI();
-    updateChapterHighlight();
-  });
-
-  // Progress bar drag support
-  const progressBar = document.getElementById("progressBar");
-  let isDragging = false;
-
-  function seekTo(e) {
-    if (!audio.duration || isNaN(audio.duration) || audio.duration === Infinity) return;
-    const rect = progressBar.getBoundingClientRect();
-    let percent = (e.clientX - rect.left) / rect.width;
-    percent = Math.max(0, Math.min(1, percent));
-    audio.currentTime = percent * audio.duration;
-    document.getElementById("progressFill").style.width = (percent * 100) + "%";
-  }
-
-  progressBar.addEventListener("mousedown", (e) => {
-    isDragging = true;
-    seekTo(e);
-    e.preventDefault();
-  });
-
-  document.addEventListener("mousemove", (e) => {
-    if (isDragging) {
-      seekTo(e);
-      e.preventDefault();
-    }
-  });
-
-  document.addEventListener("mouseup", () => {
-    isDragging = false;
-  });
-
-  // Touch support for mobile — passive:false required for preventDefault
-  progressBar.addEventListener("touchstart", (e) => {
-    isDragging = true;
-    seekTo(e.touches[0]);
-    e.preventDefault();
-  }, { passive: false });
-
-  document.addEventListener("touchmove", (e) => {
-    if (isDragging && e.touches.length > 0) {
-      seekTo(e.touches[0]);
-      e.preventDefault();
-    }
-  }, { passive: false });
-
-  document.addEventListener("touchend", () => {
-    isDragging = false;
-  });
-
-  // Volume
-  document.getElementById("volumeSlider").addEventListener("input", (e) => {
-    audio.volume = parseFloat(e.target.value);
-  });
+  document.getElementById("volumeSlider").addEventListener("input", (e) => { audio.volume = parseFloat(e.target.value); document.getElementById("fspVolumeSlider").value = e.target.value; });
+  document.getElementById("fspVolumeSlider").addEventListener("input", (e) => { audio.volume = parseFloat(e.target.value); document.getElementById("volumeSlider").value = e.target.value; });
   audio.volume = 0.8;
 
-  // Speed buttons
   document.querySelectorAll(".speed-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       playbackRate = parseFloat(btn.dataset.speed);
       audio.playbackRate = playbackRate;
       document.querySelectorAll(".speed-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
+      const fspBtn = document.getElementById("fspSpeedBtn"); if (fspBtn) fspBtn.textContent = playbackRate + "x";
     });
   });
+}
+
+function initProgressBarDrag(barId, onSeek) {
+  const bar = document.getElementById(barId);
+  if (!bar) return;
+  let isDragging = false;
+  function handleSeek(e) {
+    const rect = bar.getBoundingClientRect();
+    let pct = ((e.clientX || e.touches?.[0]?.clientX) - rect.left) / rect.width;
+    onSeek(Math.max(0, Math.min(1, pct)));
+  }
+  bar.addEventListener("mousedown", (e) => { isDragging = true; handleSeek(e); e.preventDefault(); });
+  document.addEventListener("mousemove", (e) => { if (isDragging) { handleSeek(e); e.preventDefault(); } });
+  document.addEventListener("mouseup", () => { isDragging = false; });
+  bar.addEventListener("touchstart", (e) => { isDragging = true; handleSeek(e); e.preventDefault(); }, { passive: false });
+  document.addEventListener("touchmove", (e) => { if (isDragging && e.touches.length > 0) { handleSeek(e); e.preventDefault(); } }, { passive: false });
+  document.addEventListener("touchend", () => { isDragging = false; });
 }
 
 function toggleMute() {
   const audio = document.getElementById("audioPlayer");
   audio.muted = !audio.muted;
-  const vBtn = document.querySelector(".volume-btn");
-  vBtn.innerHTML = audio.muted
-    ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>'
-    : '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>';
+  document.querySelector(".volume-btn").innerHTML = audio.muted
+    ? '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>'
+    : '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>';
+  document.getElementById("fspVolumeIcon").textContent = audio.muted ? "🔇" : "🔊";
 }
 
 // ═══════════════════════════════════════════════════
@@ -1055,24 +1158,11 @@ function toggleMute() {
 document.addEventListener("keydown", (e) => {
   if (e.target.tagName === "INPUT") return;
   switch(e.code) {
-    case "Space":
-      e.preventDefault();
-      togglePlay();
-      break;
-    case "ArrowLeft":
-      document.getElementById("audioPlayer").currentTime -= 10;
-      break;
-    case "ArrowRight":
-      document.getElementById("audioPlayer").currentTime += 10;
-      break;
-    case "ArrowUp":
-      e.preventDefault();
-      prevChapter();
-      break;
-    case "ArrowDown":
-      e.preventDefault();
-      nextChapter();
-      break;
+    case "Space": e.preventDefault(); togglePlay(); break;
+    case "ArrowLeft": document.getElementById("audioPlayer").currentTime -= 10; break;
+    case "ArrowRight": document.getElementById("audioPlayer").currentTime += 10; break;
+    case "ArrowUp": e.preventDefault(); prevChapter(); break;
+    case "ArrowDown": e.preventDefault(); nextChapter(); break;
   }
 });
 
@@ -1081,9 +1171,7 @@ document.addEventListener("keydown", (e) => {
 // ═══════════════════════════════════════════════════
 function formatTime(seconds) {
   if (isNaN(seconds)) return "0:00";
-  const h = Math.floor(seconds / 3600);
-  const m = Math.floor((seconds % 3600) / 60);
-  const s = Math.floor(seconds % 60);
+  const h = Math.floor(seconds / 3600), m = Math.floor((seconds % 3600) / 60), s = Math.floor(seconds % 60);
   if (h > 0) return `${h}:${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
   return `${m}:${String(s).padStart(2,"0")}`;
 }
@@ -1092,11 +1180,17 @@ function formatTime(seconds) {
 // Init
 // ═══════════════════════════════════════════════════
 document.getElementById("loginBtn").addEventListener("click", login);
-document.getElementById("loginPassword").addEventListener("keydown", (e) => {
-  if (e.key === "Enter") login();
-});
+document.getElementById("loginPassword").addEventListener("keydown", (e) => { if (e.key === "Enter") login(); });
 initAudioEvents();
 checkAuth();
+
+const mql = window.matchMedia('(min-width: 769px)');
+mql.addEventListener('change', () => {
+  if (currentChapterIndex >= 0) {
+    document.getElementById("playerBar").classList.toggle("hidden", !mql.matches);
+    document.getElementById("mobileMiniPlayer").classList.toggle("hidden", mql.matches);
+  }
+});
 </script>
 </body>
 </html>
