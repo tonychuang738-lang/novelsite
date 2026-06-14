@@ -1,6 +1,14 @@
 const GITHUB_OWNER = "tonychuang738-lang";
 const GITHUB_REPO = "novelsite";
-const GITHUB_TAG = "audio-v1";
+
+function getTag(filename) {
+  if (filename.startsWith("2001space_")) return "audio-2001space-v1";
+  if (filename.startsWith("qiuzhuang_")) return "audio-qiuzhuang-v1";
+  if (filename.startsWith("beijing_")) return "audio-beijing-v1";
+  if (filename.startsWith("renshijian_")) return "audio-renshijian-v1";
+  if (filename.startsWith("wandering_")) return "audio-wandering-v1";
+  return "audio-v1"; // 三体 default
+}
 
 export async function onRequest(context) {
   const { request, params } = context;
@@ -10,7 +18,8 @@ export async function onRequest(context) {
     return new Response("Invalid filename", { status: 400 });
   }
 
-  const githubUrl = `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/releases/download/${GITHUB_TAG}/${filename}`;
+  const tag = getTag(filename);
+  const githubUrl = `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/releases/download/${tag}/${filename}`;
 
   const headers = new Headers();
   const rangeHeader = request.headers.get("Range");

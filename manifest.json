@@ -288,6 +288,828 @@
           "durationSec": 275
         }
       ]
+    },
+    {
+      "id": "renshijian",
+      "title": "人世间",
+      "author": "梁晓声",
+      "cover": "covers/renshijian.jpg",
+      "description": "从二十世纪七十年代至今，北方城市一个平民社区的生活故事。周家三兄妹的人生历程，展现了中国社会近五十年的变迁。",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "第1章",
+          "file": "/api/audio/renshijian_ch01.mp3",
+          "size_mb": 14.5
+        },
+        {
+          "id": 2,
+          "title": "第2章",
+          "file": "/api/audio/renshijian_ch02.mp3",
+          "size_mb": 14.1
+        },
+        {
+          "id": 3,
+          "title": "第3章",
+          "file": "/api/audio/renshijian_ch03.mp3",
+          "size_mb": 5.3
+        },
+        {
+          "id": 4,
+          "title": "第4章",
+          "file": "/api/audio/renshijian_ch04.mp3",
+          "size_mb": 6.8
+        },
+        {
+          "id": 5,
+          "title": "第5章",
+          "file": "/api/audio/renshijian_ch05.mp3",
+          "size_mb": 24.9
+        },
+        {
+          "id": 6,
+          "title": "第6章",
+          "file": "/api/audio/renshijian_ch06.mp3",
+          "size_mb": 11.0
+        },
+        {
+          "id": 7,
+          "title": "第7章",
+          "file": "/api/audio/renshijian_ch07.mp3",
+          "size_mb": 35.7
+        },
+        {
+          "id": 8,
+          "title": "第8章",
+          "file": "/api/audio/renshijian_ch08.mp3",
+          "size_mb": 43.3
+        },
+        {
+          "id": 9,
+          "title": "第9章",
+          "file": "/api/audio/renshijian_ch09.mp3",
+          "size_mb": 37.7
+        },
+        {
+          "id": 10,
+          "title": "第10章",
+          "file": "/api/audio/renshijian_ch10.mp3",
+          "size_mb": 81.3
+        },
+        {
+          "id": 11,
+          "title": "第11章",
+          "file": "/api/audio/renshijian_ch11.mp3",
+          "size_mb": 42.5
+        },
+        {
+          "id": 12,
+          "title": "第12章",
+          "file": "/api/audio/renshijian_ch12.mp3",
+          "size_mb": 22.9
+        },
+        {
+          "id": 13,
+          "title": "第13章",
+          "file": "/api/audio/renshijian_ch13.mp3",
+          "size_mb": 20.4
+        },
+        {
+          "id": 14,
+          "title": "第14章",
+          "file": "/api/audio/renshijian_ch14.mp3",
+          "size_mb": 54.3
+        },
+        {
+          "id": 15,
+          "title": "第15章",
+          "file": "/api/audio/renshijian_ch15.mp3",
+          "size_mb": 12.2
+        },
+        {
+          "id": 16,
+          "title": "第16章",
+          "file": "/api/audio/renshijian_ch16.mp3",
+          "size_mb": 11.6
+        },
+        {
+          "id": 17,
+          "title": "第17章",
+          "file": "/api/audio/renshijian_ch17.mp3",
+          "size_mb": 37.3
+        },
+        {
+          "id": 18,
+          "title": "第18章",
+          "file": "/api/audio/renshijian_ch18.mp3",
+          "size_mb": 14.8
+        },
+        {
+          "id": 19,
+          "title": "第19章",
+          "file": "/api/audio/renshijian_ch19.mp3",
+          "size_mb": 9.5
+        },
+        {
+          "id": 20,
+          "title": "第20章",
+          "file": "/api/audio/renshijian_ch20.mp3",
+          "size_mb": 52.9
+        },
+        {
+          "id": 21,
+          "title": "第21章",
+          "file": "/api/audio/renshijian_ch21.mp3",
+          "size_mb": 10.4
+        },
+        {
+          "id": 22,
+          "title": "第22章",
+          "file": "/api/audio/renshijian_ch22.mp3",
+          "size_mb": 10.5
+        },
+        {
+          "id": 23,
+          "title": "第23章",
+          "file": "/api/audio/renshijian_ch23.mp3",
+          "size_mb": 23.8
+        },
+        {
+          "id": 24,
+          "title": "第24章",
+          "file": "/api/audio/renshijian_ch24.mp3",
+          "size_mb": 50.7
+        },
+        {
+          "id": 25,
+          "title": "第25章",
+          "file": "/api/audio/renshijian_ch25.mp3",
+          "size_mb": 8.7
+        },
+        {
+          "id": 26,
+          "title": "第26章",
+          "file": "/api/audio/renshijian_ch26.mp3",
+          "size_mb": 38.7
+        },
+        {
+          "id": 27,
+          "title": "第27章",
+          "file": "/api/audio/renshijian_ch27.mp3",
+          "size_mb": 27.3
+        },
+        {
+          "id": 28,
+          "title": "第28章",
+          "file": "/api/audio/renshijian_ch28.mp3",
+          "size_mb": 40.9
+        },
+        {
+          "id": 29,
+          "title": "第29章",
+          "file": "/api/audio/renshijian_ch29.mp3",
+          "size_mb": 43.9
+        },
+        {
+          "id": 30,
+          "title": "第30章",
+          "file": "/api/audio/renshijian_ch30.mp3",
+          "size_mb": 14.5
+        },
+        {
+          "id": 31,
+          "title": "第31章",
+          "file": "/api/audio/renshijian_ch31.mp3",
+          "size_mb": 23.1
+        },
+        {
+          "id": 32,
+          "title": "第32章",
+          "file": "/api/audio/renshijian_ch32.mp3",
+          "size_mb": 50.5
+        },
+        {
+          "id": 33,
+          "title": "第33章",
+          "file": "/api/audio/renshijian_ch33.mp3",
+          "size_mb": 5.6
+        },
+        {
+          "id": 34,
+          "title": "第34章",
+          "file": "/api/audio/renshijian_ch34.mp3",
+          "size_mb": 14.7
+        },
+        {
+          "id": 35,
+          "title": "第35章",
+          "file": "/api/audio/renshijian_ch35.mp3",
+          "size_mb": 45.7
+        },
+        {
+          "id": 36,
+          "title": "第36章",
+          "file": "/api/audio/renshijian_ch36.mp3",
+          "size_mb": 21.6
+        },
+        {
+          "id": 37,
+          "title": "第37章",
+          "file": "/api/audio/renshijian_ch37.mp3",
+          "size_mb": 11.7
+        },
+        {
+          "id": 38,
+          "title": "第38章",
+          "file": "/api/audio/renshijian_ch38.mp3",
+          "size_mb": 12.4
+        },
+        {
+          "id": 39,
+          "title": "第39章",
+          "file": "/api/audio/renshijian_ch39.mp3",
+          "size_mb": 46.7
+        },
+        {
+          "id": 40,
+          "title": "第40章",
+          "file": "/api/audio/renshijian_ch40.mp3",
+          "size_mb": 15.1
+        },
+        {
+          "id": 41,
+          "title": "第41章",
+          "file": "/api/audio/renshijian_ch41.mp3",
+          "size_mb": 45.0
+        },
+        {
+          "id": 42,
+          "title": "第42章",
+          "file": "/api/audio/renshijian_ch42.mp3",
+          "size_mb": 52.2
+        },
+        {
+          "id": 43,
+          "title": "第43章",
+          "file": "/api/audio/renshijian_ch43.mp3",
+          "size_mb": 45.6
+        },
+        {
+          "id": 44,
+          "title": "第44章",
+          "file": "/api/audio/renshijian_ch44.mp3",
+          "size_mb": 58.1
+        },
+        {
+          "id": 45,
+          "title": "第45章",
+          "file": "/api/audio/renshijian_ch45.mp3",
+          "size_mb": 21.2
+        },
+        {
+          "id": 46,
+          "title": "第46章",
+          "file": "/api/audio/renshijian_ch46.mp3",
+          "size_mb": 45.6
+        },
+        {
+          "id": 47,
+          "title": "第47章",
+          "file": "/api/audio/renshijian_ch47.mp3",
+          "size_mb": 43.4
+        },
+        {
+          "id": 48,
+          "title": "第48章",
+          "file": "/api/audio/renshijian_ch48.mp3",
+          "size_mb": 15.9
+        },
+        {
+          "id": 49,
+          "title": "第49章",
+          "file": "/api/audio/renshijian_ch49.mp3",
+          "size_mb": 26.9
+        },
+        {
+          "id": 50,
+          "title": "第50章",
+          "file": "/api/audio/renshijian_ch50.mp3",
+          "size_mb": 40.5
+        },
+        {
+          "id": 51,
+          "title": "第51章",
+          "file": "/api/audio/renshijian_ch51.mp3",
+          "size_mb": 33.0
+        },
+        {
+          "id": 52,
+          "title": "第52章",
+          "file": "/api/audio/renshijian_ch52.mp3",
+          "size_mb": 29.4
+        },
+        {
+          "id": 53,
+          "title": "第53章",
+          "file": "/api/audio/renshijian_ch53.mp3",
+          "size_mb": 17.0
+        },
+        {
+          "id": 54,
+          "title": "第54章",
+          "file": "/api/audio/renshijian_ch54.mp3",
+          "size_mb": 22.9
+        }
+      ]
+    },
+    {
+      "id": "2001space",
+      "title": "2001太空漫游",
+      "author": "阿瑟·克拉克",
+      "cover": "covers/2001space.jpg",
+      "description": "2001年，人类发现了沉睡在月球上的神秘黑色石板。一场跨越太阳系的史诗旅程由此展开……",
+      "chapters": [
+        {
+          "id": 0,
+          "title": "楔子",
+          "file": "/api/audio/2001space_ch00.mp3",
+          "size_mb": 1.2
+        },
+        {
+          "id": 1,
+          "title": "走向消亡的道路",
+          "file": "/api/audio/2001space_ch01.mp3",
+          "size_mb": 5.4
+        },
+        {
+          "id": 2,
+          "title": "新奇的东西",
+          "file": "/api/audio/2001space_ch02.mp3",
+          "size_mb": 4.9
+        },
+        {
+          "id": 3,
+          "title": "一只疣猪",
+          "file": "/api/audio/2001space_ch03.mp3",
+          "size_mb": 4.6
+        },
+        {
+          "id": 4,
+          "title": "与豹子的较量",
+          "file": "/api/audio/2001space_ch04.mp3",
+          "size_mb": 5.0
+        },
+        {
+          "id": 5,
+          "title": "凌晨的遭遇战",
+          "file": "/api/audio/2001space_ch05.mp3",
+          "size_mb": 1.8
+        },
+        {
+          "id": 6,
+          "title": "人类的兴起",
+          "file": "/api/audio/2001space_ch06.mp3",
+          "size_mb": 2.1
+        },
+        {
+          "id": 7,
+          "title": "启航",
+          "file": "/api/audio/2001space_ch07.mp3",
+          "size_mb": 9.3
+        },
+        {
+          "id": 8,
+          "title": "途中的约会",
+          "file": "/api/audio/2001space_ch08.mp3",
+          "size_mb": 2.3
+        },
+        {
+          "id": 9,
+          "title": "登上月球",
+          "file": "/api/audio/2001space_ch09.mp3",
+          "size_mb": 9.9
+        },
+        {
+          "id": 10,
+          "title": "月球上帝国",
+          "file": "/api/audio/2001space_ch10.mp3",
+          "size_mb": 8.2
+        },
+        {
+          "id": 11,
+          "title": "听取汇报",
+          "file": "/api/audio/2001space_ch11.mp3",
+          "size_mb": 3.5
+        },
+        {
+          "id": 12,
+          "title": "泰卓板块",
+          "file": "/api/audio/2001space_ch12.mp3",
+          "size_mb": 8.2
+        },
+        {
+          "id": 13,
+          "title": "神奇的现象",
+          "file": "/api/audio/2001space_ch13.mp3",
+          "size_mb": 5.8
+        },
+        {
+          "id": 14,
+          "title": "有计划的冒险",
+          "file": "/api/audio/2001space_ch14.mp3",
+          "size_mb": 5.6
+        },
+        {
+          "id": 15,
+          "title": "第三代计算机",
+          "file": "/api/audio/2001space_ch15.mp3",
+          "size_mb": 3.5
+        },
+        {
+          "id": 16,
+          "title": "飞船上的生活",
+          "file": "/api/audio/2001space_ch16.mp3",
+          "size_mb": 6.0
+        },
+        {
+          "id": 17,
+          "title": "通过小行星",
+          "file": "/api/audio/2001space_ch17.mp3",
+          "size_mb": 3.6
+        },
+        {
+          "id": 18,
+          "title": "远离木星",
+          "file": "/api/audio/2001space_ch18.mp3",
+          "size_mb": 5.9
+        },
+        {
+          "id": 19,
+          "title": "神秘的宇宙",
+          "file": "/api/audio/2001space_ch19.mp3",
+          "size_mb": 3.4
+        },
+        {
+          "id": 20,
+          "title": "一次录音讲话",
+          "file": "/api/audio/2001space_ch20.mp3",
+          "size_mb": 5.1
+        },
+        {
+          "id": 21,
+          "title": "安装备用部件",
+          "file": "/api/audio/2001space_ch21.mp3",
+          "size_mb": 6.3
+        },
+        {
+          "id": 22,
+          "title": "可能出事的预感",
+          "file": "/api/audio/2001space_ch22.mp3",
+          "size_mb": 2.9
+        },
+        {
+          "id": 23,
+          "title": "又一次的迟疑",
+          "file": "/api/audio/2001space_ch23.mp3",
+          "size_mb": 3.9
+        },
+        {
+          "id": 24,
+          "title": "第一个到达土星的人",
+          "file": "/api/audio/2001space_ch24.mp3",
+          "size_mb": 2.7
+        },
+        {
+          "id": 25,
+          "title": "叛变迹象",
+          "file": "/api/audio/2001space_ch25.mp3",
+          "size_mb": 6.0
+        },
+        {
+          "id": 26,
+          "title": "一场虚惊",
+          "file": "/api/audio/2001space_ch26.mp3",
+          "size_mb": 10.6
+        },
+        {
+          "id": 27,
+          "title": "揭开秘密",
+          "file": "/api/audio/2001space_ch27.mp3",
+          "size_mb": 3.4
+        },
+        {
+          "id": 28,
+          "title": "精密的板块",
+          "file": "/api/audio/2001space_ch28.mp3",
+          "size_mb": 3.9
+        },
+        {
+          "id": 29,
+          "title": "理性的争论",
+          "file": "/api/audio/2001space_ch29.mp3",
+          "size_mb": 3.4
+        },
+        {
+          "id": 30,
+          "title": "土星的光环",
+          "file": "/api/audio/2001space_ch30.mp3",
+          "size_mb": 6.1
+        },
+        {
+          "id": 31,
+          "title": "接近土卫八",
+          "file": "/api/audio/2001space_ch31.mp3",
+          "size_mb": 2.9
+        },
+        {
+          "id": 32,
+          "title": "银河系主宰",
+          "file": "/api/audio/2001space_ch32.mp3",
+          "size_mb": 2.1
+        },
+        {
+          "id": 33,
+          "title": "星门复苏了",
+          "file": "/api/audio/2001space_ch33.mp3",
+          "size_mb": 1.9
+        },
+        {
+          "id": 34,
+          "title": "土卫八的眼睛",
+          "file": "/api/audio/2001space_ch34.mp3",
+          "size_mb": 3.3
+        },
+        {
+          "id": 35,
+          "title": "这是什么地方",
+          "file": "/api/audio/2001space_ch35.mp3",
+          "size_mb": 5.2
+        },
+        {
+          "id": 36,
+          "title": "成队的飞船",
+          "file": "/api/audio/2001space_ch36.mp3",
+          "size_mb": 7.0
+        },
+        {
+          "id": 37,
+          "title": "神奇的房间",
+          "file": "/api/audio/2001space_ch37.mp3",
+          "size_mb": 8.8
+        },
+        {
+          "id": 38,
+          "title": "获得重生",
+          "file": "/api/audio/2001space_ch38.mp3",
+          "size_mb": 6.4
+        }
+      ]
+    },
+    {
+      "id": "qiuzhuang",
+      "title": "球状闪电",
+      "author": "刘慈欣",
+      "cover": "covers/qiuzhuang.jpg",
+      "description": "在某个离奇的雨夜，一颗球状闪电闯进了少年陈博士的世界，从此他踏上了一条探索球状闪电的不归路……",
+      "chapters": [
+        {
+          "id": 0,
+          "title": "第1章 大学",
+          "file": "/api/audio/qiuzhuang_ch00.mp3",
+          "size_mb": 2.7
+        },
+        {
+          "id": 1,
+          "title": "第2章 异象之一",
+          "file": "/api/audio/qiuzhuang_ch01.mp3",
+          "size_mb": 21.8
+        },
+        {
+          "id": 2,
+          "title": "第3章 林云之一",
+          "file": "/api/audio/qiuzhuang_ch02.mp3",
+          "size_mb": 12.5
+        },
+        {
+          "id": 3,
+          "title": "第4章 张彬",
+          "file": "/api/audio/qiuzhuang_ch03.mp3",
+          "size_mb": 8.7
+        },
+        {
+          "id": 4,
+          "title": "第5章 异象之二",
+          "file": "/api/audio/qiuzhuang_ch04.mp3",
+          "size_mb": 3.0
+        },
+        {
+          "id": 5,
+          "title": "第6章 晴空霹雳",
+          "file": "/api/audio/qiuzhuang_ch05.mp3",
+          "size_mb": 41.5
+        },
+        {
+          "id": 6,
+          "title": "第7章 俄罗斯联邦新西伯利亚州诺克思柏科市",
+          "file": "/api/audio/qiuzhuang_ch06.mp3",
+          "size_mb": 11.9
+        },
+        {
+          "id": 7,
+          "title": "第8章 西伯利亚",
+          "file": "/api/audio/qiuzhuang_ch07.mp3",
+          "size_mb": 29.3
+        },
+        {
+          "id": 8,
+          "title": "第9章 灯塔启示",
+          "file": "/api/audio/qiuzhuang_ch08.mp3",
+          "size_mb": 8.1
+        },
+        {
+          "id": 9,
+          "title": "第10章 林峰将军",
+          "file": "/api/audio/qiuzhuang_ch09.mp3",
+          "size_mb": 9.2
+        },
+        {
+          "id": 10,
+          "title": "第11章 攻击蜂",
+          "file": "/api/audio/qiuzhuang_ch10.mp3",
+          "size_mb": 2.9
+        },
+        {
+          "id": 11,
+          "title": "第12章 天网",
+          "file": "/api/audio/qiuzhuang_ch11.mp3",
+          "size_mb": 17.6
+        },
+        {
+          "id": 12,
+          "title": "第13章 闪电",
+          "file": "/api/audio/qiuzhuang_ch12.mp3",
+          "size_mb": 5.2
+        },
+        {
+          "id": 13,
+          "title": "第14章 雷球",
+          "file": "/api/audio/qiuzhuang_ch13.mp3",
+          "size_mb": 5.2
+        },
+        {
+          "id": 14,
+          "title": "第15章 丁仪",
+          "file": "/api/audio/qiuzhuang_ch14.mp3",
+          "size_mb": 8.5
+        },
+        {
+          "id": 15,
+          "title": "第16章 空泡",
+          "file": "/api/audio/qiuzhuang_ch15.mp3",
+          "size_mb": 18.0
+        },
+        {
+          "id": 16,
+          "title": "第17章 宏电子",
+          "file": "/api/audio/qiuzhuang_ch16.mp3",
+          "size_mb": 7.8
+        },
+        {
+          "id": 17,
+          "title": "第18章 武器",
+          "file": "/api/audio/qiuzhuang_ch17.mp3",
+          "size_mb": 13.8
+        },
+        {
+          "id": 18,
+          "title": "第19章 观察者",
+          "file": "/api/audio/qiuzhuang_ch18.mp3",
+          "size_mb": 6.5
+        },
+        {
+          "id": 19,
+          "title": "第20章 烧毁芯片",
+          "file": "/api/audio/qiuzhuang_ch19.mp3",
+          "size_mb": 5.9
+        },
+        {
+          "id": 20,
+          "title": "第21章 异象之三",
+          "file": "/api/audio/qiuzhuang_ch20.mp3",
+          "size_mb": 2.5
+        },
+        {
+          "id": 21,
+          "title": "第22章 核电厂",
+          "file": "/api/audio/qiuzhuang_ch21.mp3",
+          "size_mb": 16.6
+        },
+        {
+          "id": 22,
+          "title": "第23章 异象之四",
+          "file": "/api/audio/qiuzhuang_ch22.mp3",
+          "size_mb": 6.8
+        },
+        {
+          "id": 23,
+          "title": "第24章 龙卷风",
+          "file": "/api/audio/qiuzhuang_ch23.mp3",
+          "size_mb": 14.6
+        },
+        {
+          "id": 24,
+          "title": "第25章 芯片毁灭",
+          "file": "/api/audio/qiuzhuang_ch24.mp3",
+          "size_mb": 16.4
+        },
+        {
+          "id": 25,
+          "title": "第26章 弦",
+          "file": "/api/audio/qiuzhuang_ch25.mp3",
+          "size_mb": 13.3
+        },
+        {
+          "id": 26,
+          "title": "第27章 特别领导组",
+          "file": "/api/audio/qiuzhuang_ch26.mp3",
+          "size_mb": 13.3
+        },
+        {
+          "id": 27,
+          "title": "第28章 宏聚变",
+          "file": "/api/audio/qiuzhuang_ch27.mp3",
+          "size_mb": 10.6
+        },
+        {
+          "id": 28,
+          "title": "第29章 林云之二",
+          "file": "/api/audio/qiuzhuang_ch28.mp3",
+          "size_mb": 21.6
+        },
+        {
+          "id": 29,
+          "title": "第30章 胜利",
+          "file": "/api/audio/qiuzhuang_ch29.mp3",
+          "size_mb": 3.5
+        },
+        {
+          "id": 30,
+          "title": "第31章 量子玫瑰",
+          "file": "/api/audio/qiuzhuang_ch30.mp3",
+          "size_mb": 9.4
+        },
+        {
+          "id": 31,
+          "title": "尾声",
+          "file": "/api/audio/qiuzhuang_ch31.mp3",
+          "size_mb": 11.6
+        }
+      ]
+    },
+    {
+      "id": "beijing",
+      "title": "北京折叠",
+      "author": "郝景芳",
+      "cover": "covers/beijing.jpg",
+      "description": "北京被分为三个空间，不同阶层的人在不同的时间里生活。垃圾工老刀为了女儿的未来，冒险穿越三个空间……",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "北京折叠 &8211; 1",
+          "file": "/api/audio/beijing_ch01.mp3",
+          "size_mb": 8.6
+        },
+        {
+          "id": 2,
+          "title": "北京折叠 &8211; 2",
+          "file": "/api/audio/beijing_ch02.mp3",
+          "size_mb": 7.8
+        },
+        {
+          "id": 3,
+          "title": "北京折叠 &8211; 3",
+          "file": "/api/audio/beijing_ch03.mp3",
+          "size_mb": 7.2
+        },
+        {
+          "id": 4,
+          "title": "北京折叠 &8211; 4",
+          "file": "/api/audio/beijing_ch04.mp3",
+          "size_mb": 11.5
+        },
+        {
+          "id": 5,
+          "title": "北京折叠 &8211; 5",
+          "file": "/api/audio/beijing_ch05.mp3",
+          "size_mb": 5.7
+        },
+        {
+          "id": 6,
+          "title": "郝景芳谈小说《北京折叠》",
+          "file": "/api/audio/beijing_ch06.mp3",
+          "size_mb": 1.5
+        }
+      ]
     }
   ]
 }
