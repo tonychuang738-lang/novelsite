@@ -7,6 +7,7 @@ function getTag(filename) {
   if (filename.startsWith("beijing_")) return "audio-beijing-v1";
   if (filename.startsWith("renshijian_")) return "audio-renshijian-v1";
   if (filename.startsWith("wandering_")) return "audio-wandering-v1";
+  if (filename.startsWith("liulang_")) return "audio-liulang-v1";
   return "audio-v1"; // 三体 default
 }
 

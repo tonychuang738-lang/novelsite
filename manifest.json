@@ -290,6 +290,249 @@
       ]
     },
     {
+      "id": "liulang",
+      "title": "流浪苍穹",
+      "author": "郝景芳",
+      "cover": "covers/liulang.jpg",
+      "description": "在火星与地球之间的星际移民时代，少年洛盈在两个世界之间寻找自己的归属……",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "星之舞 引子",
+          "file": "/api/audio/liulang_ch01.mp3",
+          "size_mb": 1.0
+        },
+        {
+          "id": 2,
+          "title": "星之舞 船",
+          "file": "/api/audio/liulang_ch02.mp3",
+          "size_mb": 16.9
+        },
+        {
+          "id": 3,
+          "title": "星之舞 旅店",
+          "file": "/api/audio/liulang_ch03.mp3",
+          "size_mb": 13.4
+        },
+        {
+          "id": 4,
+          "title": "星之舞 家",
+          "file": "/api/audio/liulang_ch04.mp3",
+          "size_mb": 21.1
+        },
+        {
+          "id": 5,
+          "title": "星之舞 影像馆",
+          "file": "/api/audio/liulang_ch05.mp3",
+          "size_mb": 22.9
+        },
+        {
+          "id": 6,
+          "title": "星之舞 书房",
+          "file": "/api/audio/liulang_ch06.mp3",
+          "size_mb": 18.5
+        },
+        {
+          "id": 7,
+          "title": "星之舞 展览会",
+          "file": "/api/audio/liulang_ch07.mp3",
+          "size_mb": 19.7
+        },
+        {
+          "id": 8,
+          "title": "星之舞 档案馆",
+          "file": "/api/audio/liulang_ch08.mp3",
+          "size_mb": 18.5
+        },
+        {
+          "id": 9,
+          "title": "星之舞 咖啡馆",
+          "file": "/api/audio/liulang_ch09.mp3",
+          "size_mb": 8.2
+        },
+        {
+          "id": 10,
+          "title": "星之舞 大剧院",
+          "file": "/api/audio/liulang_ch10.mp3",
+          "size_mb": 19.7
+        },
+        {
+          "id": 11,
+          "title": "后记 少年往事，致德沃夏克第九",
+          "file": "/api/audio/liulang_ch11.mp3",
+          "size_mb": 2.5
+        },
+        {
+          "id": 12,
+          "title": "云之光 引子",
+          "file": "/api/audio/liulang_ch12.mp3",
+          "size_mb": 0.6
+        },
+        {
+          "id": 13,
+          "title": "云之光 书",
+          "file": "/api/audio/liulang_ch13.mp3",
+          "size_mb": 21.3
+        },
+        {
+          "id": 14,
+          "title": "云之光 晶",
+          "file": "/api/audio/liulang_ch14.mp3",
+          "size_mb": 12.8
+        },
+        {
+          "id": 15,
+          "title": "云之光 信",
+          "file": "/api/audio/liulang_ch15.mp3",
+          "size_mb": 22.2
+        },
+        {
+          "id": 16,
+          "title": "云之光 膜",
+          "file": "/api/audio/liulang_ch16.mp3",
+          "size_mb": 21.1
+        },
+        {
+          "id": 17,
+          "title": "云之光 徽",
+          "file": "/api/audio/liulang_ch17.mp3",
+          "size_mb": 21.6
+        },
+        {
+          "id": 18,
+          "title": "云之光 石",
+          "file": "/api/audio/liulang_ch18.mp3",
+          "size_mb": 22.2
+        },
+        {
+          "id": 19,
+          "title": "云之光 翼",
+          "file": "/api/audio/liulang_ch19.mp3",
+          "size_mb": 15.4
+        },
+        {
+          "id": 20,
+          "title": "云之光 船",
+          "file": "/api/audio/liulang_ch20.mp3",
+          "size_mb": 17.0
+        },
+        {
+          "id": 21,
+          "title": "云之光 沙",
+          "file": "/api/audio/liulang_ch21.mp3",
+          "size_mb": 2.6
+        },
+        {
+          "id": 22,
+          "title": "云之光 星",
+          "file": "/api/audio/liulang_ch22.mp3",
+          "size_mb": 15.5
+        },
+        {
+          "id": 23,
+          "title": "云之光 晨",
+          "file": "/api/audio/liulang_ch23.mp3",
+          "size_mb": 13.6
+        },
+        {
+          "id": 24,
+          "title": "云之光 作为结束的开始",
+          "file": "/api/audio/liulang_ch24.mp3",
+          "size_mb": 4.0
+        },
+        {
+          "id": 25,
+          "title": "风之翼 引子",
+          "file": "/api/audio/liulang_ch25.mp3",
+          "size_mb": 1.2
+        },
+        {
+          "id": 26,
+          "title": "风之翼 路迪",
+          "file": "/api/audio/liulang_ch26.mp3",
+          "size_mb": 16.3
+        },
+        {
+          "id": 27,
+          "title": "风之翼 纤妮娅",
+          "file": "/api/audio/liulang_ch27.mp3",
+          "size_mb": 11.8
+        },
+        {
+          "id": 28,
+          "title": "风之翼 瑞尼",
+          "file": "/api/audio/liulang_ch28.mp3",
+          "size_mb": 16.3
+        },
+        {
+          "id": 29,
+          "title": "风之翼 洛盈",
+          "file": "/api/audio/liulang_ch29.mp3",
+          "size_mb": 17.8
+        },
+        {
+          "id": 30,
+          "title": "风之翼 吉儿",
+          "file": "/api/audio/liulang_ch30.mp3",
+          "size_mb": 8.4
+        },
+        {
+          "id": 31,
+          "title": "风之翼 皮埃尔",
+          "file": "/api/audio/liulang_ch31.mp3",
+          "size_mb": 11.0
+        },
+        {
+          "id": 32,
+          "title": "风之翼 索林",
+          "file": "/api/audio/liulang_ch32.mp3",
+          "size_mb": 8.3
+        },
+        {
+          "id": 33,
+          "title": "风之翼 洛盈",
+          "file": "/api/audio/liulang_ch33.mp3",
+          "size_mb": 18.3
+        },
+        {
+          "id": 34,
+          "title": "风之翼 瑞尼",
+          "file": "/api/audio/liulang_ch34.mp3",
+          "size_mb": 22.7
+        },
+        {
+          "id": 35,
+          "title": "风之翼 安卡",
+          "file": "/api/audio/liulang_ch35.mp3",
+          "size_mb": 18.3
+        },
+        {
+          "id": 36,
+          "title": "风之翼 汉斯",
+          "file": "/api/audio/liulang_ch36.mp3",
+          "size_mb": 19.6
+        },
+        {
+          "id": 37,
+          "title": "风之翼 洛盈",
+          "file": "/api/audio/liulang_ch37.mp3",
+          "size_mb": 7.3
+        },
+        {
+          "id": 38,
+          "title": "风之翼 是结束也是开始",
+          "file": "/api/audio/liulang_ch38.mp3",
+          "size_mb": 6.4
+        },
+        {
+          "id": 39,
+          "title": "后记 少年往事，致德沃夏克第九",
+          "file": "/api/audio/liulang_ch39.mp3",
+          "size_mb": 2.4
+        }
+      ]
+    },
+    {
       "id": "renshijian",
       "title": "人世间",
       "author": "梁晓声",
