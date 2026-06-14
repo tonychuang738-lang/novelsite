@@ -1476,6 +1476,144 @@
           "size_mb": 40
         }
       ]
+    },
+    {
+      "id": "huozhe",
+      "title": "活着",
+      "author": "余华",
+      "cover": "covers/huozhe.jpg",
+      "description": "讲述了农村人福贵悲惨的人生遭遇。福贵本是个阔少爷，可他嗜赌如命，终于赌光了家业……",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "第一章",
+          "file": "/api/audio/huozhe_ch01.mp3",
+          "size_mb": 25.0
+        },
+        {
+          "id": 2,
+          "title": "第二章",
+          "file": "/api/audio/huozhe_ch02.mp3",
+          "size_mb": 20.7
+        },
+        {
+          "id": 3,
+          "title": "第三章",
+          "file": "/api/audio/huozhe_ch03.mp3",
+          "size_mb": 28.4
+        },
+        {
+          "id": 4,
+          "title": "第四章",
+          "file": "/api/audio/huozhe_ch04.mp3",
+          "size_mb": 32.3
+        },
+        {
+          "id": 5,
+          "title": "第五章",
+          "file": "/api/audio/huozhe_ch05.mp3",
+          "size_mb": 25.6
+        },
+        {
+          "id": 6,
+          "title": "第六章",
+          "file": "/api/audio/huozhe_ch06.mp3",
+          "size_mb": 25.1
+        },
+        {
+          "id": 7,
+          "title": "第七章",
+          "file": "/api/audio/huozhe_ch07.mp3",
+          "size_mb": 24.8
+        },
+        {
+          "id": 8,
+          "title": "第八章",
+          "file": "/api/audio/huozhe_ch08.mp3",
+          "size_mb": 22.7
+        },
+        {
+          "id": 9,
+          "title": "第九章",
+          "file": "/api/audio/huozhe_ch09.mp3",
+          "size_mb": 19.9
+        },
+        {
+          "id": 10,
+          "title": "第十章",
+          "file": "/api/audio/huozhe_ch10.mp3",
+          "size_mb": 20.4
+        }
+      ]
+    },
+    {
+      "id": "weicheng",
+      "title": "围城",
+      "author": "钱锺书",
+      "cover": "covers/weicheng.jpg",
+      "description": "方鸿渐留学回国，带着一张作假的博士文凭，陷入了一座座人生的围城……",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "第一章",
+          "file": "/api/audio/weicheng_ch01.mp3",
+          "size_mb": 43.3
+        },
+        {
+          "id": 2,
+          "title": "第二章",
+          "file": "/api/audio/weicheng_ch02.mp3",
+          "size_mb": 36.3
+        },
+        {
+          "id": 3,
+          "title": "第三章",
+          "file": "/api/audio/weicheng_ch03.mp3",
+          "size_mb": 100.1
+        },
+        {
+          "id": 4,
+          "title": "第四章",
+          "file": "/api/audio/weicheng_ch04.mp3",
+          "size_mb": 39.2
+        },
+        {
+          "id": 5,
+          "title": "第五章",
+          "file": "/api/audio/weicheng_ch05.mp3",
+          "size_mb": 100.2
+        },
+        {
+          "id": 6,
+          "title": "第六章",
+          "file": "/api/audio/weicheng_ch06.mp3",
+          "size_mb": 61.1
+        },
+        {
+          "id": 7,
+          "title": "第七章",
+          "file": "/api/audio/weicheng_ch07.mp3",
+          "size_mb": 74.6
+        },
+        {
+          "id": 8,
+          "title": "第八章",
+          "file": "/api/audio/weicheng_ch08.mp3",
+          "size_mb": 51.5
+        },
+        {
+          "id": 9,
+          "title": "第九章",
+          "file": "/api/audio/weicheng_ch09.mp3",
+          "size_mb": 78.8
+        },
+        {
+          "id": 10,
+          "title": "附录 记钱锺书与《围城》",
+          "file": "/api/audio/weicheng_ch10.mp3",
+          "size_mb": 40.1
+        }
+      ]
     }
   ]
 }

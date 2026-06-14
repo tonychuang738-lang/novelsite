@@ -8,6 +8,8 @@ function getTag(filename) {
   if (filename.startsWith("beijing_")) return "audio-beijing-v1";
   if (filename.startsWith("wandering_")) return "audio-wandering-v1";
   if (filename.startsWith("liulang_")) return "audio-liulang-v1";
+  if (filename.startsWith("huozhe_")) return "audio-huozhe-v1";
+  if (filename.startsWith("weicheng_")) return "audio-weicheng-v1";
   return "audio-v1";
 }
 
