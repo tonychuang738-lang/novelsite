@@ -2,8 +2,16 @@ const GITHUB_OWNER = "tonychuang738-lang";
 const GITHUB_REPO = "novelsite";
 
 function getTag(filename) {
+  // v2 升级版（长前缀优先匹配）
+  if (filename.startsWith("sapiens_v2_")) return "audio-sapiens-v2";
+  if (filename.startsWith("ming_v2_")) return "audio-ming-v2";
+  if (filename.startsWith("bailuyuan_v2_")) return "audio-bailuyuan-v2";
+  if (filename.startsWith("chaoxinxing_v2_")) return "audio-chaoxinxing-v2";
+  if (filename.startsWith("yhjidi_v2_")) return "audio-yhjidi-v2";
+  if (filename.startsWith("pingfan_v2_")) return "audio-pingfan-v2";
   if (filename.startsWith("santi_v2_")) return "audio-santi-v2";
   if (filename.startsWith("renshijian_v2_")) return "audio-renshijian-v2";
+  // v1 原版
   if (filename.startsWith("renshijian_")) return "audio-renshijian-v1";
   if (filename.startsWith("2001space_")) return "audio-2001space-v1";
   if (filename.startsWith("qiuzhuang_")) return "audio-qiuzhuang-v1";

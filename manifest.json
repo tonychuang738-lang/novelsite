@@ -1652,276 +1652,276 @@
       "title": "超新星纪元",
       "author": "刘慈欣",
       "cover": "covers/chaoxinxing.jpg",
-      "description": "一颗超新星爆发，高能射线杀死了所有成年人，地球只剩下十三岁以下的孩子。当国家、社会、文明面临前所未有的挑战，孩子们必须用自己的方式重建世界……",
+      "description": "超新星纪元 - 刘慈欣 - 45章 - Voice Design升级版",
       "chapters": [
         {
           "id": 1,
-          "title": "引子",
-          "file": "/api/audio/chaoxinxing_ch01.mp3",
+          "title": "第1章",
+          "file": "/api/audio/chaoxinxing_v2_ch001.mp3",
           "size_mb": 8.3
         },
         {
           "id": 2,
-          "title": "终结",
-          "file": "/api/audio/chaoxinxing_ch02.mp3",
+          "title": "第2章",
+          "file": "/api/audio/chaoxinxing_v2_ch002.mp3",
           "size_mb": 17.3
         },
         {
           "id": 3,
-          "title": "夜空骄阳",
-          "file": "/api/audio/chaoxinxing_ch03.mp3",
+          "title": "第3章",
+          "file": "/api/audio/chaoxinxing_v2_ch003.mp3",
           "size_mb": 16.7
         },
         {
           "id": 4,
-          "title": "山谷世界",
-          "file": "/api/audio/chaoxinxing_ch04.mp3",
+          "title": "第4章",
+          "file": "/api/audio/chaoxinxing_v2_ch004.mp3",
           "size_mb": 50.1
         },
         {
           "id": 5,
-          "title": "国家",
-          "file": "/api/audio/chaoxinxing_ch05.mp3",
+          "title": "第5章",
+          "file": "/api/audio/chaoxinxing_v2_ch005.mp3",
           "size_mb": 9.9
         },
         {
           "id": 6,
-          "title": "世界课堂",
-          "file": "/api/audio/chaoxinxing_ch06.mp3",
+          "title": "第6章",
+          "file": "/api/audio/chaoxinxing_v2_ch006.mp3",
           "size_mb": 43.8
         },
         {
           "id": 7,
-          "title": "总参谋长",
-          "file": "/api/audio/chaoxinxing_ch07.mp3",
+          "title": "第7章",
+          "file": "/api/audio/chaoxinxing_v2_ch007.mp3",
           "size_mb": 19.1
         },
         {
           "id": 8,
-          "title": "味精和盐",
-          "file": "/api/audio/chaoxinxing_ch08.mp3",
+          "title": "第8章",
+          "file": "/api/audio/chaoxinxing_v2_ch008.mp3",
           "size_mb": 16.4
         },
         {
           "id": 9,
-          "title": "大量子",
-          "file": "/api/audio/chaoxinxing_ch09.mp3",
+          "title": "第9章",
+          "file": "/api/audio/chaoxinxing_v2_ch009.mp3",
           "size_mb": 8.5
         },
         {
           "id": 10,
-          "title": "新世界试运行",
-          "file": "/api/audio/chaoxinxing_ch10.mp3",
+          "title": "第10章",
+          "file": "/api/audio/chaoxinxing_v2_ch010.mp3",
           "size_mb": 12.8
         },
         {
           "id": 11,
-          "title": "公元钟",
-          "file": "/api/audio/chaoxinxing_ch11.mp3",
+          "title": "第11章",
+          "file": "/api/audio/chaoxinxing_v2_ch011.mp3",
           "size_mb": 16.5
         },
         {
           "id": 12,
-          "title": "超新星纪元",
-          "file": "/api/audio/chaoxinxing_ch12.mp3",
+          "title": "第12章",
+          "file": "/api/audio/chaoxinxing_v2_ch012.mp3",
           "size_mb": 10.9
         },
         {
           "id": 13,
-          "title": "纪元初一小时",
-          "file": "/api/audio/chaoxinxing_ch13.mp3",
+          "title": "第13章",
+          "file": "/api/audio/chaoxinxing_v2_ch013.mp3",
           "size_mb": 31.7
         },
         {
           "id": 14,
-          "title": "悬空时代",
-          "file": "/api/audio/chaoxinxing_ch14.mp3",
+          "title": "第14章",
+          "file": "/api/audio/chaoxinxing_v2_ch014.mp3",
           "size_mb": 29.0
         },
         {
           "id": 15,
-          "title": "视察",
-          "file": "/api/audio/chaoxinxing_ch15.mp3",
+          "title": "第15章",
+          "file": "/api/audio/chaoxinxing_v2_ch015.mp3",
           "size_mb": 11.3
         },
         {
           "id": 16,
-          "title": "全国大会",
-          "file": "/api/audio/chaoxinxing_ch16.mp3",
+          "title": "第16章",
+          "file": "/api/audio/chaoxinxing_v2_ch016.mp3",
           "size_mb": 22.6
         },
         {
           "id": 17,
-          "title": "好玩儿的国家",
-          "file": "/api/audio/chaoxinxing_ch17.mp3",
+          "title": "第17章",
+          "file": "/api/audio/chaoxinxing_v2_ch017.mp3",
           "size_mb": 30.1
         },
         {
           "id": 18,
-          "title": "争论",
-          "file": "/api/audio/chaoxinxing_ch18.mp3",
+          "title": "第18章",
+          "file": "/api/audio/chaoxinxing_v2_ch018.mp3",
           "size_mb": 9.3
         },
         {
           "id": 19,
-          "title": "美梦时期",
-          "file": "/api/audio/chaoxinxing_ch19.mp3",
+          "title": "第19章",
+          "file": "/api/audio/chaoxinxing_v2_ch019.mp3",
           "size_mb": 21.1
         },
         {
           "id": 20,
-          "title": "沉睡时期",
-          "file": "/api/audio/chaoxinxing_ch20.mp3",
+          "title": "第20章",
+          "file": "/api/audio/chaoxinxing_v2_ch020.mp3",
           "size_mb": 25.2
         },
         {
           "id": 21,
-          "title": "冰淇淋盛宴",
-          "file": "/api/audio/chaoxinxing_ch21.mp3",
+          "title": "第21章",
+          "file": "/api/audio/chaoxinxing_v2_ch021.mp3",
           "size_mb": 55.2
         },
         {
           "id": 22,
-          "title": "美国糖城时代",
-          "file": "/api/audio/chaoxinxing_ch22.mp3",
+          "title": "第22章",
+          "file": "/api/audio/chaoxinxing_v2_ch022.mp3",
           "size_mb": 24.1
         },
         {
           "id": 23,
-          "title": "世界游戏",
-          "file": "/api/audio/chaoxinxing_ch23.mp3",
+          "title": "第23章",
+          "file": "/api/audio/chaoxinxing_v2_ch023.mp3",
           "size_mb": 9.5
         },
         {
           "id": 24,
-          "title": "南极洲",
-          "file": "/api/audio/chaoxinxing_ch24.mp3",
+          "title": "第24章",
+          "file": "/api/audio/chaoxinxing_v2_ch024.mp3",
           "size_mb": 53.7
         },
         {
           "id": 25,
-          "title": "铁血游戏",
-          "file": "/api/audio/chaoxinxing_ch25.mp3",
+          "title": "第25章",
+          "file": "/api/audio/chaoxinxing_v2_ch025.mp3",
           "size_mb": 54.6
         },
         {
           "id": 26,
-          "title": "END",
-          "file": "/api/audio/chaoxinxing_ch26.mp3",
+          "title": "第26章",
+          "file": "/api/audio/chaoxinxing_v2_ch026.mp3",
           "size_mb": 18.4
         },
         {
           "id": 27,
-          "title": "一千个太阳",
-          "file": "/api/audio/chaoxinxing_ch27.mp3",
+          "title": "第27章",
+          "file": "/api/audio/chaoxinxing_v2_ch027.mp3",
           "size_mb": 21.5
         },
         {
           "id": 28,
-          "title": "公元地雷",
-          "file": "/api/audio/chaoxinxing_ch28.mp3",
+          "title": "第28章",
+          "file": "/api/audio/chaoxinxing_v2_ch028.mp3",
           "size_mb": 8.4
         },
         {
           "id": 29,
-          "title": "反击",
-          "file": "/api/audio/chaoxinxing_ch29.mp3",
+          "title": "第29章",
+          "file": "/api/audio/chaoxinxing_v2_ch029.mp3",
           "size_mb": 10.3
         },
         {
           "id": 30,
-          "title": "暴风雪",
-          "file": "/api/audio/chaoxinxing_ch30.mp3",
+          "title": "第30章",
+          "file": "/api/audio/chaoxinxing_v2_ch030.mp3",
           "size_mb": 23.8
         },
         {
           "id": 31,
-          "title": "新总统",
-          "file": "/api/audio/chaoxinxing_ch31.mp3",
+          "title": "第31章",
+          "file": "/api/audio/chaoxinxing_v2_ch031.mp3",
           "size_mb": 9.3
         },
         {
           "id": 32,
-          "title": "回家",
-          "file": "/api/audio/chaoxinxing_ch32.mp3",
+          "title": "第32章",
+          "file": "/api/audio/chaoxinxing_v2_ch032.mp3",
           "size_mb": 9.1
         },
         {
           "id": 33,
-          "title": "尾_声",
-          "file": "/api/audio/chaoxinxing_ch33.mp3",
+          "title": "第33章",
+          "file": "/api/audio/chaoxinxing_v2_ch033.mp3",
           "size_mb": 17.3
         },
         {
           "id": 34,
-          "title": "后_记",
-          "file": "/api/audio/chaoxinxing_ch34.mp3",
+          "title": "第34章",
+          "file": "/api/audio/chaoxinxing_v2_ch034.mp3",
           "size_mb": 6.8
         },
         {
           "id": 35,
-          "title": "_未发表部分_交换国土",
-          "file": "/api/audio/chaoxinxing_ch35.mp3",
+          "title": "第35章",
+          "file": "/api/audio/chaoxinxing_v2_ch035.mp3",
           "size_mb": 77.7
         },
         {
           "id": 36,
-          "title": "_未发表部分_京津保卫战",
-          "file": "/api/audio/chaoxinxing_ch36.mp3",
+          "title": "第36章",
+          "file": "/api/audio/chaoxinxing_v2_ch036.mp3",
           "size_mb": 66.7
         },
         {
-          "id": 37,
-          "title": "第01章",
-          "file": "/api/audio/chaoxinxing_ch37.mp3",
+          "id": 1,
+          "title": "第1章",
+          "file": "/api/audio/chaoxinxing_v2_ch001.mp3",
           "size_mb": 4.5
         },
         {
-          "id": 38,
-          "title": "第02章",
-          "file": "/api/audio/chaoxinxing_ch38.mp3",
+          "id": 2,
+          "title": "第2章",
+          "file": "/api/audio/chaoxinxing_v2_ch002.mp3",
           "size_mb": 9.7
         },
         {
-          "id": 39,
-          "title": "第03章",
-          "file": "/api/audio/chaoxinxing_ch39.mp3",
+          "id": 3,
+          "title": "第3章",
+          "file": "/api/audio/chaoxinxing_v2_ch003.mp3",
           "size_mb": 8.9
         },
         {
-          "id": 40,
-          "title": "第04章",
-          "file": "/api/audio/chaoxinxing_ch40.mp3",
+          "id": 4,
+          "title": "第4章",
+          "file": "/api/audio/chaoxinxing_v2_ch004.mp3",
           "size_mb": 26.8
         },
         {
-          "id": 41,
-          "title": "第05章",
-          "file": "/api/audio/chaoxinxing_ch41.mp3",
+          "id": 5,
+          "title": "第5章",
+          "file": "/api/audio/chaoxinxing_v2_ch005.mp3",
           "size_mb": 4.2
         },
         {
-          "id": 42,
-          "title": "第06章",
-          "file": "/api/audio/chaoxinxing_ch42.mp3",
+          "id": 6,
+          "title": "第6章",
+          "file": "/api/audio/chaoxinxing_v2_ch006.mp3",
           "size_mb": 23.5
         },
         {
-          "id": 43,
-          "title": "第07章",
-          "file": "/api/audio/chaoxinxing_ch43.mp3",
+          "id": 7,
+          "title": "第7章",
+          "file": "/api/audio/chaoxinxing_v2_ch007.mp3",
           "size_mb": 10.3
         },
         {
-          "id": 44,
-          "title": "第08章",
-          "file": "/api/audio/chaoxinxing_ch44.mp3",
+          "id": 8,
+          "title": "第8章",
+          "file": "/api/audio/chaoxinxing_v2_ch008.mp3",
           "size_mb": 7.6
         },
         {
-          "id": 45,
-          "title": "第09章",
-          "file": "/api/audio/chaoxinxing_ch45.mp3",
+          "id": 9,
+          "title": "第9章",
+          "file": "/api/audio/chaoxinxing_v2_ch009.mp3",
           "size_mb": 4.3
         }
       ]
@@ -1931,906 +1931,906 @@
       "title": "平凡的世界",
       "author": "路遥",
       "cover": "covers/pingfan.jpg",
-      "description": "路遥代表作，以中国70年代中期到80年代中期十年间为背景，通过孙少安和孙少平两兄弟的奋斗历程，全景式地展现了中国当代城乡社会生活。茅盾文学奖获奖作品。",
+      "description": "平凡的世界 - 路遥 - 150章 - Voice Design升级版",
       "chapters": [
         {
           "id": 1,
-          "title": "第一章",
-          "file": "/api/audio/pingfan_ch01.mp3",
+          "title": "第1章",
+          "file": "/api/audio/pingfan_v2_ch001.mp3",
           "size_mb": 18.8
         },
         {
           "id": 2,
-          "title": "第二章",
-          "file": "/api/audio/pingfan_ch02.mp3",
+          "title": "第2章",
+          "file": "/api/audio/pingfan_v2_ch002.mp3",
           "size_mb": 32.1
         },
         {
           "id": 3,
-          "title": "第三章",
-          "file": "/api/audio/pingfan_ch03.mp3",
+          "title": "第3章",
+          "file": "/api/audio/pingfan_v2_ch003.mp3",
           "size_mb": 23.4
         },
         {
           "id": 4,
-          "title": "第四章",
-          "file": "/api/audio/pingfan_ch04.mp3",
+          "title": "第4章",
+          "file": "/api/audio/pingfan_v2_ch004.mp3",
           "size_mb": 16.2
         },
         {
           "id": 5,
-          "title": "第五章",
-          "file": "/api/audio/pingfan_ch05.mp3",
+          "title": "第5章",
+          "file": "/api/audio/pingfan_v2_ch005.mp3",
           "size_mb": 21.3
         },
         {
           "id": 6,
-          "title": "第六章",
-          "file": "/api/audio/pingfan_ch06.mp3",
+          "title": "第6章",
+          "file": "/api/audio/pingfan_v2_ch006.mp3",
           "size_mb": 23.8
         },
         {
           "id": 7,
-          "title": "第七章",
-          "file": "/api/audio/pingfan_ch07.mp3",
+          "title": "第7章",
+          "file": "/api/audio/pingfan_v2_ch007.mp3",
           "size_mb": 19.9
         },
         {
           "id": 8,
-          "title": "第八章",
-          "file": "/api/audio/pingfan_ch08.mp3",
+          "title": "第8章",
+          "file": "/api/audio/pingfan_v2_ch008.mp3",
           "size_mb": 38.2
         },
         {
           "id": 9,
-          "title": "第九章",
-          "file": "/api/audio/pingfan_ch09.mp3",
+          "title": "第9章",
+          "file": "/api/audio/pingfan_v2_ch009.mp3",
           "size_mb": 26.1
         },
         {
           "id": 10,
-          "title": "第十章",
-          "file": "/api/audio/pingfan_ch10.mp3",
+          "title": "第10章",
+          "file": "/api/audio/pingfan_v2_ch010.mp3",
           "size_mb": 30.3
         },
         {
           "id": 11,
-          "title": "第十二章",
-          "file": "/api/audio/pingfan_ch11.mp3",
+          "title": "第11章",
+          "file": "/api/audio/pingfan_v2_ch011.mp3",
           "size_mb": 19.4
         },
         {
           "id": 12,
-          "title": "第十三章",
-          "file": "/api/audio/pingfan_ch12.mp3",
+          "title": "第12章",
+          "file": "/api/audio/pingfan_v2_ch012.mp3",
           "size_mb": 19.2
         },
         {
           "id": 13,
-          "title": "第十四章",
-          "file": "/api/audio/pingfan_ch13.mp3",
+          "title": "第13章",
+          "file": "/api/audio/pingfan_v2_ch013.mp3",
           "size_mb": 34.3
         },
         {
           "id": 14,
-          "title": "第十五章",
-          "file": "/api/audio/pingfan_ch14.mp3",
+          "title": "第14章",
+          "file": "/api/audio/pingfan_v2_ch014.mp3",
           "size_mb": 27.1
         },
         {
           "id": 15,
-          "title": "第十六章",
-          "file": "/api/audio/pingfan_ch15.mp3",
+          "title": "第15章",
+          "file": "/api/audio/pingfan_v2_ch015.mp3",
           "size_mb": 18.4
         },
         {
           "id": 16,
-          "title": "第十七章",
-          "file": "/api/audio/pingfan_ch16.mp3",
+          "title": "第16章",
+          "file": "/api/audio/pingfan_v2_ch016.mp3",
           "size_mb": 20.4
         },
         {
           "id": 17,
-          "title": "第十八章",
-          "file": "/api/audio/pingfan_ch17.mp3",
+          "title": "第17章",
+          "file": "/api/audio/pingfan_v2_ch017.mp3",
           "size_mb": 24.7
         },
         {
           "id": 18,
-          "title": "第十九章",
-          "file": "/api/audio/pingfan_ch18.mp3",
+          "title": "第18章",
+          "file": "/api/audio/pingfan_v2_ch018.mp3",
           "size_mb": 23.0
         },
         {
           "id": 19,
-          "title": "第二十章",
-          "file": "/api/audio/pingfan_ch19.mp3",
+          "title": "第19章",
+          "file": "/api/audio/pingfan_v2_ch019.mp3",
           "size_mb": 22.6
         },
         {
           "id": 20,
-          "title": "第二十一章",
-          "file": "/api/audio/pingfan_ch20.mp3",
+          "title": "第20章",
+          "file": "/api/audio/pingfan_v2_ch020.mp3",
           "size_mb": 23.2
         },
         {
           "id": 21,
-          "title": "第二十三章",
-          "file": "/api/audio/pingfan_ch21.mp3",
+          "title": "第21章",
+          "file": "/api/audio/pingfan_v2_ch021.mp3",
           "size_mb": 11.6
         },
         {
           "id": 22,
-          "title": "第二十四章",
-          "file": "/api/audio/pingfan_ch22.mp3",
+          "title": "第22章",
+          "file": "/api/audio/pingfan_v2_ch022.mp3",
           "size_mb": 21.3
         },
         {
           "id": 23,
-          "title": "第二十五章",
-          "file": "/api/audio/pingfan_ch23.mp3",
+          "title": "第23章",
+          "file": "/api/audio/pingfan_v2_ch023.mp3",
           "size_mb": 32.6
         },
         {
           "id": 24,
-          "title": "第二十六章",
-          "file": "/api/audio/pingfan_ch24.mp3",
+          "title": "第24章",
+          "file": "/api/audio/pingfan_v2_ch024.mp3",
           "size_mb": 27.9
         },
         {
           "id": 25,
-          "title": "第二十七章",
-          "file": "/api/audio/pingfan_ch25.mp3",
+          "title": "第25章",
+          "file": "/api/audio/pingfan_v2_ch025.mp3",
           "size_mb": 20.2
         },
         {
           "id": 26,
-          "title": "第二十八章",
-          "file": "/api/audio/pingfan_ch26.mp3",
+          "title": "第26章",
+          "file": "/api/audio/pingfan_v2_ch026.mp3",
           "size_mb": 34.1
         },
         {
           "id": 27,
-          "title": "第二十九章",
-          "file": "/api/audio/pingfan_ch27.mp3",
+          "title": "第27章",
+          "file": "/api/audio/pingfan_v2_ch027.mp3",
           "size_mb": 24.5
         },
         {
           "id": 28,
-          "title": "第三十章",
-          "file": "/api/audio/pingfan_ch28.mp3",
+          "title": "第28章",
+          "file": "/api/audio/pingfan_v2_ch028.mp3",
           "size_mb": 25.0
         },
         {
           "id": 29,
-          "title": "第三十一章",
-          "file": "/api/audio/pingfan_ch29.mp3",
+          "title": "第29章",
+          "file": "/api/audio/pingfan_v2_ch029.mp3",
           "size_mb": 26.5
         },
         {
           "id": 30,
-          "title": "第三十二章",
-          "file": "/api/audio/pingfan_ch30.mp3",
+          "title": "第30章",
+          "file": "/api/audio/pingfan_v2_ch030.mp3",
           "size_mb": 23.8
         },
         {
           "id": 31,
-          "title": "第三十四章",
-          "file": "/api/audio/pingfan_ch31.mp3",
+          "title": "第31章",
+          "file": "/api/audio/pingfan_v2_ch031.mp3",
           "size_mb": 27.0
         },
         {
           "id": 32,
-          "title": "第三十五章",
-          "file": "/api/audio/pingfan_ch32.mp3",
+          "title": "第32章",
+          "file": "/api/audio/pingfan_v2_ch032.mp3",
           "size_mb": 14.4
         },
         {
           "id": 33,
-          "title": "第三十六章",
-          "file": "/api/audio/pingfan_ch33.mp3",
+          "title": "第33章",
+          "file": "/api/audio/pingfan_v2_ch033.mp3",
           "size_mb": 13.9
         },
         {
           "id": 34,
-          "title": "第三十七",
-          "file": "/api/audio/pingfan_ch34.mp3",
+          "title": "第34章",
+          "file": "/api/audio/pingfan_v2_ch034.mp3",
           "size_mb": 22.5
         },
         {
           "id": 35,
-          "title": "第三十八章",
-          "file": "/api/audio/pingfan_ch35.mp3",
+          "title": "第35章",
+          "file": "/api/audio/pingfan_v2_ch035.mp3",
           "size_mb": 21.7
         },
         {
           "id": 36,
-          "title": "第三十九章",
-          "file": "/api/audio/pingfan_ch36.mp3",
+          "title": "第36章",
+          "file": "/api/audio/pingfan_v2_ch036.mp3",
           "size_mb": 21.4
         },
         {
           "id": 37,
-          "title": "第四十章",
-          "file": "/api/audio/pingfan_ch37.mp3",
+          "title": "第37章",
+          "file": "/api/audio/pingfan_v2_ch037.mp3",
           "size_mb": 18.5
         },
         {
           "id": 38,
-          "title": "第四十一章",
-          "file": "/api/audio/pingfan_ch38.mp3",
+          "title": "第38章",
+          "file": "/api/audio/pingfan_v2_ch038.mp3",
           "size_mb": 34.2
         },
         {
           "id": 39,
-          "title": "第四十二章",
-          "file": "/api/audio/pingfan_ch39.mp3",
+          "title": "第39章",
+          "file": "/api/audio/pingfan_v2_ch039.mp3",
           "size_mb": 26.0
         },
         {
           "id": 40,
-          "title": "第四十三章",
-          "file": "/api/audio/pingfan_ch40.mp3",
+          "title": "第40章",
+          "file": "/api/audio/pingfan_v2_ch040.mp3",
           "size_mb": 30.7
         },
         {
           "id": 41,
-          "title": "第四十五章",
-          "file": "/api/audio/pingfan_ch41.mp3",
+          "title": "第41章",
+          "file": "/api/audio/pingfan_v2_ch041.mp3",
           "size_mb": 22.4
         },
         {
           "id": 42,
-          "title": "第四十六章",
-          "file": "/api/audio/pingfan_ch42.mp3",
+          "title": "第42章",
+          "file": "/api/audio/pingfan_v2_ch042.mp3",
           "size_mb": 26.9
         },
         {
           "id": 43,
-          "title": "第四十七章",
-          "file": "/api/audio/pingfan_ch43.mp3",
+          "title": "第43章",
+          "file": "/api/audio/pingfan_v2_ch043.mp3",
           "size_mb": 25.4
         },
         {
           "id": 44,
-          "title": "第四十八章",
-          "file": "/api/audio/pingfan_ch44.mp3",
+          "title": "第44章",
+          "file": "/api/audio/pingfan_v2_ch044.mp3",
           "size_mb": 24.4
         },
         {
           "id": 45,
-          "title": "第四十九章",
-          "file": "/api/audio/pingfan_ch45.mp3",
+          "title": "第45章",
+          "file": "/api/audio/pingfan_v2_ch045.mp3",
           "size_mb": 22.3
         },
         {
           "id": 46,
-          "title": "第五十章",
-          "file": "/api/audio/pingfan_ch46.mp3",
+          "title": "第46章",
+          "file": "/api/audio/pingfan_v2_ch046.mp3",
           "size_mb": 26.2
         },
         {
           "id": 47,
-          "title": "第五十一章",
-          "file": "/api/audio/pingfan_ch47.mp3",
+          "title": "第47章",
+          "file": "/api/audio/pingfan_v2_ch047.mp3",
           "size_mb": 33.3
         },
         {
           "id": 48,
-          "title": "第五十二章",
-          "file": "/api/audio/pingfan_ch48.mp3",
+          "title": "第48章",
+          "file": "/api/audio/pingfan_v2_ch048.mp3",
           "size_mb": 28.1
         },
         {
           "id": 49,
-          "title": "第五十三章",
-          "file": "/api/audio/pingfan_ch49.mp3",
+          "title": "第49章",
+          "file": "/api/audio/pingfan_v2_ch049.mp3",
           "size_mb": 24.6
         },
         {
           "id": 50,
-          "title": "第五十四章",
-          "file": "/api/audio/pingfan_ch50.mp3",
+          "title": "第50章",
+          "file": "/api/audio/pingfan_v2_ch050.mp3",
           "size_mb": 19.3
         },
         {
           "id": 51,
-          "title": "第一章",
-          "file": "/api/audio/pingfan_ch51.mp3",
+          "title": "第51章",
+          "file": "/api/audio/pingfan_v2_ch051.mp3",
           "size_mb": 22.9
         },
         {
           "id": 52,
-          "title": "第二章",
-          "file": "/api/audio/pingfan_ch52.mp3",
+          "title": "第52章",
+          "file": "/api/audio/pingfan_v2_ch052.mp3",
           "size_mb": 21.9
         },
         {
           "id": 53,
-          "title": "第三章",
-          "file": "/api/audio/pingfan_ch53.mp3",
+          "title": "第53章",
+          "file": "/api/audio/pingfan_v2_ch053.mp3",
           "size_mb": 24.8
         },
         {
           "id": 54,
-          "title": "第四章",
-          "file": "/api/audio/pingfan_ch54.mp3",
+          "title": "第54章",
+          "file": "/api/audio/pingfan_v2_ch054.mp3",
           "size_mb": 21.5
         },
         {
           "id": 55,
-          "title": "第五章",
-          "file": "/api/audio/pingfan_ch55.mp3",
+          "title": "第55章",
+          "file": "/api/audio/pingfan_v2_ch055.mp3",
           "size_mb": 25.7
         },
         {
           "id": 56,
-          "title": "第六章",
-          "file": "/api/audio/pingfan_ch56.mp3",
+          "title": "第56章",
+          "file": "/api/audio/pingfan_v2_ch056.mp3",
           "size_mb": 21.7
         },
         {
           "id": 57,
-          "title": "第七章",
-          "file": "/api/audio/pingfan_ch57.mp3",
+          "title": "第57章",
+          "file": "/api/audio/pingfan_v2_ch057.mp3",
           "size_mb": 16.8
         },
         {
           "id": 58,
-          "title": "第八章",
-          "file": "/api/audio/pingfan_ch58.mp3",
+          "title": "第58章",
+          "file": "/api/audio/pingfan_v2_ch058.mp3",
           "size_mb": 23.7
         },
         {
           "id": 59,
-          "title": "第九章",
-          "file": "/api/audio/pingfan_ch59.mp3",
+          "title": "第59章",
+          "file": "/api/audio/pingfan_v2_ch059.mp3",
           "size_mb": 25.6
         },
         {
           "id": 60,
-          "title": "第十章",
-          "file": "/api/audio/pingfan_ch60.mp3",
+          "title": "第60章",
+          "file": "/api/audio/pingfan_v2_ch060.mp3",
           "size_mb": 25.1
         },
         {
           "id": 61,
-          "title": "第十二章",
-          "file": "/api/audio/pingfan_ch61.mp3",
+          "title": "第61章",
+          "file": "/api/audio/pingfan_v2_ch061.mp3",
           "size_mb": 23.3
         },
         {
           "id": 62,
-          "title": "第十三章",
-          "file": "/api/audio/pingfan_ch62.mp3",
+          "title": "第62章",
+          "file": "/api/audio/pingfan_v2_ch062.mp3",
           "size_mb": 21.1
         },
         {
           "id": 63,
-          "title": "第十四章",
-          "file": "/api/audio/pingfan_ch63.mp3",
+          "title": "第63章",
+          "file": "/api/audio/pingfan_v2_ch063.mp3",
           "size_mb": 21.5
         },
         {
           "id": 64,
-          "title": "第十五章",
-          "file": "/api/audio/pingfan_ch64.mp3",
+          "title": "第64章",
+          "file": "/api/audio/pingfan_v2_ch064.mp3",
           "size_mb": 24.7
         },
         {
           "id": 65,
-          "title": "第十六章",
-          "file": "/api/audio/pingfan_ch65.mp3",
+          "title": "第65章",
+          "file": "/api/audio/pingfan_v2_ch065.mp3",
           "size_mb": 19.8
         },
         {
           "id": 66,
-          "title": "第十七章",
-          "file": "/api/audio/pingfan_ch66.mp3",
+          "title": "第66章",
+          "file": "/api/audio/pingfan_v2_ch066.mp3",
           "size_mb": 26.8
         },
         {
           "id": 67,
-          "title": "第十八章",
-          "file": "/api/audio/pingfan_ch67.mp3",
+          "title": "第67章",
+          "file": "/api/audio/pingfan_v2_ch067.mp3",
           "size_mb": 22.1
         },
         {
           "id": 68,
-          "title": "第十九章",
-          "file": "/api/audio/pingfan_ch68.mp3",
+          "title": "第68章",
+          "file": "/api/audio/pingfan_v2_ch068.mp3",
           "size_mb": 22.0
         },
         {
           "id": 69,
-          "title": "第二十章",
-          "file": "/api/audio/pingfan_ch69.mp3",
+          "title": "第69章",
+          "file": "/api/audio/pingfan_v2_ch069.mp3",
           "size_mb": 20.7
         },
         {
           "id": 70,
-          "title": "第二十一章",
-          "file": "/api/audio/pingfan_ch70.mp3",
+          "title": "第70章",
+          "file": "/api/audio/pingfan_v2_ch070.mp3",
           "size_mb": 21.4
         },
         {
           "id": 71,
-          "title": "第二十三章",
-          "file": "/api/audio/pingfan_ch71.mp3",
+          "title": "第71章",
+          "file": "/api/audio/pingfan_v2_ch071.mp3",
           "size_mb": 22.7
         },
         {
           "id": 72,
-          "title": "第二十四章",
-          "file": "/api/audio/pingfan_ch72.mp3",
+          "title": "第72章",
+          "file": "/api/audio/pingfan_v2_ch072.mp3",
           "size_mb": 22.6
         },
         {
           "id": 73,
-          "title": "第二十五章",
-          "file": "/api/audio/pingfan_ch73.mp3",
+          "title": "第73章",
+          "file": "/api/audio/pingfan_v2_ch073.mp3",
           "size_mb": 22.7
         },
         {
           "id": 74,
-          "title": "第二十六章",
-          "file": "/api/audio/pingfan_ch74.mp3",
+          "title": "第74章",
+          "file": "/api/audio/pingfan_v2_ch074.mp3",
           "size_mb": 22.0
         },
         {
           "id": 75,
-          "title": "第二十七章",
-          "file": "/api/audio/pingfan_ch75.mp3",
+          "title": "第75章",
+          "file": "/api/audio/pingfan_v2_ch075.mp3",
           "size_mb": 17.0
         },
         {
           "id": 76,
-          "title": "第二十八章",
-          "file": "/api/audio/pingfan_ch76.mp3",
+          "title": "第76章",
+          "file": "/api/audio/pingfan_v2_ch076.mp3",
           "size_mb": 25.4
         },
         {
           "id": 77,
-          "title": "第二十九章",
-          "file": "/api/audio/pingfan_ch77.mp3",
+          "title": "第77章",
+          "file": "/api/audio/pingfan_v2_ch077.mp3",
           "size_mb": 19.1
         },
         {
           "id": 78,
-          "title": "第三十章",
-          "file": "/api/audio/pingfan_ch78.mp3",
+          "title": "第78章",
+          "file": "/api/audio/pingfan_v2_ch078.mp3",
           "size_mb": 21.0
         },
         {
           "id": 79,
-          "title": "第三十一章",
-          "file": "/api/audio/pingfan_ch79.mp3",
+          "title": "第79章",
+          "file": "/api/audio/pingfan_v2_ch079.mp3",
           "size_mb": 18.6
         },
         {
           "id": 80,
-          "title": "第三十二章",
-          "file": "/api/audio/pingfan_ch80.mp3",
+          "title": "第80章",
+          "file": "/api/audio/pingfan_v2_ch080.mp3",
           "size_mb": 18.7
         },
         {
           "id": 81,
-          "title": "第三十四章",
-          "file": "/api/audio/pingfan_ch81.mp3",
+          "title": "第81章",
+          "file": "/api/audio/pingfan_v2_ch081.mp3",
           "size_mb": 30.7
         },
         {
           "id": 82,
-          "title": "第三十五章",
-          "file": "/api/audio/pingfan_ch82.mp3",
+          "title": "第82章",
+          "file": "/api/audio/pingfan_v2_ch082.mp3",
           "size_mb": 23.2
         },
         {
           "id": 83,
-          "title": "第三十六章",
-          "file": "/api/audio/pingfan_ch83.mp3",
+          "title": "第83章",
+          "file": "/api/audio/pingfan_v2_ch083.mp3",
           "size_mb": 23.2
         },
         {
           "id": 84,
-          "title": "第三十七章",
-          "file": "/api/audio/pingfan_ch84.mp3",
+          "title": "第84章",
+          "file": "/api/audio/pingfan_v2_ch084.mp3",
           "size_mb": 23.9
         },
         {
           "id": 85,
-          "title": "第三十八章",
-          "file": "/api/audio/pingfan_ch85.mp3",
+          "title": "第85章",
+          "file": "/api/audio/pingfan_v2_ch085.mp3",
           "size_mb": 23.2
         },
         {
           "id": 86,
-          "title": "第三十九章",
-          "file": "/api/audio/pingfan_ch86.mp3",
+          "title": "第86章",
+          "file": "/api/audio/pingfan_v2_ch086.mp3",
           "size_mb": 24.0
         },
         {
           "id": 87,
-          "title": "第四十章",
-          "file": "/api/audio/pingfan_ch87.mp3",
+          "title": "第87章",
+          "file": "/api/audio/pingfan_v2_ch087.mp3",
           "size_mb": 29.1
         },
         {
           "id": 88,
-          "title": "第四十一章",
-          "file": "/api/audio/pingfan_ch88.mp3",
+          "title": "第88章",
+          "file": "/api/audio/pingfan_v2_ch088.mp3",
           "size_mb": 20.8
         },
         {
           "id": 89,
-          "title": "第四十二章",
-          "file": "/api/audio/pingfan_ch89.mp3",
+          "title": "第89章",
+          "file": "/api/audio/pingfan_v2_ch089.mp3",
           "size_mb": 28.8
         },
         {
           "id": 90,
-          "title": "第四十三章",
-          "file": "/api/audio/pingfan_ch90.mp3",
+          "title": "第90章",
+          "file": "/api/audio/pingfan_v2_ch090.mp3",
           "size_mb": 22.3
         },
         {
           "id": 91,
-          "title": "第四十五章",
-          "file": "/api/audio/pingfan_ch91.mp3",
+          "title": "第91章",
+          "file": "/api/audio/pingfan_v2_ch091.mp3",
           "size_mb": 25.0
         },
         {
           "id": 92,
-          "title": "第四十六章",
-          "file": "/api/audio/pingfan_ch92.mp3",
+          "title": "第92章",
+          "file": "/api/audio/pingfan_v2_ch092.mp3",
           "size_mb": 31.7
         },
         {
           "id": 93,
-          "title": "第四十七章",
-          "file": "/api/audio/pingfan_ch93.mp3",
+          "title": "第93章",
+          "file": "/api/audio/pingfan_v2_ch093.mp3",
           "size_mb": 23.7
         },
         {
           "id": 94,
-          "title": "第四十八章",
-          "file": "/api/audio/pingfan_ch94.mp3",
+          "title": "第94章",
+          "file": "/api/audio/pingfan_v2_ch094.mp3",
           "size_mb": 31.9
         },
         {
           "id": 95,
-          "title": "第四十九章",
-          "file": "/api/audio/pingfan_ch95.mp3",
+          "title": "第95章",
+          "file": "/api/audio/pingfan_v2_ch095.mp3",
           "size_mb": 23.2
         },
         {
           "id": 96,
-          "title": "第五十章",
-          "file": "/api/audio/pingfan_ch96.mp3",
+          "title": "第96章",
+          "file": "/api/audio/pingfan_v2_ch096.mp3",
           "size_mb": 25.8
         },
         {
           "id": 97,
-          "title": "第五十一章",
-          "file": "/api/audio/pingfan_ch97.mp3",
+          "title": "第97章",
+          "file": "/api/audio/pingfan_v2_ch097.mp3",
           "size_mb": 22.6
         },
         {
           "id": 98,
-          "title": "第五十二章",
-          "file": "/api/audio/pingfan_ch98.mp3",
+          "title": "第98章",
+          "file": "/api/audio/pingfan_v2_ch098.mp3",
           "size_mb": 22.6
         },
         {
           "id": 99,
-          "title": "第五十三章",
-          "file": "/api/audio/pingfan_ch99.mp3",
+          "title": "第99章",
+          "file": "/api/audio/pingfan_v2_ch099.mp3",
           "size_mb": 20.1
         },
         {
           "id": 100,
-          "title": "第五十四章",
-          "file": "/api/audio/pingfan_ch100.mp3",
+          "title": "第100章",
+          "file": "/api/audio/pingfan_v2_ch100.mp3",
           "size_mb": 18.4
         },
         {
           "id": 101,
-          "title": "第一章",
-          "file": "/api/audio/pingfan_ch101.mp3",
+          "title": "第101章",
+          "file": "/api/audio/pingfan_v2_ch101.mp3",
           "size_mb": 14.4
         },
         {
           "id": 102,
-          "title": "第二章",
-          "file": "/api/audio/pingfan_ch102.mp3",
+          "title": "第102章",
+          "file": "/api/audio/pingfan_v2_ch102.mp3",
           "size_mb": 25.3
         },
         {
           "id": 103,
-          "title": "第三章",
-          "file": "/api/audio/pingfan_ch103.mp3",
+          "title": "第103章",
+          "file": "/api/audio/pingfan_v2_ch103.mp3",
           "size_mb": 24.0
         },
         {
           "id": 104,
-          "title": "第四章",
-          "file": "/api/audio/pingfan_ch104.mp3",
+          "title": "第104章",
+          "file": "/api/audio/pingfan_v2_ch104.mp3",
           "size_mb": 22.9
         },
         {
           "id": 105,
-          "title": "第五章",
-          "file": "/api/audio/pingfan_ch105.mp3",
+          "title": "第105章",
+          "file": "/api/audio/pingfan_v2_ch105.mp3",
           "size_mb": 22.0
         },
         {
           "id": 106,
-          "title": "第六章",
-          "file": "/api/audio/pingfan_ch106.mp3",
+          "title": "第106章",
+          "file": "/api/audio/pingfan_v2_ch106.mp3",
           "size_mb": 22.1
         },
         {
           "id": 107,
-          "title": "第七章",
-          "file": "/api/audio/pingfan_ch107.mp3",
+          "title": "第107章",
+          "file": "/api/audio/pingfan_v2_ch107.mp3",
           "size_mb": 20.3
         },
         {
           "id": 108,
-          "title": "第八章",
-          "file": "/api/audio/pingfan_ch108.mp3",
+          "title": "第108章",
+          "file": "/api/audio/pingfan_v2_ch108.mp3",
           "size_mb": 25.9
         },
         {
           "id": 109,
-          "title": "第九章",
-          "file": "/api/audio/pingfan_ch109.mp3",
+          "title": "第109章",
+          "file": "/api/audio/pingfan_v2_ch109.mp3",
           "size_mb": 20.4
         },
         {
           "id": 110,
-          "title": "第十章",
-          "file": "/api/audio/pingfan_ch110.mp3",
+          "title": "第110章",
+          "file": "/api/audio/pingfan_v2_ch110.mp3",
           "size_mb": 22.4
         },
         {
           "id": 111,
-          "title": "第十二章",
-          "file": "/api/audio/pingfan_ch111.mp3",
+          "title": "第111章",
+          "file": "/api/audio/pingfan_v2_ch111.mp3",
           "size_mb": 22.8
         },
         {
           "id": 112,
-          "title": "第十三章",
-          "file": "/api/audio/pingfan_ch112.mp3",
+          "title": "第112章",
+          "file": "/api/audio/pingfan_v2_ch112.mp3",
           "size_mb": 20.0
         },
         {
           "id": 113,
-          "title": "第十四章",
-          "file": "/api/audio/pingfan_ch113.mp3",
+          "title": "第113章",
+          "file": "/api/audio/pingfan_v2_ch113.mp3",
           "size_mb": 24.5
         },
         {
           "id": 114,
-          "title": "第十五章",
-          "file": "/api/audio/pingfan_ch114.mp3",
+          "title": "第114章",
+          "file": "/api/audio/pingfan_v2_ch114.mp3",
           "size_mb": 22.1
         },
         {
           "id": 115,
-          "title": "第十六章",
-          "file": "/api/audio/pingfan_ch115.mp3",
+          "title": "第115章",
+          "file": "/api/audio/pingfan_v2_ch115.mp3",
           "size_mb": 32.4
         },
         {
           "id": 116,
-          "title": "第十七章",
-          "file": "/api/audio/pingfan_ch116.mp3",
+          "title": "第116章",
+          "file": "/api/audio/pingfan_v2_ch116.mp3",
           "size_mb": 25.9
         },
         {
           "id": 117,
-          "title": "第十八章",
-          "file": "/api/audio/pingfan_ch117.mp3",
+          "title": "第117章",
+          "file": "/api/audio/pingfan_v2_ch117.mp3",
           "size_mb": 24.3
         },
         {
           "id": 118,
-          "title": "第十九章",
-          "file": "/api/audio/pingfan_ch118.mp3",
+          "title": "第118章",
+          "file": "/api/audio/pingfan_v2_ch118.mp3",
           "size_mb": 23.8
         },
         {
           "id": 119,
-          "title": "第二十章",
-          "file": "/api/audio/pingfan_ch119.mp3",
+          "title": "第119章",
+          "file": "/api/audio/pingfan_v2_ch119.mp3",
           "size_mb": 22.5
         },
         {
           "id": 120,
-          "title": "第二十一章",
-          "file": "/api/audio/pingfan_ch120.mp3",
+          "title": "第120章",
+          "file": "/api/audio/pingfan_v2_ch120.mp3",
           "size_mb": 23.2
         },
         {
           "id": 121,
-          "title": "第二十三章",
-          "file": "/api/audio/pingfan_ch121.mp3",
+          "title": "第121章",
+          "file": "/api/audio/pingfan_v2_ch121.mp3",
           "size_mb": 25.4
         },
         {
           "id": 122,
-          "title": "第二十四章",
-          "file": "/api/audio/pingfan_ch122.mp3",
+          "title": "第122章",
+          "file": "/api/audio/pingfan_v2_ch122.mp3",
           "size_mb": 26.6
         },
         {
           "id": 123,
-          "title": "第二十五章",
-          "file": "/api/audio/pingfan_ch123.mp3",
+          "title": "第123章",
+          "file": "/api/audio/pingfan_v2_ch123.mp3",
           "size_mb": 29.9
         },
         {
           "id": 124,
-          "title": "第二十六章",
-          "file": "/api/audio/pingfan_ch124.mp3",
+          "title": "第124章",
+          "file": "/api/audio/pingfan_v2_ch124.mp3",
           "size_mb": 24.9
         },
         {
           "id": 125,
-          "title": "第二十七章",
-          "file": "/api/audio/pingfan_ch125.mp3",
+          "title": "第125章",
+          "file": "/api/audio/pingfan_v2_ch125.mp3",
           "size_mb": 28.6
         },
         {
           "id": 126,
-          "title": "第二十八章",
-          "file": "/api/audio/pingfan_ch126.mp3",
+          "title": "第126章",
+          "file": "/api/audio/pingfan_v2_ch126.mp3",
           "size_mb": 21.5
         },
         {
           "id": 127,
-          "title": "第二十九章",
-          "file": "/api/audio/pingfan_ch127.mp3",
+          "title": "第127章",
+          "file": "/api/audio/pingfan_v2_ch127.mp3",
           "size_mb": 22.1
         },
         {
           "id": 128,
-          "title": "第三十章",
-          "file": "/api/audio/pingfan_ch128.mp3",
+          "title": "第128章",
+          "file": "/api/audio/pingfan_v2_ch128.mp3",
           "size_mb": 26.2
         },
         {
           "id": 129,
-          "title": "第三十一章",
-          "file": "/api/audio/pingfan_ch129.mp3",
+          "title": "第129章",
+          "file": "/api/audio/pingfan_v2_ch129.mp3",
           "size_mb": 23.0
         },
         {
           "id": 130,
-          "title": "第三十二章",
-          "file": "/api/audio/pingfan_ch130.mp3",
+          "title": "第130章",
+          "file": "/api/audio/pingfan_v2_ch130.mp3",
           "size_mb": 26.9
         },
         {
           "id": 131,
-          "title": "第三十四章",
-          "file": "/api/audio/pingfan_ch131.mp3",
+          "title": "第131章",
+          "file": "/api/audio/pingfan_v2_ch131.mp3",
           "size_mb": 26.9
         },
         {
           "id": 132,
-          "title": "第三十五章",
-          "file": "/api/audio/pingfan_ch132.mp3",
+          "title": "第132章",
+          "file": "/api/audio/pingfan_v2_ch132.mp3",
           "size_mb": 23.8
         },
         {
           "id": 133,
-          "title": "第三十六章",
-          "file": "/api/audio/pingfan_ch133.mp3",
+          "title": "第133章",
+          "file": "/api/audio/pingfan_v2_ch133.mp3",
           "size_mb": 23.5
         },
         {
           "id": 134,
-          "title": "第三十七章",
-          "file": "/api/audio/pingfan_ch134.mp3",
+          "title": "第134章",
+          "file": "/api/audio/pingfan_v2_ch134.mp3",
           "size_mb": 24.1
         },
         {
           "id": 135,
-          "title": "第三十八章",
-          "file": "/api/audio/pingfan_ch135.mp3",
+          "title": "第135章",
+          "file": "/api/audio/pingfan_v2_ch135.mp3",
           "size_mb": 21.6
         },
         {
           "id": 136,
-          "title": "第三十九章",
-          "file": "/api/audio/pingfan_ch136.mp3",
+          "title": "第136章",
+          "file": "/api/audio/pingfan_v2_ch136.mp3",
           "size_mb": 25.5
         },
         {
           "id": 137,
-          "title": "第四十章",
-          "file": "/api/audio/pingfan_ch137.mp3",
+          "title": "第137章",
+          "file": "/api/audio/pingfan_v2_ch137.mp3",
           "size_mb": 24.5
         },
         {
           "id": 138,
-          "title": "第四十一章",
-          "file": "/api/audio/pingfan_ch138.mp3",
+          "title": "第138章",
+          "file": "/api/audio/pingfan_v2_ch138.mp3",
           "size_mb": 23.5
         },
         {
           "id": 139,
-          "title": "第四十二章",
-          "file": "/api/audio/pingfan_ch139.mp3",
+          "title": "第139章",
+          "file": "/api/audio/pingfan_v2_ch139.mp3",
           "size_mb": 27.1
         },
         {
           "id": 140,
-          "title": "第四十三章",
-          "file": "/api/audio/pingfan_ch140.mp3",
+          "title": "第140章",
+          "file": "/api/audio/pingfan_v2_ch140.mp3",
           "size_mb": 24.5
         },
         {
           "id": 141,
-          "title": "第四十五章",
-          "file": "/api/audio/pingfan_ch141.mp3",
+          "title": "第141章",
+          "file": "/api/audio/pingfan_v2_ch141.mp3",
           "size_mb": 22.5
         },
         {
           "id": 142,
-          "title": "第四十六章",
-          "file": "/api/audio/pingfan_ch142.mp3",
+          "title": "第142章",
+          "file": "/api/audio/pingfan_v2_ch142.mp3",
           "size_mb": 18.2
         },
         {
           "id": 143,
-          "title": "第四十七章",
-          "file": "/api/audio/pingfan_ch143.mp3",
+          "title": "第143章",
+          "file": "/api/audio/pingfan_v2_ch143.mp3",
           "size_mb": 22.5
         },
         {
           "id": 144,
-          "title": "第四十八章",
-          "file": "/api/audio/pingfan_ch144.mp3",
+          "title": "第144章",
+          "file": "/api/audio/pingfan_v2_ch144.mp3",
           "size_mb": 24.6
         },
         {
           "id": 145,
-          "title": "第四十九章",
-          "file": "/api/audio/pingfan_ch145.mp3",
+          "title": "第145章",
+          "file": "/api/audio/pingfan_v2_ch145.mp3",
           "size_mb": 23.9
         },
         {
           "id": 146,
-          "title": "第五十章",
-          "file": "/api/audio/pingfan_ch146.mp3",
+          "title": "第146章",
+          "file": "/api/audio/pingfan_v2_ch146.mp3",
           "size_mb": 27.0
         },
         {
           "id": 147,
-          "title": "第五十一章",
-          "file": "/api/audio/pingfan_ch147.mp3",
+          "title": "第147章",
+          "file": "/api/audio/pingfan_v2_ch147.mp3",
           "size_mb": 21.2
         },
         {
           "id": 148,
-          "title": "第五十二章",
-          "file": "/api/audio/pingfan_ch148.mp3",
+          "title": "第148章",
+          "file": "/api/audio/pingfan_v2_ch148.mp3",
           "size_mb": 31.3
         },
         {
           "id": 149,
-          "title": "第五十三章",
-          "file": "/api/audio/pingfan_ch149.mp3",
+          "title": "第149章",
+          "file": "/api/audio/pingfan_v2_ch149.mp3",
           "size_mb": 31.3
         },
         {
           "id": 150,
-          "title": "第五十四章",
-          "file": "/api/audio/pingfan_ch150.mp3",
+          "title": "第150章",
+          "file": "/api/audio/pingfan_v2_ch150.mp3",
           "size_mb": 18.6
         }
       ]
@@ -2840,217 +2840,169 @@
       "title": "白鹿原",
       "author": "陈忠实",
       "cover": "covers/bailuyuan.jpg",
-      "description": "陈忠实代表作，以陕西关中平原上的白鹿村为背景，讲述了白姓和鹿姓两大家族祖孙三代的恩怨纷争。茅盾文学奖获奖作品，中国当代文学经典。",
+      "description": "白鹿原 - 陈忠实 - 27章 - Voice Design升级版",
       "chapters": [
         {
           "id": 1,
-          "title": "序言",
-          "file": "/api/audio/bailuyuan_ch01.mp3",
-          "size_mb": 14.4
+          "title": "第1章",
+          "file": "/api/audio/bailuyuan_v2_ch001.mp3",
+          "size_mb": 0.9
         },
         {
           "id": 2,
-          "title": "第一章",
-          "file": "/api/audio/bailuyuan_ch02.mp3",
-          "size_mb": 37.3
+          "title": "第2章",
+          "file": "/api/audio/bailuyuan_v2_ch002.mp3",
+          "size_mb": 0.3
         },
         {
           "id": 3,
-          "title": "第二章",
-          "file": "/api/audio/bailuyuan_ch03.mp3",
-          "size_mb": 24.2
+          "title": "第3章",
+          "file": "/api/audio/bailuyuan_v2_ch003.mp3",
+          "size_mb": 0.3
         },
         {
           "id": 4,
-          "title": "第三章",
-          "file": "/api/audio/bailuyuan_ch04.mp3",
-          "size_mb": 41.1
+          "title": "第4章",
+          "file": "/api/audio/bailuyuan_v2_ch004.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 5,
-          "title": "第四章",
-          "file": "/api/audio/bailuyuan_ch05.mp3",
-          "size_mb": 34.8
+          "title": "第5章",
+          "file": "/api/audio/bailuyuan_v2_ch005.mp3",
+          "size_mb": 0.3
         },
         {
           "id": 6,
-          "title": "第五章",
-          "file": "/api/audio/bailuyuan_ch06.mp3",
-          "size_mb": 24.2
+          "title": "第6章",
+          "file": "/api/audio/bailuyuan_v2_ch006.mp3",
+          "size_mb": 0.3
         },
         {
           "id": 7,
-          "title": "第六章",
-          "file": "/api/audio/bailuyuan_ch07.mp3",
-          "size_mb": 51.9
+          "title": "第7章",
+          "file": "/api/audio/bailuyuan_v2_ch007.mp3",
+          "size_mb": 0.3
         },
         {
           "id": 8,
-          "title": "第七章",
-          "file": "/api/audio/bailuyuan_ch08.mp3",
-          "size_mb": 30.0
+          "title": "第8章",
+          "file": "/api/audio/bailuyuan_v2_ch008.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 9,
-          "title": "第八章",
-          "file": "/api/audio/bailuyuan_ch09.mp3",
-          "size_mb": 41.6
+          "title": "第9章",
+          "file": "/api/audio/bailuyuan_v2_ch009.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 10,
-          "title": "第九章",
-          "file": "/api/audio/bailuyuan_ch10.mp3",
-          "size_mb": 53.9
+          "title": "第10章",
+          "file": "/api/audio/bailuyuan_v2_ch010.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 11,
-          "title": "第十章",
-          "file": "/api/audio/bailuyuan_ch11.mp3",
-          "size_mb": 41.8
+          "title": "第11章",
+          "file": "/api/audio/bailuyuan_v2_ch011.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 12,
-          "title": "第十一章",
-          "file": "/api/audio/bailuyuan_ch12.mp3",
-          "size_mb": 40.8
+          "title": "第12章",
+          "file": "/api/audio/bailuyuan_v2_ch012.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 13,
-          "title": "第十二章",
-          "file": "/api/audio/bailuyuan_ch13.mp3",
-          "size_mb": 38.6
+          "title": "第13章",
+          "file": "/api/audio/bailuyuan_v2_ch013.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 14,
-          "title": "第十三章",
-          "file": "/api/audio/bailuyuan_ch14.mp3",
-          "size_mb": 53.6
+          "title": "第14章",
+          "file": "/api/audio/bailuyuan_v2_ch014.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 15,
-          "title": "第十四章",
-          "file": "/api/audio/bailuyuan_ch15.mp3",
-          "size_mb": 45.6
+          "title": "第15章",
+          "file": "/api/audio/bailuyuan_v2_ch015.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 16,
-          "title": "第十五章",
-          "file": "/api/audio/bailuyuan_ch16.mp3",
-          "size_mb": 60.0
+          "title": "第16章",
+          "file": "/api/audio/bailuyuan_v2_ch016.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 17,
-          "title": "第十六章",
-          "file": "/api/audio/bailuyuan_ch17.mp3",
-          "size_mb": 48.4
+          "title": "第17章",
+          "file": "/api/audio/bailuyuan_v2_ch017.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 18,
-          "title": "第十七章",
-          "file": "/api/audio/bailuyuan_ch18.mp3",
-          "size_mb": 50.0
+          "title": "第18章",
+          "file": "/api/audio/bailuyuan_v2_ch018.mp3",
+          "size_mb": 0.3
         },
         {
           "id": 19,
-          "title": "第十八章",
-          "file": "/api/audio/bailuyuan_ch19.mp3",
-          "size_mb": 49.7
+          "title": "第19章",
+          "file": "/api/audio/bailuyuan_v2_ch019.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 20,
-          "title": "第十九章",
-          "file": "/api/audio/bailuyuan_ch20.mp3",
-          "size_mb": 38.5
+          "title": "第20章",
+          "file": "/api/audio/bailuyuan_v2_ch020.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 21,
-          "title": "第二十章",
-          "file": "/api/audio/bailuyuan_ch21.mp3",
-          "size_mb": 48.9
+          "title": "第21章",
+          "file": "/api/audio/bailuyuan_v2_ch021.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 22,
-          "title": "第二十一章",
-          "file": "/api/audio/bailuyuan_ch22.mp3",
-          "size_mb": 36.9
+          "title": "第22章",
+          "file": "/api/audio/bailuyuan_v2_ch022.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 23,
-          "title": "第二十二章",
-          "file": "/api/audio/bailuyuan_ch23.mp3",
-          "size_mb": 51.2
+          "title": "第23章",
+          "file": "/api/audio/bailuyuan_v2_ch023.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 24,
-          "title": "第二十三章",
-          "file": "/api/audio/bailuyuan_ch24.mp3",
-          "size_mb": 44.9
+          "title": "第24章",
+          "file": "/api/audio/bailuyuan_v2_ch024.mp3",
+          "size_mb": 0.2
         },
         {
           "id": 25,
-          "title": "第二十四章",
-          "file": "/api/audio/bailuyuan_ch25.mp3",
-          "size_mb": 48.5
+          "title": "第25章",
+          "file": "/api/audio/bailuyuan_v2_ch025.mp3",
+          "size_mb": 0.3
         },
         {
           "id": 26,
-          "title": "第二十五章",
-          "file": "/api/audio/bailuyuan_ch26.mp3",
-          "size_mb": 58.0
+          "title": "第26章",
+          "file": "/api/audio/bailuyuan_v2_ch026.mp3",
+          "size_mb": 0.3
         },
         {
           "id": 27,
-          "title": "第二十六章",
-          "file": "/api/audio/bailuyuan_ch27.mp3",
-          "size_mb": 56.6
-        },
-        {
-          "id": 28,
-          "title": "第二十七章",
-          "file": "/api/audio/bailuyuan_ch28.mp3",
-          "size_mb": 56.4
-        },
-        {
-          "id": 29,
-          "title": "第二十八章",
-          "file": "/api/audio/bailuyuan_ch29.mp3",
-          "size_mb": 48.4
-        },
-        {
-          "id": 30,
-          "title": "第二十九章",
-          "file": "/api/audio/bailuyuan_ch30.mp3",
-          "size_mb": 57.6
-        },
-        {
-          "id": 31,
-          "title": "第三十章",
-          "file": "/api/audio/bailuyuan_ch31.mp3",
-          "size_mb": 59.6
-        },
-        {
-          "id": 32,
-          "title": "第三十一章",
-          "file": "/api/audio/bailuyuan_ch32.mp3",
-          "size_mb": 66.9
-        },
-        {
-          "id": 33,
-          "title": "第三十二章",
-          "file": "/api/audio/bailuyuan_ch33.mp3",
-          "size_mb": 48.1
-        },
-        {
-          "id": 34,
-          "title": "第三十三章",
-          "file": "/api/audio/bailuyuan_ch34.mp3",
-          "size_mb": 46.1
-        },
-        {
-          "id": 35,
-          "title": "第三十四章",
-          "file": "/api/audio/bailuyuan_ch35.mp3",
-          "size_mb": 50.6
+          "title": "第27章",
+          "file": "/api/audio/bailuyuan_v2_ch027.mp3",
+          "size_mb": 0.2
         }
       ]
     },
@@ -3059,259 +3011,265 @@
       "title": "银河帝国基地",
       "author": "艾萨克·阿西莫夫",
       "cover": "covers/yhjidi.jpg",
-      "description": "阿西莫夫代表作，银河帝国系列开篇之作。心理史学家哈里·谢顿预见到帝国必将灭亡，于是建立了「基地」以保存文明火种，缩短黑暗时代……科幻文学史上的里程碑。",
+      "description": "银河帝国基地 - 阿西莫夫 - 43章 - Voice Design升级版",
       "chapters": [
         {
           "id": 1,
-          "title": "第1节",
-          "file": "/api/audio/yhjidi_ch01.mp3",
+          "title": "第1章",
+          "file": "/api/audio/yhjidi_v2_ch001.mp3",
           "size_mb": 6.3
         },
         {
           "id": 2,
-          "title": "第2节",
-          "file": "/api/audio/yhjidi_ch02.mp3",
+          "title": "第2章",
+          "file": "/api/audio/yhjidi_v2_ch002.mp3",
           "size_mb": 5.2
         },
         {
           "id": 3,
-          "title": "第3节",
-          "file": "/api/audio/yhjidi_ch03.mp3",
+          "title": "第3章",
+          "file": "/api/audio/yhjidi_v2_ch003.mp3",
           "size_mb": 10.4
         },
         {
           "id": 4,
-          "title": "第4节",
-          "file": "/api/audio/yhjidi_ch04.mp3",
+          "title": "第4章",
+          "file": "/api/audio/yhjidi_v2_ch004.mp3",
           "size_mb": 5.8
         },
         {
           "id": 5,
-          "title": "第5节",
-          "file": "/api/audio/yhjidi_ch05.mp3",
+          "title": "第5章",
+          "file": "/api/audio/yhjidi_v2_ch005.mp3",
           "size_mb": 8.5
         },
         {
           "id": 6,
-          "title": "第6节",
-          "file": "/api/audio/yhjidi_ch06.mp3",
+          "title": "第6章",
+          "file": "/api/audio/yhjidi_v2_ch006.mp3",
           "size_mb": 14.0
         },
         {
           "id": 7,
-          "title": "第7节",
-          "file": "/api/audio/yhjidi_ch07.mp3",
+          "title": "第7章",
+          "file": "/api/audio/yhjidi_v2_ch007.mp3",
           "size_mb": 5.8
         },
         {
           "id": 8,
-          "title": "第8节",
-          "file": "/api/audio/yhjidi_ch08.mp3",
+          "title": "第8章",
+          "file": "/api/audio/yhjidi_v2_ch008.mp3",
           "size_mb": 5.7
         },
         {
           "id": 9,
-          "title": "第9节",
-          "file": "/api/audio/yhjidi_ch09.mp3",
+          "title": "第9章",
+          "file": "/api/audio/yhjidi_v2_ch009.mp3",
           "size_mb": 8.3
         },
         {
           "id": 10,
-          "title": "第10节",
-          "file": "/api/audio/yhjidi_ch10.mp3",
+          "title": "第10章",
+          "file": "/api/audio/yhjidi_v2_ch010.mp3",
           "size_mb": 14.6
         },
         {
           "id": 11,
-          "title": "第11节",
-          "file": "/api/audio/yhjidi_ch11.mp3",
+          "title": "第11章",
+          "file": "/api/audio/yhjidi_v2_ch011.mp3",
           "size_mb": 11.5
         },
         {
           "id": 12,
-          "title": "第12节",
-          "file": "/api/audio/yhjidi_ch12.mp3",
+          "title": "第12章",
+          "file": "/api/audio/yhjidi_v2_ch012.mp3",
           "size_mb": 11.2
         },
         {
           "id": 13,
-          "title": "第5节",
-          "file": "/api/audio/yhjidi_ch13.mp3",
+          "title": "第13章",
+          "file": "/api/audio/yhjidi_v2_ch013.mp3",
           "size_mb": 17.1
         },
         {
           "id": 14,
-          "title": "第6节",
-          "file": "/api/audio/yhjidi_ch14.mp3",
+          "title": "第14章",
+          "file": "/api/audio/yhjidi_v2_ch014.mp3",
           "size_mb": 2.6
         },
         {
           "id": 15,
-          "title": "第7节",
-          "file": "/api/audio/yhjidi_ch15.mp3",
+          "title": "第15章",
+          "file": "/api/audio/yhjidi_v2_ch015.mp3",
           "size_mb": 8.2
         },
         {
           "id": 16,
-          "title": "第1节",
-          "file": "/api/audio/yhjidi_ch16.mp3",
+          "title": "第16章",
+          "file": "/api/audio/yhjidi_v2_ch016.mp3",
           "size_mb": 21.4
         },
         {
           "id": 17,
-          "title": "第2节",
-          "file": "/api/audio/yhjidi_ch17.mp3",
+          "title": "第17章",
+          "file": "/api/audio/yhjidi_v2_ch017.mp3",
           "size_mb": 19.3
         },
         {
           "id": 18,
-          "title": "第3节",
-          "file": "/api/audio/yhjidi_ch18.mp3",
+          "title": "第18章",
+          "file": "/api/audio/yhjidi_v2_ch018.mp3",
           "size_mb": 17.1
         },
         {
           "id": 19,
-          "title": "第4节",
-          "file": "/api/audio/yhjidi_ch19.mp3",
+          "title": "第19章",
+          "file": "/api/audio/yhjidi_v2_ch019.mp3",
           "size_mb": 11.4
         },
         {
           "id": 20,
-          "title": "第5节",
-          "file": "/api/audio/yhjidi_ch20.mp3",
+          "title": "第20章",
+          "file": "/api/audio/yhjidi_v2_ch020.mp3",
           "size_mb": 5.5
         },
         {
           "id": 21,
-          "title": "第6节",
-          "file": "/api/audio/yhjidi_ch21.mp3",
+          "title": "第21章",
+          "file": "/api/audio/yhjidi_v2_ch021.mp3",
           "size_mb": 21.5
         },
         {
           "id": 22,
-          "title": "第7节",
-          "file": "/api/audio/yhjidi_ch22.mp3",
+          "title": "第22章",
+          "file": "/api/audio/yhjidi_v2_ch022.mp3",
           "size_mb": 9.0
         },
         {
           "id": 23,
-          "title": "第8节",
-          "file": "/api/audio/yhjidi_ch23.mp3",
+          "title": "第23章",
+          "file": "/api/audio/yhjidi_v2_ch023.mp3",
           "size_mb": 6.8
         },
         {
           "id": 24,
-          "title": "第9节",
-          "file": "/api/audio/yhjidi_ch24.mp3",
+          "title": "第24章",
+          "file": "/api/audio/yhjidi_v2_ch024.mp3",
           "size_mb": 7.5
         },
         {
           "id": 25,
-          "title": "第1节",
-          "file": "/api/audio/yhjidi_ch25.mp3",
+          "title": "第25章",
+          "file": "/api/audio/yhjidi_v2_ch025.mp3",
           "size_mb": 6.2
         },
         {
           "id": 26,
-          "title": "第2节",
-          "file": "/api/audio/yhjidi_ch26.mp3",
+          "title": "第26章",
+          "file": "/api/audio/yhjidi_v2_ch026.mp3",
           "size_mb": 6.4
         },
         {
           "id": 27,
-          "title": "第3节",
-          "file": "/api/audio/yhjidi_ch27.mp3",
+          "title": "第27章",
+          "file": "/api/audio/yhjidi_v2_ch027.mp3",
           "size_mb": 7.3
         },
         {
           "id": 28,
-          "title": "第4节",
-          "file": "/api/audio/yhjidi_ch28.mp3",
+          "title": "第28章",
+          "file": "/api/audio/yhjidi_v2_ch028.mp3",
           "size_mb": 7.7
         },
         {
           "id": 29,
-          "title": "第5节",
-          "file": "/api/audio/yhjidi_ch29.mp3",
+          "title": "第29章",
+          "file": "/api/audio/yhjidi_v2_ch029.mp3",
           "size_mb": 8.1
         },
         {
           "id": 30,
-          "title": "第6节",
-          "file": "/api/audio/yhjidi_ch30.mp3",
+          "title": "第30章",
+          "file": "/api/audio/yhjidi_v2_ch030.mp3",
           "size_mb": 8.0
         },
         {
           "id": 31,
-          "title": "第1节",
-          "file": "/api/audio/yhjidi_ch31.mp3",
+          "title": "第31章",
+          "file": "/api/audio/yhjidi_v2_ch031.mp3",
           "size_mb": 15.8
         },
         {
           "id": 32,
-          "title": "第2节",
-          "file": "/api/audio/yhjidi_ch32.mp3",
+          "title": "第32章",
+          "file": "/api/audio/yhjidi_v2_ch032.mp3",
           "size_mb": 15.0
         },
         {
           "id": 33,
-          "title": "第3节",
-          "file": "/api/audio/yhjidi_ch33.mp3",
+          "title": "第33章",
+          "file": "/api/audio/yhjidi_v2_ch033.mp3",
           "size_mb": 17.7
         },
         {
           "id": 34,
-          "title": "第4节",
-          "file": "/api/audio/yhjidi_ch34.mp3",
+          "title": "第34章",
+          "file": "/api/audio/yhjidi_v2_ch034.mp3",
           "size_mb": 13.0
         },
         {
           "id": 35,
-          "title": "第5节",
-          "file": "/api/audio/yhjidi_ch35.mp3",
+          "title": "第35章",
+          "file": "/api/audio/yhjidi_v2_ch035.mp3",
           "size_mb": 20.8
         },
         {
           "id": 36,
-          "title": "第6节",
-          "file": "/api/audio/yhjidi_ch36.mp3",
+          "title": "第36章",
+          "file": "/api/audio/yhjidi_v2_ch036.mp3",
           "size_mb": 20.1
         },
         {
           "id": 37,
-          "title": "第7节",
-          "file": "/api/audio/yhjidi_ch37.mp3",
+          "title": "第37章",
+          "file": "/api/audio/yhjidi_v2_ch037.mp3",
           "size_mb": 12.5
         },
         {
           "id": 38,
-          "title": "第8节",
-          "file": "/api/audio/yhjidi_ch38.mp3",
+          "title": "第38章",
+          "file": "/api/audio/yhjidi_v2_ch038.mp3",
           "size_mb": 15.2
         },
         {
           "id": 39,
-          "title": "第9节",
-          "file": "/api/audio/yhjidi_ch39.mp3",
+          "title": "第39章",
+          "file": "/api/audio/yhjidi_v2_ch039.mp3",
           "size_mb": 29.3
         },
         {
           "id": 40,
-          "title": "第10节",
-          "file": "/api/audio/yhjidi_ch40.mp3",
+          "title": "第40章",
+          "file": "/api/audio/yhjidi_v2_ch040.mp3",
           "size_mb": 8.4
         },
         {
           "id": 41,
-          "title": "第11节",
-          "file": "/api/audio/yhjidi_ch41.mp3",
+          "title": "第41章",
+          "file": "/api/audio/yhjidi_v2_ch041.mp3",
           "size_mb": 6.9
         },
         {
           "id": 42,
-          "title": "第12节",
-          "file": "/api/audio/yhjidi_ch42.mp3",
+          "title": "第42章",
+          "file": "/api/audio/yhjidi_v2_ch042.mp3",
           "size_mb": 15.6
+        },
+        {
+          "id": 43,
+          "title": "第43章",
+          "file": "/api/audio/yhjidi_v2_ch043.mp3",
+          "size_mb": 368.6
         }
       ]
     },
@@ -4795,6 +4753,1110 @@
           "durationSec": 1718
         }
       ]
+    },
+    {
+      "id": "sapiens",
+      "title": "人类简史",
+      "author": "尤瓦尔·赫拉利",
+      "cover": "covers/sapiens.jpg",
+      "chapters": [
+        {
+          "id": 0,
+          "title": "第0章",
+          "file": "/api/audio/sapiens_v2_ch000.mp3",
+          "size_mb": 4.7
+        },
+        {
+          "id": 1,
+          "title": "第1章",
+          "file": "/api/audio/sapiens_v2_ch001.mp3",
+          "size_mb": 22.3
+        },
+        {
+          "id": 2,
+          "title": "第2章",
+          "file": "/api/audio/sapiens_v2_ch002.mp3",
+          "size_mb": 25.4
+        },
+        {
+          "id": 3,
+          "title": "第3章",
+          "file": "/api/audio/sapiens_v2_ch003.mp3",
+          "size_mb": 30.6
+        },
+        {
+          "id": 4,
+          "title": "第4章",
+          "file": "/api/audio/sapiens_v2_ch004.mp3",
+          "size_mb": 17.1
+        },
+        {
+          "id": 5,
+          "title": "第5章",
+          "file": "/api/audio/sapiens_v2_ch005.mp3",
+          "size_mb": 25.0
+        },
+        {
+          "id": 6,
+          "title": "第6章",
+          "file": "/api/audio/sapiens_v2_ch006.mp3",
+          "size_mb": 27.7
+        },
+        {
+          "id": 7,
+          "title": "第7章",
+          "file": "/api/audio/sapiens_v2_ch007.mp3",
+          "size_mb": 15.8
+        },
+        {
+          "id": 8,
+          "title": "第8章",
+          "file": "/api/audio/sapiens_v2_ch008.mp3",
+          "size_mb": 33.2
+        },
+        {
+          "id": 9,
+          "title": "第9章",
+          "file": "/api/audio/sapiens_v2_ch009.mp3",
+          "size_mb": 11.9
+        },
+        {
+          "id": 10,
+          "title": "第10章",
+          "file": "/api/audio/sapiens_v2_ch010.mp3",
+          "size_mb": 20.2
+        },
+        {
+          "id": 11,
+          "title": "第11章",
+          "file": "/api/audio/sapiens_v2_ch011.mp3",
+          "size_mb": 25.9
+        },
+        {
+          "id": 12,
+          "title": "第12章",
+          "file": "/api/audio/sapiens_v2_ch012.mp3",
+          "size_mb": 35.7
+        },
+        {
+          "id": 13,
+          "title": "第13章",
+          "file": "/api/audio/sapiens_v2_ch013.mp3",
+          "size_mb": 9.7
+        },
+        {
+          "id": 14,
+          "title": "第14章",
+          "file": "/api/audio/sapiens_v2_ch014.mp3",
+          "size_mb": 35.7
+        },
+        {
+          "id": 15,
+          "title": "第15章",
+          "file": "/api/audio/sapiens_v2_ch015.mp3",
+          "size_mb": 39.4
+        },
+        {
+          "id": 16,
+          "title": "第16章",
+          "file": "/api/audio/sapiens_v2_ch016.mp3",
+          "size_mb": 40.7
+        },
+        {
+          "id": 17,
+          "title": "第17章",
+          "file": "/api/audio/sapiens_v2_ch017.mp3",
+          "size_mb": 18.8
+        },
+        {
+          "id": 18,
+          "title": "第18章",
+          "file": "/api/audio/sapiens_v2_ch018.mp3",
+          "size_mb": 37.4
+        },
+        {
+          "id": 19,
+          "title": "第19章",
+          "file": "/api/audio/sapiens_v2_ch019.mp3",
+          "size_mb": 30.4
+        },
+        {
+          "id": 20,
+          "title": "第20章",
+          "file": "/api/audio/sapiens_v2_ch020.mp3",
+          "size_mb": 27.2
+        },
+        {
+          "id": 21,
+          "title": "第21章",
+          "file": "/api/audio/sapiens_v2_ch021.mp3",
+          "size_mb": 39.3
+        }
+      ],
+      "description": "人类简史 - 尤瓦尔·赫拉利 - 22章 - Voice Design升级版"
+    },
+    {
+      "id": "ming",
+      "title": "明朝那些事儿",
+      "author": "当年明月",
+      "cover": "covers/ming.jpg",
+      "chapters": [
+        {
+          "id": 182516,
+          "title": "第182516章",
+          "file": "/api/audio/ming_v2_ch182516.mp3",
+          "size_mb": 1.0
+        },
+        {
+          "id": 182517,
+          "title": "第182517章",
+          "file": "/api/audio/ming_v2_ch182517.mp3",
+          "size_mb": 0.8
+        },
+        {
+          "id": 182518,
+          "title": "第182518章",
+          "file": "/api/audio/ming_v2_ch182518.mp3",
+          "size_mb": 3.6
+        },
+        {
+          "id": 182519,
+          "title": "第182519章",
+          "file": "/api/audio/ming_v2_ch182519.mp3",
+          "size_mb": 7.0
+        },
+        {
+          "id": 182520,
+          "title": "第182520章",
+          "file": "/api/audio/ming_v2_ch182520.mp3",
+          "size_mb": 5.7
+        },
+        {
+          "id": 182521,
+          "title": "第182521章",
+          "file": "/api/audio/ming_v2_ch182521.mp3",
+          "size_mb": 6.9
+        },
+        {
+          "id": 182522,
+          "title": "第182522章",
+          "file": "/api/audio/ming_v2_ch182522.mp3",
+          "size_mb": 7.0
+        },
+        {
+          "id": 182523,
+          "title": "第182523章",
+          "file": "/api/audio/ming_v2_ch182523.mp3",
+          "size_mb": 3.4
+        },
+        {
+          "id": 182524,
+          "title": "第182524章",
+          "file": "/api/audio/ming_v2_ch182524.mp3",
+          "size_mb": 9.3
+        },
+        {
+          "id": 182525,
+          "title": "第182525章",
+          "file": "/api/audio/ming_v2_ch182525.mp3",
+          "size_mb": 5.7
+        },
+        {
+          "id": 182526,
+          "title": "第182526章",
+          "file": "/api/audio/ming_v2_ch182526.mp3",
+          "size_mb": 18.4
+        },
+        {
+          "id": 182527,
+          "title": "第182527章",
+          "file": "/api/audio/ming_v2_ch182527.mp3",
+          "size_mb": 8.5
+        },
+        {
+          "id": 182528,
+          "title": "第182528章",
+          "file": "/api/audio/ming_v2_ch182528.mp3",
+          "size_mb": 19.5
+        },
+        {
+          "id": 182529,
+          "title": "第182529章",
+          "file": "/api/audio/ming_v2_ch182529.mp3",
+          "size_mb": 19.1
+        },
+        {
+          "id": 182530,
+          "title": "第182530章",
+          "file": "/api/audio/ming_v2_ch182530.mp3",
+          "size_mb": 9.5
+        },
+        {
+          "id": 182531,
+          "title": "第182531章",
+          "file": "/api/audio/ming_v2_ch182531.mp3",
+          "size_mb": 45.1
+        },
+        {
+          "id": 182532,
+          "title": "第182532章",
+          "file": "/api/audio/ming_v2_ch182532.mp3",
+          "size_mb": 8.3
+        },
+        {
+          "id": 182533,
+          "title": "第182533章",
+          "file": "/api/audio/ming_v2_ch182533.mp3",
+          "size_mb": 30.5
+        },
+        {
+          "id": 182534,
+          "title": "第182534章",
+          "file": "/api/audio/ming_v2_ch182534.mp3",
+          "size_mb": 35.8
+        },
+        {
+          "id": 182535,
+          "title": "第182535章",
+          "file": "/api/audio/ming_v2_ch182535.mp3",
+          "size_mb": 7.9
+        },
+        {
+          "id": 182536,
+          "title": "第182536章",
+          "file": "/api/audio/ming_v2_ch182536.mp3",
+          "size_mb": 20.2
+        },
+        {
+          "id": 182537,
+          "title": "第182537章",
+          "file": "/api/audio/ming_v2_ch182537.mp3",
+          "size_mb": 30.5
+        },
+        {
+          "id": 182538,
+          "title": "第182538章",
+          "file": "/api/audio/ming_v2_ch182538.mp3",
+          "size_mb": 11.4
+        },
+        {
+          "id": 182539,
+          "title": "第182539章",
+          "file": "/api/audio/ming_v2_ch182539.mp3",
+          "size_mb": 21.5
+        },
+        {
+          "id": 182540,
+          "title": "第182540章",
+          "file": "/api/audio/ming_v2_ch182540.mp3",
+          "size_mb": 28.5
+        },
+        {
+          "id": 182541,
+          "title": "第182541章",
+          "file": "/api/audio/ming_v2_ch182541.mp3",
+          "size_mb": 10.6
+        },
+        {
+          "id": 182542,
+          "title": "第182542章",
+          "file": "/api/audio/ming_v2_ch182542.mp3",
+          "size_mb": 12.6
+        },
+        {
+          "id": 182543,
+          "title": "第182543章",
+          "file": "/api/audio/ming_v2_ch182543.mp3",
+          "size_mb": 14.6
+        },
+        {
+          "id": 182544,
+          "title": "第182544章",
+          "file": "/api/audio/ming_v2_ch182544.mp3",
+          "size_mb": 19.5
+        },
+        {
+          "id": 182545,
+          "title": "第182545章",
+          "file": "/api/audio/ming_v2_ch182545.mp3",
+          "size_mb": 24.0
+        },
+        {
+          "id": 182546,
+          "title": "第182546章",
+          "file": "/api/audio/ming_v2_ch182546.mp3",
+          "size_mb": 21.9
+        },
+        {
+          "id": 182547,
+          "title": "第182547章",
+          "file": "/api/audio/ming_v2_ch182547.mp3",
+          "size_mb": 24.7
+        },
+        {
+          "id": 182548,
+          "title": "第182548章",
+          "file": "/api/audio/ming_v2_ch182548.mp3",
+          "size_mb": 18.8
+        },
+        {
+          "id": 182549,
+          "title": "第182549章",
+          "file": "/api/audio/ming_v2_ch182549.mp3",
+          "size_mb": 19.4
+        },
+        {
+          "id": 182550,
+          "title": "第182550章",
+          "file": "/api/audio/ming_v2_ch182550.mp3",
+          "size_mb": 35.1
+        },
+        {
+          "id": 182551,
+          "title": "第182551章",
+          "file": "/api/audio/ming_v2_ch182551.mp3",
+          "size_mb": 9.9
+        },
+        {
+          "id": 182552,
+          "title": "第182552章",
+          "file": "/api/audio/ming_v2_ch182552.mp3",
+          "size_mb": 28.9
+        },
+        {
+          "id": 182553,
+          "title": "第182553章",
+          "file": "/api/audio/ming_v2_ch182553.mp3",
+          "size_mb": 18.1
+        },
+        {
+          "id": 182554,
+          "title": "第182554章",
+          "file": "/api/audio/ming_v2_ch182554.mp3",
+          "size_mb": 19.0
+        },
+        {
+          "id": 182555,
+          "title": "第182555章",
+          "file": "/api/audio/ming_v2_ch182555.mp3",
+          "size_mb": 23.6
+        },
+        {
+          "id": 182556,
+          "title": "第182556章",
+          "file": "/api/audio/ming_v2_ch182556.mp3",
+          "size_mb": 28.2
+        },
+        {
+          "id": 182557,
+          "title": "第182557章",
+          "file": "/api/audio/ming_v2_ch182557.mp3",
+          "size_mb": 22.1
+        },
+        {
+          "id": 182558,
+          "title": "第182558章",
+          "file": "/api/audio/ming_v2_ch182558.mp3",
+          "size_mb": 24.2
+        },
+        {
+          "id": 182559,
+          "title": "第182559章",
+          "file": "/api/audio/ming_v2_ch182559.mp3",
+          "size_mb": 10.0
+        },
+        {
+          "id": 182560,
+          "title": "第182560章",
+          "file": "/api/audio/ming_v2_ch182560.mp3",
+          "size_mb": 27.4
+        },
+        {
+          "id": 182561,
+          "title": "第182561章",
+          "file": "/api/audio/ming_v2_ch182561.mp3",
+          "size_mb": 19.7
+        },
+        {
+          "id": 182562,
+          "title": "第182562章",
+          "file": "/api/audio/ming_v2_ch182562.mp3",
+          "size_mb": 23.0
+        },
+        {
+          "id": 182563,
+          "title": "第182563章",
+          "file": "/api/audio/ming_v2_ch182563.mp3",
+          "size_mb": 23.8
+        },
+        {
+          "id": 182564,
+          "title": "第182564章",
+          "file": "/api/audio/ming_v2_ch182564.mp3",
+          "size_mb": 21.8
+        },
+        {
+          "id": 182565,
+          "title": "第182565章",
+          "file": "/api/audio/ming_v2_ch182565.mp3",
+          "size_mb": 24.4
+        },
+        {
+          "id": 182566,
+          "title": "第182566章",
+          "file": "/api/audio/ming_v2_ch182566.mp3",
+          "size_mb": 30.9
+        },
+        {
+          "id": 182567,
+          "title": "第182567章",
+          "file": "/api/audio/ming_v2_ch182567.mp3",
+          "size_mb": 22.3
+        },
+        {
+          "id": 182568,
+          "title": "第182568章",
+          "file": "/api/audio/ming_v2_ch182568.mp3",
+          "size_mb": 21.6
+        },
+        {
+          "id": 182569,
+          "title": "第182569章",
+          "file": "/api/audio/ming_v2_ch182569.mp3",
+          "size_mb": 22.1
+        },
+        {
+          "id": 182570,
+          "title": "第182570章",
+          "file": "/api/audio/ming_v2_ch182570.mp3",
+          "size_mb": 11.3
+        },
+        {
+          "id": 182571,
+          "title": "第182571章",
+          "file": "/api/audio/ming_v2_ch182571.mp3",
+          "size_mb": 11.4
+        },
+        {
+          "id": 182572,
+          "title": "第182572章",
+          "file": "/api/audio/ming_v2_ch182572.mp3",
+          "size_mb": 13.5
+        },
+        {
+          "id": 182573,
+          "title": "第182573章",
+          "file": "/api/audio/ming_v2_ch182573.mp3",
+          "size_mb": 27.4
+        },
+        {
+          "id": 182574,
+          "title": "第182574章",
+          "file": "/api/audio/ming_v2_ch182574.mp3",
+          "size_mb": 18.8
+        },
+        {
+          "id": 182575,
+          "title": "第182575章",
+          "file": "/api/audio/ming_v2_ch182575.mp3",
+          "size_mb": 29.2
+        },
+        {
+          "id": 182576,
+          "title": "第182576章",
+          "file": "/api/audio/ming_v2_ch182576.mp3",
+          "size_mb": 30.2
+        },
+        {
+          "id": 182577,
+          "title": "第182577章",
+          "file": "/api/audio/ming_v2_ch182577.mp3",
+          "size_mb": 13.5
+        },
+        {
+          "id": 182578,
+          "title": "第182578章",
+          "file": "/api/audio/ming_v2_ch182578.mp3",
+          "size_mb": 13.9
+        },
+        {
+          "id": 182579,
+          "title": "第182579章",
+          "file": "/api/audio/ming_v2_ch182579.mp3",
+          "size_mb": 20.0
+        },
+        {
+          "id": 182580,
+          "title": "第182580章",
+          "file": "/api/audio/ming_v2_ch182580.mp3",
+          "size_mb": 15.3
+        },
+        {
+          "id": 182581,
+          "title": "第182581章",
+          "file": "/api/audio/ming_v2_ch182581.mp3",
+          "size_mb": 21.5
+        },
+        {
+          "id": 182582,
+          "title": "第182582章",
+          "file": "/api/audio/ming_v2_ch182582.mp3",
+          "size_mb": 11.5
+        },
+        {
+          "id": 182583,
+          "title": "第182583章",
+          "file": "/api/audio/ming_v2_ch182583.mp3",
+          "size_mb": 20.1
+        },
+        {
+          "id": 182584,
+          "title": "第182584章",
+          "file": "/api/audio/ming_v2_ch182584.mp3",
+          "size_mb": 28.2
+        },
+        {
+          "id": 182585,
+          "title": "第182585章",
+          "file": "/api/audio/ming_v2_ch182585.mp3",
+          "size_mb": 30.1
+        },
+        {
+          "id": 182586,
+          "title": "第182586章",
+          "file": "/api/audio/ming_v2_ch182586.mp3",
+          "size_mb": 11.6
+        },
+        {
+          "id": 182587,
+          "title": "第182587章",
+          "file": "/api/audio/ming_v2_ch182587.mp3",
+          "size_mb": 9.9
+        },
+        {
+          "id": 182588,
+          "title": "第182588章",
+          "file": "/api/audio/ming_v2_ch182588.mp3",
+          "size_mb": 17.9
+        },
+        {
+          "id": 182589,
+          "title": "第182589章",
+          "file": "/api/audio/ming_v2_ch182589.mp3",
+          "size_mb": 20.1
+        },
+        {
+          "id": 182590,
+          "title": "第182590章",
+          "file": "/api/audio/ming_v2_ch182590.mp3",
+          "size_mb": 17.6
+        },
+        {
+          "id": 182591,
+          "title": "第182591章",
+          "file": "/api/audio/ming_v2_ch182591.mp3",
+          "size_mb": 15.8
+        },
+        {
+          "id": 182592,
+          "title": "第182592章",
+          "file": "/api/audio/ming_v2_ch182592.mp3",
+          "size_mb": 22.3
+        },
+        {
+          "id": 182593,
+          "title": "第182593章",
+          "file": "/api/audio/ming_v2_ch182593.mp3",
+          "size_mb": 19.2
+        },
+        {
+          "id": 182594,
+          "title": "第182594章",
+          "file": "/api/audio/ming_v2_ch182594.mp3",
+          "size_mb": 27.5
+        },
+        {
+          "id": 182595,
+          "title": "第182595章",
+          "file": "/api/audio/ming_v2_ch182595.mp3",
+          "size_mb": 19.2
+        },
+        {
+          "id": 182596,
+          "title": "第182596章",
+          "file": "/api/audio/ming_v2_ch182596.mp3",
+          "size_mb": 23.6
+        },
+        {
+          "id": 182597,
+          "title": "第182597章",
+          "file": "/api/audio/ming_v2_ch182597.mp3",
+          "size_mb": 25.9
+        },
+        {
+          "id": 182598,
+          "title": "第182598章",
+          "file": "/api/audio/ming_v2_ch182598.mp3",
+          "size_mb": 19.0
+        },
+        {
+          "id": 182599,
+          "title": "第182599章",
+          "file": "/api/audio/ming_v2_ch182599.mp3",
+          "size_mb": 16.0
+        },
+        {
+          "id": 182600,
+          "title": "第182600章",
+          "file": "/api/audio/ming_v2_ch182600.mp3",
+          "size_mb": 22.5
+        },
+        {
+          "id": 182601,
+          "title": "第182601章",
+          "file": "/api/audio/ming_v2_ch182601.mp3",
+          "size_mb": 37.6
+        },
+        {
+          "id": 182602,
+          "title": "第182602章",
+          "file": "/api/audio/ming_v2_ch182602.mp3",
+          "size_mb": 19.7
+        },
+        {
+          "id": 182603,
+          "title": "第182603章",
+          "file": "/api/audio/ming_v2_ch182603.mp3",
+          "size_mb": 20.4
+        },
+        {
+          "id": 182604,
+          "title": "第182604章",
+          "file": "/api/audio/ming_v2_ch182604.mp3",
+          "size_mb": 17.4
+        },
+        {
+          "id": 182605,
+          "title": "第182605章",
+          "file": "/api/audio/ming_v2_ch182605.mp3",
+          "size_mb": 30.1
+        },
+        {
+          "id": 182606,
+          "title": "第182606章",
+          "file": "/api/audio/ming_v2_ch182606.mp3",
+          "size_mb": 18.3
+        },
+        {
+          "id": 182607,
+          "title": "第182607章",
+          "file": "/api/audio/ming_v2_ch182607.mp3",
+          "size_mb": 21.7
+        },
+        {
+          "id": 182608,
+          "title": "第182608章",
+          "file": "/api/audio/ming_v2_ch182608.mp3",
+          "size_mb": 27.5
+        },
+        {
+          "id": 182609,
+          "title": "第182609章",
+          "file": "/api/audio/ming_v2_ch182609.mp3",
+          "size_mb": 15.9
+        },
+        {
+          "id": 182610,
+          "title": "第182610章",
+          "file": "/api/audio/ming_v2_ch182610.mp3",
+          "size_mb": 10.7
+        },
+        {
+          "id": 182611,
+          "title": "第182611章",
+          "file": "/api/audio/ming_v2_ch182611.mp3",
+          "size_mb": 24.1
+        },
+        {
+          "id": 182612,
+          "title": "第182612章",
+          "file": "/api/audio/ming_v2_ch182612.mp3",
+          "size_mb": 13.5
+        },
+        {
+          "id": 182613,
+          "title": "第182613章",
+          "file": "/api/audio/ming_v2_ch182613.mp3",
+          "size_mb": 30.3
+        },
+        {
+          "id": 182614,
+          "title": "第182614章",
+          "file": "/api/audio/ming_v2_ch182614.mp3",
+          "size_mb": 35.5
+        },
+        {
+          "id": 182615,
+          "title": "第182615章",
+          "file": "/api/audio/ming_v2_ch182615.mp3",
+          "size_mb": 22.8
+        },
+        {
+          "id": 182616,
+          "title": "第182616章",
+          "file": "/api/audio/ming_v2_ch182616.mp3",
+          "size_mb": 31.5
+        },
+        {
+          "id": 182617,
+          "title": "第182617章",
+          "file": "/api/audio/ming_v2_ch182617.mp3",
+          "size_mb": 25.1
+        },
+        {
+          "id": 182618,
+          "title": "第182618章",
+          "file": "/api/audio/ming_v2_ch182618.mp3",
+          "size_mb": 25.4
+        },
+        {
+          "id": 182619,
+          "title": "第182619章",
+          "file": "/api/audio/ming_v2_ch182619.mp3",
+          "size_mb": 16.2
+        },
+        {
+          "id": 182620,
+          "title": "第182620章",
+          "file": "/api/audio/ming_v2_ch182620.mp3",
+          "size_mb": 26.6
+        },
+        {
+          "id": 182621,
+          "title": "第182621章",
+          "file": "/api/audio/ming_v2_ch182621.mp3",
+          "size_mb": 21.9
+        },
+        {
+          "id": 182622,
+          "title": "第182622章",
+          "file": "/api/audio/ming_v2_ch182622.mp3",
+          "size_mb": 21.2
+        },
+        {
+          "id": 182623,
+          "title": "第182623章",
+          "file": "/api/audio/ming_v2_ch182623.mp3",
+          "size_mb": 29.1
+        },
+        {
+          "id": 182624,
+          "title": "第182624章",
+          "file": "/api/audio/ming_v2_ch182624.mp3",
+          "size_mb": 13.9
+        },
+        {
+          "id": 182625,
+          "title": "第182625章",
+          "file": "/api/audio/ming_v2_ch182625.mp3",
+          "size_mb": 31.1
+        },
+        {
+          "id": 182626,
+          "title": "第182626章",
+          "file": "/api/audio/ming_v2_ch182626.mp3",
+          "size_mb": 36.5
+        },
+        {
+          "id": 182627,
+          "title": "第182627章",
+          "file": "/api/audio/ming_v2_ch182627.mp3",
+          "size_mb": 23.9
+        },
+        {
+          "id": 182628,
+          "title": "第182628章",
+          "file": "/api/audio/ming_v2_ch182628.mp3",
+          "size_mb": 26.2
+        },
+        {
+          "id": 182629,
+          "title": "第182629章",
+          "file": "/api/audio/ming_v2_ch182629.mp3",
+          "size_mb": 23.1
+        },
+        {
+          "id": 182630,
+          "title": "第182630章",
+          "file": "/api/audio/ming_v2_ch182630.mp3",
+          "size_mb": 33.4
+        },
+        {
+          "id": 182631,
+          "title": "第182631章",
+          "file": "/api/audio/ming_v2_ch182631.mp3",
+          "size_mb": 21.6
+        },
+        {
+          "id": 182632,
+          "title": "第182632章",
+          "file": "/api/audio/ming_v2_ch182632.mp3",
+          "size_mb": 21.3
+        },
+        {
+          "id": 182633,
+          "title": "第182633章",
+          "file": "/api/audio/ming_v2_ch182633.mp3",
+          "size_mb": 19.4
+        },
+        {
+          "id": 182634,
+          "title": "第182634章",
+          "file": "/api/audio/ming_v2_ch182634.mp3",
+          "size_mb": 25.8
+        },
+        {
+          "id": 182635,
+          "title": "第182635章",
+          "file": "/api/audio/ming_v2_ch182635.mp3",
+          "size_mb": 23.0
+        },
+        {
+          "id": 182636,
+          "title": "第182636章",
+          "file": "/api/audio/ming_v2_ch182636.mp3",
+          "size_mb": 23.5
+        },
+        {
+          "id": 182637,
+          "title": "第182637章",
+          "file": "/api/audio/ming_v2_ch182637.mp3",
+          "size_mb": 41.3
+        },
+        {
+          "id": 182638,
+          "title": "第182638章",
+          "file": "/api/audio/ming_v2_ch182638.mp3",
+          "size_mb": 33.5
+        },
+        {
+          "id": 182639,
+          "title": "第182639章",
+          "file": "/api/audio/ming_v2_ch182639.mp3",
+          "size_mb": 24.4
+        },
+        {
+          "id": 182640,
+          "title": "第182640章",
+          "file": "/api/audio/ming_v2_ch182640.mp3",
+          "size_mb": 16.2
+        },
+        {
+          "id": 182641,
+          "title": "第182641章",
+          "file": "/api/audio/ming_v2_ch182641.mp3",
+          "size_mb": 23.9
+        },
+        {
+          "id": 182642,
+          "title": "第182642章",
+          "file": "/api/audio/ming_v2_ch182642.mp3",
+          "size_mb": 18.8
+        },
+        {
+          "id": 182643,
+          "title": "第182643章",
+          "file": "/api/audio/ming_v2_ch182643.mp3",
+          "size_mb": 22.6
+        },
+        {
+          "id": 182644,
+          "title": "第182644章",
+          "file": "/api/audio/ming_v2_ch182644.mp3",
+          "size_mb": 42.1
+        },
+        {
+          "id": 182645,
+          "title": "第182645章",
+          "file": "/api/audio/ming_v2_ch182645.mp3",
+          "size_mb": 11.8
+        },
+        {
+          "id": 182646,
+          "title": "第182646章",
+          "file": "/api/audio/ming_v2_ch182646.mp3",
+          "size_mb": 28.0
+        },
+        {
+          "id": 182647,
+          "title": "第182647章",
+          "file": "/api/audio/ming_v2_ch182647.mp3",
+          "size_mb": 21.5
+        },
+        {
+          "id": 182648,
+          "title": "第182648章",
+          "file": "/api/audio/ming_v2_ch182648.mp3",
+          "size_mb": 23.1
+        },
+        {
+          "id": 182649,
+          "title": "第182649章",
+          "file": "/api/audio/ming_v2_ch182649.mp3",
+          "size_mb": 16.6
+        },
+        {
+          "id": 182650,
+          "title": "第182650章",
+          "file": "/api/audio/ming_v2_ch182650.mp3",
+          "size_mb": 18.8
+        },
+        {
+          "id": 182651,
+          "title": "第182651章",
+          "file": "/api/audio/ming_v2_ch182651.mp3",
+          "size_mb": 16.0
+        },
+        {
+          "id": 182652,
+          "title": "第182652章",
+          "file": "/api/audio/ming_v2_ch182652.mp3",
+          "size_mb": 6.7
+        },
+        {
+          "id": 182653,
+          "title": "第182653章",
+          "file": "/api/audio/ming_v2_ch182653.mp3",
+          "size_mb": 16.5
+        },
+        {
+          "id": 182654,
+          "title": "第182654章",
+          "file": "/api/audio/ming_v2_ch182654.mp3",
+          "size_mb": 29.6
+        },
+        {
+          "id": 182655,
+          "title": "第182655章",
+          "file": "/api/audio/ming_v2_ch182655.mp3",
+          "size_mb": 16.4
+        },
+        {
+          "id": 182656,
+          "title": "第182656章",
+          "file": "/api/audio/ming_v2_ch182656.mp3",
+          "size_mb": 16.6
+        },
+        {
+          "id": 182657,
+          "title": "第182657章",
+          "file": "/api/audio/ming_v2_ch182657.mp3",
+          "size_mb": 14.6
+        },
+        {
+          "id": 182658,
+          "title": "第182658章",
+          "file": "/api/audio/ming_v2_ch182658.mp3",
+          "size_mb": 24.3
+        },
+        {
+          "id": 182659,
+          "title": "第182659章",
+          "file": "/api/audio/ming_v2_ch182659.mp3",
+          "size_mb": 22.7
+        },
+        {
+          "id": 182660,
+          "title": "第182660章",
+          "file": "/api/audio/ming_v2_ch182660.mp3",
+          "size_mb": 23.0
+        },
+        {
+          "id": 182661,
+          "title": "第182661章",
+          "file": "/api/audio/ming_v2_ch182661.mp3",
+          "size_mb": 22.1
+        },
+        {
+          "id": 182662,
+          "title": "第182662章",
+          "file": "/api/audio/ming_v2_ch182662.mp3",
+          "size_mb": 16.0
+        },
+        {
+          "id": 182663,
+          "title": "第182663章",
+          "file": "/api/audio/ming_v2_ch182663.mp3",
+          "size_mb": 24.4
+        },
+        {
+          "id": 182664,
+          "title": "第182664章",
+          "file": "/api/audio/ming_v2_ch182664.mp3",
+          "size_mb": 23.2
+        },
+        {
+          "id": 182665,
+          "title": "第182665章",
+          "file": "/api/audio/ming_v2_ch182665.mp3",
+          "size_mb": 21.6
+        },
+        {
+          "id": 182666,
+          "title": "第182666章",
+          "file": "/api/audio/ming_v2_ch182666.mp3",
+          "size_mb": 24.8
+        },
+        {
+          "id": 182667,
+          "title": "第182667章",
+          "file": "/api/audio/ming_v2_ch182667.mp3",
+          "size_mb": 16.7
+        },
+        {
+          "id": 182668,
+          "title": "第182668章",
+          "file": "/api/audio/ming_v2_ch182668.mp3",
+          "size_mb": 18.5
+        },
+        {
+          "id": 182669,
+          "title": "第182669章",
+          "file": "/api/audio/ming_v2_ch182669.mp3",
+          "size_mb": 23.0
+        },
+        {
+          "id": 182670,
+          "title": "第182670章",
+          "file": "/api/audio/ming_v2_ch182670.mp3",
+          "size_mb": 23.0
+        },
+        {
+          "id": 182671,
+          "title": "第182671章",
+          "file": "/api/audio/ming_v2_ch182671.mp3",
+          "size_mb": 27.2
+        },
+        {
+          "id": 182672,
+          "title": "第182672章",
+          "file": "/api/audio/ming_v2_ch182672.mp3",
+          "size_mb": 19.7
+        },
+        {
+          "id": 182673,
+          "title": "第182673章",
+          "file": "/api/audio/ming_v2_ch182673.mp3",
+          "size_mb": 10.3
+        },
+        {
+          "id": 182674,
+          "title": "第182674章",
+          "file": "/api/audio/ming_v2_ch182674.mp3",
+          "size_mb": 5.7
+        }
+      ],
+      "description": "明朝那些事儿 - 当年明月 - 159章 - Voice Design升级版"
     }
   ]
 }
