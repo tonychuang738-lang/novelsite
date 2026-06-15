@@ -2,12 +2,16 @@ const GITHUB_OWNER = "tonychuang738-lang";
 const GITHUB_REPO = "novelsite";
 
 function getTag(filename) {
+  if (filename.startsWith("santi_v2_")) return "audio-santi-v2";
   if (filename.startsWith("renshijian_")) return "audio-renshijian-v1";
   if (filename.startsWith("2001space_")) return "audio-2001space-v1";
   if (filename.startsWith("qiuzhuang_")) return "audio-qiuzhuang-v1";
   if (filename.startsWith("beijing_")) return "audio-beijing-v1";
   if (filename.startsWith("wandering_")) return "audio-wandering-v1";
-  return "audio-v1";
+  if (filename.startsWith("liulang_")) return "audio-liulang-v1";
+  if (filename.startsWith("huozhe_")) return "audio-huozhe-v1";
+  if (filename.startsWith("weicheng_")) return "audio-weicheng-v1";
+  return "audio-v1"; // 三体原版
 }
 
 export async function onRequest(context) {
