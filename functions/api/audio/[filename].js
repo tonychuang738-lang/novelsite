@@ -3,6 +3,7 @@ const GITHUB_REPO = "novelsite";
 
 function getTag(filename) {
   if (filename.startsWith("santi_v2_")) return "audio-santi-v2";
+  if (filename.startsWith("renshijian_v2_")) return "audio-renshijian-v2";
   if (filename.startsWith("renshijian_")) return "audio-renshijian-v1";
   if (filename.startsWith("2001space_")) return "audio-2001space-v1";
   if (filename.startsWith("qiuzhuang_")) return "audio-qiuzhuang-v1";

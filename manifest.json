@@ -731,6 +731,447 @@
       ]
     },
     {
+      "id": "renshijian_v2",
+      "title": "人世间（升级版）",
+      "author": "梁晓声",
+      "cover": "covers/renshijian.jpg",
+      "description": "人世间Voice Design升级版，多角色独立声线，导演模式演绎。北方城市一个平民家庭的命运变迁……",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "第1章",
+          "file": "/api/audio/renshijian_v2_ch01.mp3",
+          "size_mb": 9.1,
+          "fileSize": 9551805,
+          "durationSec": 582
+        },
+        {
+          "id": 2,
+          "title": "第2章",
+          "file": "/api/audio/renshijian_v2_ch02.mp3",
+          "size_mb": 13.4,
+          "fileSize": 14008029,
+          "durationSec": 854
+        },
+        {
+          "id": 3,
+          "title": "第3章",
+          "file": "/api/audio/renshijian_v2_ch03.mp3",
+          "size_mb": 26.6,
+          "fileSize": 27887349,
+          "durationSec": 1702
+        },
+        {
+          "id": 4,
+          "title": "第4章",
+          "file": "/api/audio/renshijian_v2_ch04.mp3",
+          "size_mb": 28.3,
+          "fileSize": 29678085,
+          "durationSec": 1811
+        },
+        {
+          "id": 5,
+          "title": "第5章",
+          "file": "/api/audio/renshijian_v2_ch05.mp3",
+          "size_mb": 10.8,
+          "fileSize": 11368269,
+          "durationSec": 693
+        },
+        {
+          "id": 6,
+          "title": "第6章",
+          "file": "/api/audio/renshijian_v2_ch06.mp3",
+          "size_mb": 10.8,
+          "fileSize": 11373789,
+          "durationSec": 694
+        },
+        {
+          "id": 7,
+          "title": "第7章",
+          "file": "/api/audio/renshijian_v2_ch07.mp3",
+          "size_mb": 35.0,
+          "fileSize": 36714765,
+          "durationSec": 2240
+        },
+        {
+          "id": 8,
+          "title": "第8章",
+          "file": "/api/audio/renshijian_v2_ch08.mp3",
+          "size_mb": 20.3,
+          "fileSize": 21333933,
+          "durationSec": 1302
+        },
+        {
+          "id": 9,
+          "title": "第9章",
+          "file": "/api/audio/renshijian_v2_ch09.mp3",
+          "size_mb": 38.7,
+          "fileSize": 40621341,
+          "durationSec": 2479
+        },
+        {
+          "id": 10,
+          "title": "第10章",
+          "file": "/api/audio/renshijian_v2_ch10.mp3",
+          "size_mb": 70.5,
+          "fileSize": 73891485,
+          "durationSec": 4509
+        },
+        {
+          "id": 11,
+          "title": "第11章",
+          "file": "/api/audio/renshijian_v2_ch11.mp3",
+          "size_mb": 44.6,
+          "fileSize": 46754517,
+          "durationSec": 2853
+        },
+        {
+          "id": 12,
+          "title": "第12章",
+          "file": "/api/audio/renshijian_v2_ch12.mp3",
+          "size_mb": 24.7,
+          "fileSize": 25877709,
+          "durationSec": 1579
+        },
+        {
+          "id": 13,
+          "title": "第13章",
+          "file": "/api/audio/renshijian_v2_ch13.mp3",
+          "size_mb": 49.1,
+          "fileSize": 51508317,
+          "durationSec": 3143
+        },
+        {
+          "id": 14,
+          "title": "第14章",
+          "file": "/api/audio/renshijian_v2_ch14.mp3",
+          "size_mb": 9.2,
+          "fileSize": 9608445,
+          "durationSec": 586
+        },
+        {
+          "id": 15,
+          "title": "第15章",
+          "file": "/api/audio/renshijian_v2_ch15.mp3",
+          "size_mb": 11.6,
+          "fileSize": 12163197,
+          "durationSec": 742
+        },
+        {
+          "id": 16,
+          "title": "第16章",
+          "file": "/api/audio/renshijian_v2_ch16.mp3",
+          "size_mb": 25.8,
+          "fileSize": 27010749,
+          "durationSec": 1648
+        },
+        {
+          "id": 17,
+          "title": "第17章",
+          "file": "/api/audio/renshijian_v2_ch17.mp3",
+          "size_mb": 51.9,
+          "fileSize": 54404397,
+          "durationSec": 3320
+        },
+        {
+          "id": 18,
+          "title": "第18章",
+          "file": "/api/audio/renshijian_v2_ch18.mp3",
+          "size_mb": 42.8,
+          "fileSize": 44900277,
+          "durationSec": 2740
+        },
+        {
+          "id": 19,
+          "title": "第19章",
+          "file": "/api/audio/renshijian_v2_ch19.mp3",
+          "size_mb": 42.0,
+          "fileSize": 43996869,
+          "durationSec": 2685
+        },
+        {
+          "id": 20,
+          "title": "第20章",
+          "file": "/api/audio/renshijian_v2_ch20.mp3",
+          "size_mb": 27.1,
+          "fileSize": 28402245,
+          "durationSec": 1733
+        },
+        {
+          "id": 21,
+          "title": "第21章",
+          "file": "/api/audio/renshijian_v2_ch21.mp3",
+          "size_mb": 41.0,
+          "fileSize": 43014477,
+          "durationSec": 2625
+        },
+        {
+          "id": 22,
+          "title": "第22章",
+          "file": "/api/audio/renshijian_v2_ch22.mp3",
+          "size_mb": 41.9,
+          "fileSize": 43913421,
+          "durationSec": 2680
+        },
+        {
+          "id": 23,
+          "title": "第23章",
+          "file": "/api/audio/renshijian_v2_ch23.mp3",
+          "size_mb": 36.4,
+          "fileSize": 38158293,
+          "durationSec": 2328
+        },
+        {
+          "id": 24,
+          "title": "第24章",
+          "file": "/api/audio/renshijian_v2_ch24.mp3",
+          "size_mb": 24.2,
+          "fileSize": 25407405,
+          "durationSec": 1550
+        },
+        {
+          "id": 25,
+          "title": "第25章",
+          "file": "/api/audio/renshijian_v2_ch25.mp3",
+          "size_mb": 46.7,
+          "fileSize": 48997773,
+          "durationSec": 2990
+        },
+        {
+          "id": 26,
+          "title": "第26章",
+          "file": "/api/audio/renshijian_v2_ch26.mp3",
+          "size_mb": 15.8,
+          "fileSize": 16590645,
+          "durationSec": 1012
+        },
+        {
+          "id": 27,
+          "title": "第27章",
+          "file": "/api/audio/renshijian_v2_ch27.mp3",
+          "size_mb": 23.9,
+          "fileSize": 25023045,
+          "durationSec": 1527
+        },
+        {
+          "id": 28,
+          "title": "第28章",
+          "file": "/api/audio/renshijian_v2_ch28.mp3",
+          "size_mb": 47.0,
+          "fileSize": 49334037,
+          "durationSec": 3011
+        },
+        {
+          "id": 29,
+          "title": "第29章",
+          "file": "/api/audio/renshijian_v2_ch29.mp3",
+          "size_mb": 19.2,
+          "fileSize": 20160117,
+          "durationSec": 1230
+        },
+        {
+          "id": 30,
+          "title": "第30章",
+          "file": "/api/audio/renshijian_v2_ch30.mp3",
+          "size_mb": 12.8,
+          "fileSize": 13462029,
+          "durationSec": 821
+        },
+        {
+          "id": 31,
+          "title": "第31章",
+          "file": "/api/audio/renshijian_v2_ch31.mp3",
+          "size_mb": 13.9,
+          "fileSize": 14616621,
+          "durationSec": 892
+        },
+        {
+          "id": 32,
+          "title": "第32章",
+          "file": "/api/audio/renshijian_v2_ch32.mp3",
+          "size_mb": 48.7,
+          "fileSize": 51075861,
+          "durationSec": 3117
+        },
+        {
+          "id": 33,
+          "title": "第33章",
+          "file": "/api/audio/renshijian_v2_ch33.mp3",
+          "size_mb": 16.6,
+          "fileSize": 17443245,
+          "durationSec": 1064
+        },
+        {
+          "id": 34,
+          "title": "第34章",
+          "file": "/api/audio/renshijian_v2_ch34.mp3",
+          "size_mb": 45.1,
+          "fileSize": 47325093,
+          "durationSec": 2888
+        },
+        {
+          "id": 35,
+          "title": "第35章",
+          "file": "/api/audio/renshijian_v2_ch35.mp3",
+          "size_mb": 14.9,
+          "fileSize": 15584421,
+          "durationSec": 951
+        },
+        {
+          "id": 36,
+          "title": "第36章",
+          "file": "/api/audio/renshijian_v2_ch36.mp3",
+          "size_mb": 39.6,
+          "fileSize": 41481717,
+          "durationSec": 2531
+        },
+        {
+          "id": 37,
+          "title": "第37章",
+          "file": "/api/audio/renshijian_v2_ch37.mp3",
+          "size_mb": 48.4,
+          "fileSize": 50741085,
+          "durationSec": 3096
+        },
+        {
+          "id": 38,
+          "title": "第38章",
+          "file": "/api/audio/renshijian_v2_ch38.mp3",
+          "size_mb": 42.1,
+          "fileSize": 44195253,
+          "durationSec": 2697
+        },
+        {
+          "id": 39,
+          "title": "第39章",
+          "file": "/api/audio/renshijian_v2_ch39.mp3",
+          "size_mb": 56.4,
+          "fileSize": 59190741,
+          "durationSec": 3612
+        },
+        {
+          "id": 40,
+          "title": "第40章",
+          "file": "/api/audio/renshijian_v2_ch40.mp3",
+          "size_mb": 17.6,
+          "fileSize": 18502797,
+          "durationSec": 1129
+        },
+        {
+          "id": 41,
+          "title": "第41章",
+          "file": "/api/audio/renshijian_v2_ch41.mp3",
+          "size_mb": 40.3,
+          "fileSize": 42251997,
+          "durationSec": 2578
+        },
+        {
+          "id": 42,
+          "title": "第42章",
+          "file": "/api/audio/renshijian_v2_ch42.mp3",
+          "size_mb": 43.6,
+          "fileSize": 45703557,
+          "durationSec": 2789
+        },
+        {
+          "id": 43,
+          "title": "第43章",
+          "file": "/api/audio/renshijian_v2_ch43.mp3",
+          "size_mb": 16.9,
+          "fileSize": 17726877,
+          "durationSec": 1081
+        },
+        {
+          "id": 44,
+          "title": "第44章",
+          "file": "/api/audio/renshijian_v2_ch44.mp3",
+          "size_mb": 24.0,
+          "fileSize": 25215357,
+          "durationSec": 1539
+        },
+        {
+          "id": 45,
+          "title": "第45章",
+          "file": "/api/audio/renshijian_v2_ch45.mp3",
+          "size_mb": 41.3,
+          "fileSize": 43266933,
+          "durationSec": 2640
+        },
+        {
+          "id": 46,
+          "title": "第46章",
+          "file": "/api/audio/renshijian_v2_ch46.mp3",
+          "size_mb": 33.7,
+          "fileSize": 35294493,
+          "durationSec": 2154
+        },
+        {
+          "id": 47,
+          "title": "第47章",
+          "file": "/api/audio/renshijian_v2_ch47.mp3",
+          "size_mb": 71.8,
+          "fileSize": 75246453,
+          "durationSec": 4592
+        },
+        {
+          "id": 48,
+          "title": "第48章",
+          "file": "/api/audio/renshijian_v2_ch48.mp3",
+          "size_mb": 17.0,
+          "fileSize": 17844837,
+          "durationSec": 1089
+        },
+        {
+          "id": 49,
+          "title": "第49章",
+          "file": "/api/audio/renshijian_v2_ch49.mp3",
+          "size_mb": 34.4,
+          "fileSize": 36075933,
+          "durationSec": 2201
+        },
+        {
+          "id": 50,
+          "title": "第50章",
+          "file": "/api/audio/renshijian_v2_ch50.mp3",
+          "size_mb": 40.9,
+          "fileSize": 42909045,
+          "durationSec": 2618
+        },
+        {
+          "id": 51,
+          "title": "第51章",
+          "file": "/api/audio/renshijian_v2_ch51.mp3",
+          "size_mb": 34.7,
+          "fileSize": 36409245,
+          "durationSec": 2222
+        },
+        {
+          "id": 52,
+          "title": "第52章",
+          "file": "/api/audio/renshijian_v2_ch52.mp3",
+          "size_mb": 80.3,
+          "fileSize": 84167637,
+          "durationSec": 5137
+        },
+        {
+          "id": 53,
+          "title": "第53章",
+          "file": "/api/audio/renshijian_v2_ch53.mp3",
+          "size_mb": 17.1,
+          "fileSize": 17886861,
+          "durationSec": 1091
+        },
+        {
+          "id": 54,
+          "title": "第54章",
+          "file": "/api/audio/renshijian_v2_ch54.mp3",
+          "size_mb": 34.2,
+          "fileSize": 35809365,
+          "durationSec": 2185
+        }
+      ]
+    },
+    {
       "id": "2001space",
       "title": "2001太空漫游",
       "author": "亚瑟·查理斯·克拉克",
