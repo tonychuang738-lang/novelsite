@@ -4610,6 +4610,191 @@
           "durationSec": 420
         }
       ]
+    },
+    {
+      "id": "sapiens_v1",
+      "title": "人类简史",
+      "author": "尤瓦尔·赫拉利",
+      "cover": "covers/sapiens.jpg",
+      "description": "人类简史有声书，导演模式TTS。从动物到上帝，认知革命、农业革命、科学革命……",
+      "chapters": [
+        {
+          "id": 0,
+          "title": "第0章",
+          "file": "/api/audio/sapiens_ch00.mp3",
+          "size_mb": 4.7,
+          "fileSize": 4895133,
+          "durationSec": 203
+        },
+        {
+          "id": 1,
+          "title": "第1章",
+          "file": "/api/audio/sapiens_ch01.mp3",
+          "size_mb": 22.3,
+          "fileSize": 23351205,
+          "durationSec": 972
+        },
+        {
+          "id": 2,
+          "title": "第2章",
+          "file": "/api/audio/sapiens_ch02.mp3",
+          "size_mb": 25.4,
+          "fileSize": 26625645,
+          "durationSec": 1109
+        },
+        {
+          "id": 3,
+          "title": "第3章",
+          "file": "/api/audio/sapiens_ch03.mp3",
+          "size_mb": 30.6,
+          "fileSize": 32070621,
+          "durationSec": 1336
+        },
+        {
+          "id": 4,
+          "title": "第4章",
+          "file": "/api/audio/sapiens_ch04.mp3",
+          "size_mb": 17.1,
+          "fileSize": 17893773,
+          "durationSec": 745
+        },
+        {
+          "id": 5,
+          "title": "第5章",
+          "file": "/api/audio/sapiens_ch05.mp3",
+          "size_mb": 25.0,
+          "fileSize": 26214789,
+          "durationSec": 1092
+        },
+        {
+          "id": 6,
+          "title": "第6章",
+          "file": "/api/audio/sapiens_ch06.mp3",
+          "size_mb": 27.7,
+          "fileSize": 28995741,
+          "durationSec": 1208
+        },
+        {
+          "id": 7,
+          "title": "第7章",
+          "file": "/api/audio/sapiens_ch07.mp3",
+          "size_mb": 15.8,
+          "fileSize": 16527501,
+          "durationSec": 688
+        },
+        {
+          "id": 8,
+          "title": "第8章",
+          "file": "/api/audio/sapiens_ch08.mp3",
+          "size_mb": 33.2,
+          "fileSize": 34812765,
+          "durationSec": 1450
+        },
+        {
+          "id": 9,
+          "title": "第9章",
+          "file": "/api/audio/sapiens_ch09.mp3",
+          "size_mb": 11.9,
+          "fileSize": 12449733,
+          "durationSec": 518
+        },
+        {
+          "id": 10,
+          "title": "第10章",
+          "file": "/api/audio/sapiens_ch10.mp3",
+          "size_mb": 20.2,
+          "fileSize": 21153789,
+          "durationSec": 881
+        },
+        {
+          "id": 11,
+          "title": "第11章",
+          "file": "/api/audio/sapiens_ch11.mp3",
+          "size_mb": 25.9,
+          "fileSize": 27119565,
+          "durationSec": 1129
+        },
+        {
+          "id": 12,
+          "title": "第12章",
+          "file": "/api/audio/sapiens_ch12.mp3",
+          "size_mb": 35.7,
+          "fileSize": 37412301,
+          "durationSec": 1558
+        },
+        {
+          "id": 13,
+          "title": "第13章",
+          "file": "/api/audio/sapiens_ch13.mp3",
+          "size_mb": 9.7,
+          "fileSize": 10122357,
+          "durationSec": 421
+        },
+        {
+          "id": 14,
+          "title": "第14章",
+          "file": "/api/audio/sapiens_ch14.mp3",
+          "size_mb": 35.7,
+          "fileSize": 37445013,
+          "durationSec": 1560
+        },
+        {
+          "id": 15,
+          "title": "第15章",
+          "file": "/api/audio/sapiens_ch15.mp3",
+          "size_mb": 39.4,
+          "fileSize": 41332701,
+          "durationSec": 1722
+        },
+        {
+          "id": 16,
+          "title": "第16章",
+          "file": "/api/audio/sapiens_ch16.mp3",
+          "size_mb": 40.7,
+          "fileSize": 42713037,
+          "durationSec": 1779
+        },
+        {
+          "id": 17,
+          "title": "第17章",
+          "file": "/api/audio/sapiens_ch17.mp3",
+          "size_mb": 18.8,
+          "fileSize": 19734909,
+          "durationSec": 822
+        },
+        {
+          "id": 18,
+          "title": "第18章",
+          "file": "/api/audio/sapiens_ch18.mp3",
+          "size_mb": 37.4,
+          "fileSize": 39170685,
+          "durationSec": 1632
+        },
+        {
+          "id": 19,
+          "title": "第19章",
+          "file": "/api/audio/sapiens_ch19.mp3",
+          "size_mb": 30.4,
+          "fileSize": 31894557,
+          "durationSec": 1328
+        },
+        {
+          "id": 20,
+          "title": "第20章",
+          "file": "/api/audio/sapiens_ch20.mp3",
+          "size_mb": 27.2,
+          "fileSize": 28506453,
+          "durationSec": 1187
+        },
+        {
+          "id": 21,
+          "title": "第21章",
+          "file": "/api/audio/sapiens_ch21.mp3",
+          "size_mb": 39.3,
+          "fileSize": 41235693,
+          "durationSec": 1718
+        }
+      ]
     }
   ]
 }
