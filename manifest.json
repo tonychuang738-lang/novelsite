@@ -4763,133 +4763,133 @@
         {
           "id": 0,
           "title": "第0章",
-          "file": "/api/audio/sapiens_v2_ch000.mp3",
+          "file": "/api/audio/sapiens_ch000.mp3",
           "size_mb": 4.7
         },
         {
           "id": 1,
           "title": "第1章",
-          "file": "/api/audio/sapiens_v2_ch001.mp3",
+          "file": "/api/audio/sapiens_ch001.mp3",
           "size_mb": 22.3
         },
         {
           "id": 2,
           "title": "第2章",
-          "file": "/api/audio/sapiens_v2_ch002.mp3",
+          "file": "/api/audio/sapiens_ch002.mp3",
           "size_mb": 25.4
         },
         {
           "id": 3,
           "title": "第3章",
-          "file": "/api/audio/sapiens_v2_ch003.mp3",
+          "file": "/api/audio/sapiens_ch003.mp3",
           "size_mb": 30.6
         },
         {
           "id": 4,
           "title": "第4章",
-          "file": "/api/audio/sapiens_v2_ch004.mp3",
+          "file": "/api/audio/sapiens_ch004.mp3",
           "size_mb": 17.1
         },
         {
           "id": 5,
           "title": "第5章",
-          "file": "/api/audio/sapiens_v2_ch005.mp3",
+          "file": "/api/audio/sapiens_ch005.mp3",
           "size_mb": 25.0
         },
         {
           "id": 6,
           "title": "第6章",
-          "file": "/api/audio/sapiens_v2_ch006.mp3",
+          "file": "/api/audio/sapiens_ch006.mp3",
           "size_mb": 27.7
         },
         {
           "id": 7,
           "title": "第7章",
-          "file": "/api/audio/sapiens_v2_ch007.mp3",
+          "file": "/api/audio/sapiens_ch007.mp3",
           "size_mb": 15.8
         },
         {
           "id": 8,
           "title": "第8章",
-          "file": "/api/audio/sapiens_v2_ch008.mp3",
+          "file": "/api/audio/sapiens_ch008.mp3",
           "size_mb": 33.2
         },
         {
           "id": 9,
           "title": "第9章",
-          "file": "/api/audio/sapiens_v2_ch009.mp3",
+          "file": "/api/audio/sapiens_ch009.mp3",
           "size_mb": 11.9
         },
         {
           "id": 10,
           "title": "第10章",
-          "file": "/api/audio/sapiens_v2_ch010.mp3",
+          "file": "/api/audio/sapiens_ch010.mp3",
           "size_mb": 20.2
         },
         {
           "id": 11,
           "title": "第11章",
-          "file": "/api/audio/sapiens_v2_ch011.mp3",
+          "file": "/api/audio/sapiens_ch011.mp3",
           "size_mb": 25.9
         },
         {
           "id": 12,
           "title": "第12章",
-          "file": "/api/audio/sapiens_v2_ch012.mp3",
+          "file": "/api/audio/sapiens_ch012.mp3",
           "size_mb": 35.7
         },
         {
           "id": 13,
           "title": "第13章",
-          "file": "/api/audio/sapiens_v2_ch013.mp3",
+          "file": "/api/audio/sapiens_ch013.mp3",
           "size_mb": 9.7
         },
         {
           "id": 14,
           "title": "第14章",
-          "file": "/api/audio/sapiens_v2_ch014.mp3",
+          "file": "/api/audio/sapiens_ch014.mp3",
           "size_mb": 35.7
         },
         {
           "id": 15,
           "title": "第15章",
-          "file": "/api/audio/sapiens_v2_ch015.mp3",
+          "file": "/api/audio/sapiens_ch015.mp3",
           "size_mb": 39.4
         },
         {
           "id": 16,
           "title": "第16章",
-          "file": "/api/audio/sapiens_v2_ch016.mp3",
+          "file": "/api/audio/sapiens_ch016.mp3",
           "size_mb": 40.7
         },
         {
           "id": 17,
           "title": "第17章",
-          "file": "/api/audio/sapiens_v2_ch017.mp3",
+          "file": "/api/audio/sapiens_ch017.mp3",
           "size_mb": 18.8
         },
         {
           "id": 18,
           "title": "第18章",
-          "file": "/api/audio/sapiens_v2_ch018.mp3",
+          "file": "/api/audio/sapiens_ch018.mp3",
           "size_mb": 37.4
         },
         {
           "id": 19,
           "title": "第19章",
-          "file": "/api/audio/sapiens_v2_ch019.mp3",
+          "file": "/api/audio/sapiens_ch019.mp3",
           "size_mb": 30.4
         },
         {
           "id": 20,
           "title": "第20章",
-          "file": "/api/audio/sapiens_v2_ch020.mp3",
+          "file": "/api/audio/sapiens_ch020.mp3",
           "size_mb": 27.2
         },
         {
           "id": 21,
           "title": "第21章",
-          "file": "/api/audio/sapiens_v2_ch021.mp3",
+          "file": "/api/audio/sapiens_ch021.mp3",
           "size_mb": 39.3
         }
       ],
