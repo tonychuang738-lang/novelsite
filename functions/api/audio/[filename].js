@@ -19,6 +19,7 @@ function getTag(filename) {
   if (filename.startsWith("pingfan_")) return "audio-pingfan-v1";
   if (filename.startsWith("bailuyuan_")) return "audio-bailuyuan-v1";
   if (filename.startsWith("yhjidi_")) return "audio-yhjidi-v1";
+  if (filename.startsWith("ming_")) return "audio-ming-v1";
   return "audio-v1"; // 三体原版
 }
 
