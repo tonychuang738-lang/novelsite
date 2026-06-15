@@ -290,14 +290,22 @@ body {
 .mobile-library { display: none; }
 
 /* ═══ Mobile Library View ═══ */
+.mobile-library {
+  height: 100vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: calc(var(--tabbar-height) + var(--mini-player-height));
+}
 .mobile-library-header {
   padding: 20px 20px 12px;
   display: flex; align-items: center; justify-content: space-between;
+  position: sticky; top: 0; z-index: 10;
+  background: var(--bg-primary);
 }
 .mobile-library-title { font-size: 24px; font-weight: 900; }
 .mobile-library-grid {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: 16px; padding: 0 20px 160px;
+  gap: 16px; padding: 0 20px 40px;
 }
 .mobile-book-card { cursor: pointer; transition: transform 0.2s; }
 .mobile-book-card:active { transform: scale(0.96); }
