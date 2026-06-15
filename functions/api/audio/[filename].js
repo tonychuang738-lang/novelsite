@@ -12,6 +12,13 @@ function getTag(filename) {
   if (filename.startsWith("liulang_")) return "audio-liulang-v1";
   if (filename.startsWith("huozhe_")) return "audio-huozhe-v1";
   if (filename.startsWith("weicheng_")) return "audio-weicheng-v1";
+  if (filename.startsWith("xiangcun_")) return "audio-xiangcun-v1";
+  if (filename.startsWith("chaowendao_")) return "audio-chaowendao-v1";
+  if (filename.startsWith("daishang_")) return "audio-daishang-v1";
+  if (filename.startsWith("chaoxinxing_")) return "audio-chaoxinxing-v1";
+  if (filename.startsWith("pingfan_")) return "audio-pingfan-v1";
+  if (filename.startsWith("bailuyuan_")) return "audio-bailuyuan-v1";
+  if (filename.startsWith("yhjidi_")) return "audio-yhjidi-v1";
   return "audio-v1"; // 三体原版
 }
 

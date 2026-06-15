@@ -1550,6 +1550,1785 @@
           "size_mb": 40.1
         }
       ]
+    },
+    {
+      "id": "xiangcun",
+      "title": "乡村教师",
+      "author": "刘慈欣",
+      "cover": "covers/xiangcun.jpg",
+      "description": "在西北贫困地区，一位乡村教师在生命最后时刻给学生上了最后一课。与此同时，银河系正面临一场文明间的战争...",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "第1章",
+          "file": "/api/audio/xiangcun_ch01.mp3",
+          "size_mb": 12.5
+        },
+        {
+          "id": 2,
+          "title": "第2章",
+          "file": "/api/audio/xiangcun_ch02.mp3",
+          "size_mb": 7.8
+        },
+        {
+          "id": 3,
+          "title": "第3章",
+          "file": "/api/audio/xiangcun_ch03.mp3",
+          "size_mb": 5.0
+        },
+        {
+          "id": 4,
+          "title": "第4章",
+          "file": "/api/audio/xiangcun_ch04.mp3",
+          "size_mb": 6.5
+        },
+        {
+          "id": 5,
+          "title": "第5章",
+          "file": "/api/audio/xiangcun_ch05.mp3",
+          "size_mb": 2.1
+        },
+        {
+          "id": 6,
+          "title": "第6章",
+          "file": "/api/audio/xiangcun_ch06.mp3",
+          "size_mb": 11.4
+        },
+        {
+          "id": 7,
+          "title": "第7章",
+          "file": "/api/audio/xiangcun_ch07.mp3",
+          "size_mb": 1.7
+        },
+        {
+          "id": 8,
+          "title": "第8章",
+          "file": "/api/audio/xiangcun_ch08.mp3",
+          "size_mb": 0.7
+        }
+      ]
+    },
+    {
+      "id": "chaowendao",
+      "title": "朝闻道",
+      "author": "刘慈欣",
+      "cover": "covers/chaowendao.jpg",
+      "description": "当人类建造了环绕地球的粒子加速器，准备探寻宇宙终极真理时，排险者出现了...",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "第1章",
+          "file": "/api/audio/chaowendao_ch01.mp3",
+          "size_mb": 7.6
+        },
+        {
+          "id": 2,
+          "title": "第2章",
+          "file": "/api/audio/chaowendao_ch02.mp3",
+          "size_mb": 9.8
+        },
+        {
+          "id": 3,
+          "title": "第3章",
+          "file": "/api/audio/chaowendao_ch03.mp3",
+          "size_mb": 9.3
+        },
+        {
+          "id": 4,
+          "title": "第4章",
+          "file": "/api/audio/chaowendao_ch04.mp3",
+          "size_mb": 6.6
+        },
+        {
+          "id": 5,
+          "title": "第5章",
+          "file": "/api/audio/chaowendao_ch05.mp3",
+          "size_mb": 1.4
+        }
+      ]
+    },
+    {
+      "id": "chaoxinxing",
+      "title": "超新星纪元",
+      "author": "刘慈欣",
+      "cover": "covers/chaoxinxing.jpg",
+      "description": "一颗超新星爆发，高能射线杀死了所有成年人，地球只剩下十三岁以下的孩子。当国家、社会、文明面临前所未有的挑战，孩子们必须用自己的方式重建世界……",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "引_子",
+          "file": "/api/audio/chaoxinxing_ch01.mp3",
+          "size_mb": 8.3
+        },
+        {
+          "id": 2,
+          "title": "第1章 终结",
+          "file": "/api/audio/chaoxinxing_ch02.mp3",
+          "size_mb": 17.3
+        },
+        {
+          "id": 3,
+          "title": "第2章 夜空骄阳",
+          "file": "/api/audio/chaoxinxing_ch03.mp3",
+          "size_mb": 16.7
+        },
+        {
+          "id": 4,
+          "title": "第3章 山谷世界",
+          "file": "/api/audio/chaoxinxing_ch04.mp3",
+          "size_mb": 50.1
+        },
+        {
+          "id": 5,
+          "title": "第4章 国家",
+          "file": "/api/audio/chaoxinxing_ch05.mp3",
+          "size_mb": 9.9
+        },
+        {
+          "id": 6,
+          "title": "第5章 世界课堂",
+          "file": "/api/audio/chaoxinxing_ch06.mp3",
+          "size_mb": 43.8
+        },
+        {
+          "id": 7,
+          "title": "第6章 总参谋长",
+          "file": "/api/audio/chaoxinxing_ch07.mp3",
+          "size_mb": 19.1
+        },
+        {
+          "id": 8,
+          "title": "第7章 味精和盐",
+          "file": "/api/audio/chaoxinxing_ch08.mp3",
+          "size_mb": 16.4
+        },
+        {
+          "id": 9,
+          "title": "第8章 大量子",
+          "file": "/api/audio/chaoxinxing_ch09.mp3",
+          "size_mb": 8.5
+        },
+        {
+          "id": 10,
+          "title": "第9章 新世界试运行",
+          "file": "/api/audio/chaoxinxing_ch10.mp3",
+          "size_mb": 12.8
+        },
+        {
+          "id": 11,
+          "title": "第10章 公元钟",
+          "file": "/api/audio/chaoxinxing_ch11.mp3",
+          "size_mb": 16.5
+        },
+        {
+          "id": 12,
+          "title": "第11章 超新星纪元",
+          "file": "/api/audio/chaoxinxing_ch12.mp3",
+          "size_mb": 10.9
+        },
+        {
+          "id": 13,
+          "title": "第12章 纪元初一小时",
+          "file": "/api/audio/chaoxinxing_ch13.mp3",
+          "size_mb": 31.7
+        },
+        {
+          "id": 14,
+          "title": "第13章 悬空时代",
+          "file": "/api/audio/chaoxinxing_ch14.mp3",
+          "size_mb": 29.0
+        },
+        {
+          "id": 15,
+          "title": "第14章 视察",
+          "file": "/api/audio/chaoxinxing_ch15.mp3",
+          "size_mb": 11.3
+        },
+        {
+          "id": 16,
+          "title": "第15章 全国大会",
+          "file": "/api/audio/chaoxinxing_ch16.mp3",
+          "size_mb": 22.6
+        },
+        {
+          "id": 17,
+          "title": "第16章 好玩儿的国家",
+          "file": "/api/audio/chaoxinxing_ch17.mp3",
+          "size_mb": 30.1
+        },
+        {
+          "id": 18,
+          "title": "第17章 争论",
+          "file": "/api/audio/chaoxinxing_ch18.mp3",
+          "size_mb": 9.3
+        },
+        {
+          "id": 19,
+          "title": "第18章 美梦时期",
+          "file": "/api/audio/chaoxinxing_ch19.mp3",
+          "size_mb": 21.1
+        },
+        {
+          "id": 20,
+          "title": "第19章 沉睡时期",
+          "file": "/api/audio/chaoxinxing_ch20.mp3",
+          "size_mb": 25.2
+        },
+        {
+          "id": 21,
+          "title": "第20章 冰淇淋盛宴",
+          "file": "/api/audio/chaoxinxing_ch21.mp3",
+          "size_mb": 55.2
+        },
+        {
+          "id": 22,
+          "title": "第21章 美国糖城时代",
+          "file": "/api/audio/chaoxinxing_ch22.mp3",
+          "size_mb": 24.1
+        },
+        {
+          "id": 23,
+          "title": "第22章 世界游戏",
+          "file": "/api/audio/chaoxinxing_ch23.mp3",
+          "size_mb": 9.5
+        },
+        {
+          "id": 24,
+          "title": "第23章 南极洲",
+          "file": "/api/audio/chaoxinxing_ch24.mp3",
+          "size_mb": 53.7
+        },
+        {
+          "id": 25,
+          "title": "第24章 铁血游戏",
+          "file": "/api/audio/chaoxinxing_ch25.mp3",
+          "size_mb": 54.6
+        },
+        {
+          "id": 26,
+          "title": "第25章 END",
+          "file": "/api/audio/chaoxinxing_ch26.mp3",
+          "size_mb": 18.4
+        },
+        {
+          "id": 27,
+          "title": "第26章 一千个太阳",
+          "file": "/api/audio/chaoxinxing_ch27.mp3",
+          "size_mb": 21.5
+        },
+        {
+          "id": 28,
+          "title": "第27章 公元地雷",
+          "file": "/api/audio/chaoxinxing_ch28.mp3",
+          "size_mb": 8.4
+        },
+        {
+          "id": 29,
+          "title": "第28章 反击",
+          "file": "/api/audio/chaoxinxing_ch29.mp3",
+          "size_mb": 10.3
+        },
+        {
+          "id": 30,
+          "title": "第29章 暴风雪",
+          "file": "/api/audio/chaoxinxing_ch30.mp3",
+          "size_mb": 23.8
+        },
+        {
+          "id": 31,
+          "title": "第30章 新总统",
+          "file": "/api/audio/chaoxinxing_ch31.mp3",
+          "size_mb": 9.3
+        },
+        {
+          "id": 32,
+          "title": "第31章 回家",
+          "file": "/api/audio/chaoxinxing_ch32.mp3",
+          "size_mb": 9.1
+        },
+        {
+          "id": 33,
+          "title": "尾_声",
+          "file": "/api/audio/chaoxinxing_ch33.mp3",
+          "size_mb": 17.3
+        },
+        {
+          "id": 34,
+          "title": "后_记",
+          "file": "/api/audio/chaoxinxing_ch34.mp3",
+          "size_mb": 6.8
+        },
+        {
+          "id": 35,
+          "title": "_未发表部分_交换国土",
+          "file": "/api/audio/chaoxinxing_ch35.mp3",
+          "size_mb": 77.7
+        },
+        {
+          "id": 36,
+          "title": "_未发表部分_京津保卫战",
+          "file": "/api/audio/chaoxinxing_ch36.mp3",
+          "size_mb": 66.7
+        },
+        {
+          "id": 37,
+          "title": "第01章",
+          "file": "/api/audio/chaoxinxing_ch37.mp3",
+          "size_mb": 4.5
+        },
+        {
+          "id": 38,
+          "title": "第02章",
+          "file": "/api/audio/chaoxinxing_ch38.mp3",
+          "size_mb": 9.7
+        },
+        {
+          "id": 39,
+          "title": "第03章",
+          "file": "/api/audio/chaoxinxing_ch39.mp3",
+          "size_mb": 8.9
+        },
+        {
+          "id": 40,
+          "title": "第04章",
+          "file": "/api/audio/chaoxinxing_ch40.mp3",
+          "size_mb": 26.8
+        },
+        {
+          "id": 41,
+          "title": "第05章",
+          "file": "/api/audio/chaoxinxing_ch41.mp3",
+          "size_mb": 4.2
+        },
+        {
+          "id": 42,
+          "title": "第06章",
+          "file": "/api/audio/chaoxinxing_ch42.mp3",
+          "size_mb": 23.5
+        },
+        {
+          "id": 43,
+          "title": "第07章",
+          "file": "/api/audio/chaoxinxing_ch43.mp3",
+          "size_mb": 10.3
+        },
+        {
+          "id": 44,
+          "title": "第08章",
+          "file": "/api/audio/chaoxinxing_ch44.mp3",
+          "size_mb": 7.6
+        },
+        {
+          "id": 45,
+          "title": "第09章",
+          "file": "/api/audio/chaoxinxing_ch45.mp3",
+          "size_mb": 4.3
+        }
+      ]
+    },
+    {
+      "id": "pingfan",
+      "title": "平凡的世界",
+      "author": "路遥",
+      "cover": "covers/pingfan.jpg",
+      "description": "路遥代表作，以中国70年代中期到80年代中期十年间为背景，通过孙少安和孙少平两兄弟的奋斗历程，全景式地展现了中国当代城乡社会生活。茅盾文学奖获奖作品。",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "ch001",
+          "file": "/api/audio/pingfan_ch01.mp3",
+          "size_mb": 18.8
+        },
+        {
+          "id": 2,
+          "title": "ch002",
+          "file": "/api/audio/pingfan_ch02.mp3",
+          "size_mb": 32.1
+        },
+        {
+          "id": 3,
+          "title": "ch003",
+          "file": "/api/audio/pingfan_ch03.mp3",
+          "size_mb": 23.4
+        },
+        {
+          "id": 4,
+          "title": "ch004",
+          "file": "/api/audio/pingfan_ch04.mp3",
+          "size_mb": 16.2
+        },
+        {
+          "id": 5,
+          "title": "ch005",
+          "file": "/api/audio/pingfan_ch05.mp3",
+          "size_mb": 21.3
+        },
+        {
+          "id": 6,
+          "title": "ch006",
+          "file": "/api/audio/pingfan_ch06.mp3",
+          "size_mb": 23.8
+        },
+        {
+          "id": 7,
+          "title": "ch007",
+          "file": "/api/audio/pingfan_ch07.mp3",
+          "size_mb": 19.9
+        },
+        {
+          "id": 8,
+          "title": "ch008",
+          "file": "/api/audio/pingfan_ch08.mp3",
+          "size_mb": 38.2
+        },
+        {
+          "id": 9,
+          "title": "ch009",
+          "file": "/api/audio/pingfan_ch09.mp3",
+          "size_mb": 26.1
+        },
+        {
+          "id": 10,
+          "title": "ch010",
+          "file": "/api/audio/pingfan_ch10.mp3",
+          "size_mb": 30.3
+        },
+        {
+          "id": 11,
+          "title": "ch011",
+          "file": "/api/audio/pingfan_ch11.mp3",
+          "size_mb": 19.4
+        },
+        {
+          "id": 12,
+          "title": "ch012",
+          "file": "/api/audio/pingfan_ch12.mp3",
+          "size_mb": 19.2
+        },
+        {
+          "id": 13,
+          "title": "ch013",
+          "file": "/api/audio/pingfan_ch13.mp3",
+          "size_mb": 34.3
+        },
+        {
+          "id": 14,
+          "title": "ch014",
+          "file": "/api/audio/pingfan_ch14.mp3",
+          "size_mb": 27.1
+        },
+        {
+          "id": 15,
+          "title": "ch015",
+          "file": "/api/audio/pingfan_ch15.mp3",
+          "size_mb": 18.4
+        },
+        {
+          "id": 16,
+          "title": "ch016",
+          "file": "/api/audio/pingfan_ch16.mp3",
+          "size_mb": 20.4
+        },
+        {
+          "id": 17,
+          "title": "ch017",
+          "file": "/api/audio/pingfan_ch17.mp3",
+          "size_mb": 24.7
+        },
+        {
+          "id": 18,
+          "title": "ch018",
+          "file": "/api/audio/pingfan_ch18.mp3",
+          "size_mb": 23.0
+        },
+        {
+          "id": 19,
+          "title": "ch019",
+          "file": "/api/audio/pingfan_ch19.mp3",
+          "size_mb": 22.6
+        },
+        {
+          "id": 20,
+          "title": "ch020",
+          "file": "/api/audio/pingfan_ch20.mp3",
+          "size_mb": 23.2
+        },
+        {
+          "id": 21,
+          "title": "ch021",
+          "file": "/api/audio/pingfan_ch21.mp3",
+          "size_mb": 11.6
+        },
+        {
+          "id": 22,
+          "title": "ch022",
+          "file": "/api/audio/pingfan_ch22.mp3",
+          "size_mb": 21.3
+        },
+        {
+          "id": 23,
+          "title": "ch023",
+          "file": "/api/audio/pingfan_ch23.mp3",
+          "size_mb": 32.6
+        },
+        {
+          "id": 24,
+          "title": "ch024",
+          "file": "/api/audio/pingfan_ch24.mp3",
+          "size_mb": 27.9
+        },
+        {
+          "id": 25,
+          "title": "ch025",
+          "file": "/api/audio/pingfan_ch25.mp3",
+          "size_mb": 20.2
+        },
+        {
+          "id": 26,
+          "title": "ch026",
+          "file": "/api/audio/pingfan_ch26.mp3",
+          "size_mb": 34.1
+        },
+        {
+          "id": 27,
+          "title": "ch027",
+          "file": "/api/audio/pingfan_ch27.mp3",
+          "size_mb": 24.5
+        },
+        {
+          "id": 28,
+          "title": "ch028",
+          "file": "/api/audio/pingfan_ch28.mp3",
+          "size_mb": 25.0
+        },
+        {
+          "id": 29,
+          "title": "ch029",
+          "file": "/api/audio/pingfan_ch29.mp3",
+          "size_mb": 26.5
+        },
+        {
+          "id": 30,
+          "title": "ch030",
+          "file": "/api/audio/pingfan_ch30.mp3",
+          "size_mb": 23.8
+        },
+        {
+          "id": 31,
+          "title": "ch031",
+          "file": "/api/audio/pingfan_ch31.mp3",
+          "size_mb": 27.0
+        },
+        {
+          "id": 32,
+          "title": "ch032",
+          "file": "/api/audio/pingfan_ch32.mp3",
+          "size_mb": 14.4
+        },
+        {
+          "id": 33,
+          "title": "ch033",
+          "file": "/api/audio/pingfan_ch33.mp3",
+          "size_mb": 13.9
+        },
+        {
+          "id": 34,
+          "title": "ch034",
+          "file": "/api/audio/pingfan_ch34.mp3",
+          "size_mb": 22.5
+        },
+        {
+          "id": 35,
+          "title": "ch035",
+          "file": "/api/audio/pingfan_ch35.mp3",
+          "size_mb": 21.7
+        },
+        {
+          "id": 36,
+          "title": "ch036",
+          "file": "/api/audio/pingfan_ch36.mp3",
+          "size_mb": 21.4
+        },
+        {
+          "id": 37,
+          "title": "ch037",
+          "file": "/api/audio/pingfan_ch37.mp3",
+          "size_mb": 18.5
+        },
+        {
+          "id": 38,
+          "title": "ch038",
+          "file": "/api/audio/pingfan_ch38.mp3",
+          "size_mb": 34.2
+        },
+        {
+          "id": 39,
+          "title": "ch039",
+          "file": "/api/audio/pingfan_ch39.mp3",
+          "size_mb": 26.0
+        },
+        {
+          "id": 40,
+          "title": "ch040",
+          "file": "/api/audio/pingfan_ch40.mp3",
+          "size_mb": 30.7
+        },
+        {
+          "id": 41,
+          "title": "ch041",
+          "file": "/api/audio/pingfan_ch41.mp3",
+          "size_mb": 22.4
+        },
+        {
+          "id": 42,
+          "title": "ch042",
+          "file": "/api/audio/pingfan_ch42.mp3",
+          "size_mb": 26.9
+        },
+        {
+          "id": 43,
+          "title": "ch043",
+          "file": "/api/audio/pingfan_ch43.mp3",
+          "size_mb": 25.4
+        },
+        {
+          "id": 44,
+          "title": "ch044",
+          "file": "/api/audio/pingfan_ch44.mp3",
+          "size_mb": 24.4
+        },
+        {
+          "id": 45,
+          "title": "ch045",
+          "file": "/api/audio/pingfan_ch45.mp3",
+          "size_mb": 22.3
+        },
+        {
+          "id": 46,
+          "title": "ch046",
+          "file": "/api/audio/pingfan_ch46.mp3",
+          "size_mb": 26.2
+        },
+        {
+          "id": 47,
+          "title": "ch047",
+          "file": "/api/audio/pingfan_ch47.mp3",
+          "size_mb": 33.3
+        },
+        {
+          "id": 48,
+          "title": "ch048",
+          "file": "/api/audio/pingfan_ch48.mp3",
+          "size_mb": 28.1
+        },
+        {
+          "id": 49,
+          "title": "ch049",
+          "file": "/api/audio/pingfan_ch49.mp3",
+          "size_mb": 24.6
+        },
+        {
+          "id": 50,
+          "title": "ch050",
+          "file": "/api/audio/pingfan_ch50.mp3",
+          "size_mb": 19.3
+        },
+        {
+          "id": 51,
+          "title": "ch051",
+          "file": "/api/audio/pingfan_ch51.mp3",
+          "size_mb": 22.9
+        },
+        {
+          "id": 52,
+          "title": "ch052",
+          "file": "/api/audio/pingfan_ch52.mp3",
+          "size_mb": 21.9
+        },
+        {
+          "id": 53,
+          "title": "ch053",
+          "file": "/api/audio/pingfan_ch53.mp3",
+          "size_mb": 24.8
+        },
+        {
+          "id": 54,
+          "title": "ch054",
+          "file": "/api/audio/pingfan_ch54.mp3",
+          "size_mb": 21.5
+        },
+        {
+          "id": 55,
+          "title": "ch055",
+          "file": "/api/audio/pingfan_ch55.mp3",
+          "size_mb": 25.7
+        },
+        {
+          "id": 56,
+          "title": "ch056",
+          "file": "/api/audio/pingfan_ch56.mp3",
+          "size_mb": 21.7
+        },
+        {
+          "id": 57,
+          "title": "ch057",
+          "file": "/api/audio/pingfan_ch57.mp3",
+          "size_mb": 16.8
+        },
+        {
+          "id": 58,
+          "title": "ch058",
+          "file": "/api/audio/pingfan_ch58.mp3",
+          "size_mb": 23.7
+        },
+        {
+          "id": 59,
+          "title": "ch059",
+          "file": "/api/audio/pingfan_ch59.mp3",
+          "size_mb": 25.6
+        },
+        {
+          "id": 60,
+          "title": "ch060",
+          "file": "/api/audio/pingfan_ch60.mp3",
+          "size_mb": 25.1
+        },
+        {
+          "id": 61,
+          "title": "ch061",
+          "file": "/api/audio/pingfan_ch61.mp3",
+          "size_mb": 23.3
+        },
+        {
+          "id": 62,
+          "title": "ch062",
+          "file": "/api/audio/pingfan_ch62.mp3",
+          "size_mb": 21.1
+        },
+        {
+          "id": 63,
+          "title": "ch063",
+          "file": "/api/audio/pingfan_ch63.mp3",
+          "size_mb": 21.5
+        },
+        {
+          "id": 64,
+          "title": "ch064",
+          "file": "/api/audio/pingfan_ch64.mp3",
+          "size_mb": 24.7
+        },
+        {
+          "id": 65,
+          "title": "ch065",
+          "file": "/api/audio/pingfan_ch65.mp3",
+          "size_mb": 19.8
+        },
+        {
+          "id": 66,
+          "title": "ch066",
+          "file": "/api/audio/pingfan_ch66.mp3",
+          "size_mb": 26.8
+        },
+        {
+          "id": 67,
+          "title": "ch067",
+          "file": "/api/audio/pingfan_ch67.mp3",
+          "size_mb": 22.1
+        },
+        {
+          "id": 68,
+          "title": "ch068",
+          "file": "/api/audio/pingfan_ch68.mp3",
+          "size_mb": 22.0
+        },
+        {
+          "id": 69,
+          "title": "ch069",
+          "file": "/api/audio/pingfan_ch69.mp3",
+          "size_mb": 20.7
+        },
+        {
+          "id": 70,
+          "title": "ch070",
+          "file": "/api/audio/pingfan_ch70.mp3",
+          "size_mb": 21.4
+        },
+        {
+          "id": 71,
+          "title": "ch071",
+          "file": "/api/audio/pingfan_ch71.mp3",
+          "size_mb": 22.7
+        },
+        {
+          "id": 72,
+          "title": "ch072",
+          "file": "/api/audio/pingfan_ch72.mp3",
+          "size_mb": 22.6
+        },
+        {
+          "id": 73,
+          "title": "ch073",
+          "file": "/api/audio/pingfan_ch73.mp3",
+          "size_mb": 22.7
+        },
+        {
+          "id": 74,
+          "title": "ch074",
+          "file": "/api/audio/pingfan_ch74.mp3",
+          "size_mb": 22.0
+        },
+        {
+          "id": 75,
+          "title": "ch075",
+          "file": "/api/audio/pingfan_ch75.mp3",
+          "size_mb": 17.0
+        },
+        {
+          "id": 76,
+          "title": "ch076",
+          "file": "/api/audio/pingfan_ch76.mp3",
+          "size_mb": 25.4
+        },
+        {
+          "id": 77,
+          "title": "ch077",
+          "file": "/api/audio/pingfan_ch77.mp3",
+          "size_mb": 19.1
+        },
+        {
+          "id": 78,
+          "title": "ch078",
+          "file": "/api/audio/pingfan_ch78.mp3",
+          "size_mb": 21.0
+        },
+        {
+          "id": 79,
+          "title": "ch079",
+          "file": "/api/audio/pingfan_ch79.mp3",
+          "size_mb": 18.6
+        },
+        {
+          "id": 80,
+          "title": "ch080",
+          "file": "/api/audio/pingfan_ch80.mp3",
+          "size_mb": 18.7
+        },
+        {
+          "id": 81,
+          "title": "ch081",
+          "file": "/api/audio/pingfan_ch81.mp3",
+          "size_mb": 30.7
+        },
+        {
+          "id": 82,
+          "title": "ch082",
+          "file": "/api/audio/pingfan_ch82.mp3",
+          "size_mb": 23.2
+        },
+        {
+          "id": 83,
+          "title": "ch083",
+          "file": "/api/audio/pingfan_ch83.mp3",
+          "size_mb": 23.2
+        },
+        {
+          "id": 84,
+          "title": "ch084",
+          "file": "/api/audio/pingfan_ch84.mp3",
+          "size_mb": 23.9
+        },
+        {
+          "id": 85,
+          "title": "ch085",
+          "file": "/api/audio/pingfan_ch85.mp3",
+          "size_mb": 23.2
+        },
+        {
+          "id": 86,
+          "title": "ch086",
+          "file": "/api/audio/pingfan_ch86.mp3",
+          "size_mb": 24.0
+        },
+        {
+          "id": 87,
+          "title": "ch087",
+          "file": "/api/audio/pingfan_ch87.mp3",
+          "size_mb": 29.1
+        },
+        {
+          "id": 88,
+          "title": "ch088",
+          "file": "/api/audio/pingfan_ch88.mp3",
+          "size_mb": 20.8
+        },
+        {
+          "id": 89,
+          "title": "ch089",
+          "file": "/api/audio/pingfan_ch89.mp3",
+          "size_mb": 28.8
+        },
+        {
+          "id": 90,
+          "title": "ch090",
+          "file": "/api/audio/pingfan_ch90.mp3",
+          "size_mb": 22.3
+        },
+        {
+          "id": 91,
+          "title": "ch091",
+          "file": "/api/audio/pingfan_ch91.mp3",
+          "size_mb": 25.0
+        },
+        {
+          "id": 92,
+          "title": "ch092",
+          "file": "/api/audio/pingfan_ch92.mp3",
+          "size_mb": 31.7
+        },
+        {
+          "id": 93,
+          "title": "ch093",
+          "file": "/api/audio/pingfan_ch93.mp3",
+          "size_mb": 23.7
+        },
+        {
+          "id": 94,
+          "title": "ch094",
+          "file": "/api/audio/pingfan_ch94.mp3",
+          "size_mb": 31.9
+        },
+        {
+          "id": 95,
+          "title": "ch095",
+          "file": "/api/audio/pingfan_ch95.mp3",
+          "size_mb": 23.2
+        },
+        {
+          "id": 96,
+          "title": "ch096",
+          "file": "/api/audio/pingfan_ch96.mp3",
+          "size_mb": 25.8
+        },
+        {
+          "id": 97,
+          "title": "ch097",
+          "file": "/api/audio/pingfan_ch97.mp3",
+          "size_mb": 22.6
+        },
+        {
+          "id": 98,
+          "title": "ch098",
+          "file": "/api/audio/pingfan_ch98.mp3",
+          "size_mb": 22.6
+        },
+        {
+          "id": 99,
+          "title": "ch099",
+          "file": "/api/audio/pingfan_ch99.mp3",
+          "size_mb": 20.1
+        },
+        {
+          "id": 100,
+          "title": "ch100",
+          "file": "/api/audio/pingfan_ch100.mp3",
+          "size_mb": 18.4
+        },
+        {
+          "id": 101,
+          "title": "ch101",
+          "file": "/api/audio/pingfan_ch101.mp3",
+          "size_mb": 14.4
+        },
+        {
+          "id": 102,
+          "title": "ch102",
+          "file": "/api/audio/pingfan_ch102.mp3",
+          "size_mb": 25.3
+        },
+        {
+          "id": 103,
+          "title": "ch103",
+          "file": "/api/audio/pingfan_ch103.mp3",
+          "size_mb": 24.0
+        },
+        {
+          "id": 104,
+          "title": "ch104",
+          "file": "/api/audio/pingfan_ch104.mp3",
+          "size_mb": 22.9
+        },
+        {
+          "id": 105,
+          "title": "ch105",
+          "file": "/api/audio/pingfan_ch105.mp3",
+          "size_mb": 22.0
+        },
+        {
+          "id": 106,
+          "title": "ch106",
+          "file": "/api/audio/pingfan_ch106.mp3",
+          "size_mb": 22.1
+        },
+        {
+          "id": 107,
+          "title": "ch107",
+          "file": "/api/audio/pingfan_ch107.mp3",
+          "size_mb": 20.3
+        },
+        {
+          "id": 108,
+          "title": "ch108",
+          "file": "/api/audio/pingfan_ch108.mp3",
+          "size_mb": 25.9
+        },
+        {
+          "id": 109,
+          "title": "ch109",
+          "file": "/api/audio/pingfan_ch109.mp3",
+          "size_mb": 20.4
+        },
+        {
+          "id": 110,
+          "title": "ch110",
+          "file": "/api/audio/pingfan_ch110.mp3",
+          "size_mb": 22.4
+        },
+        {
+          "id": 111,
+          "title": "ch111",
+          "file": "/api/audio/pingfan_ch111.mp3",
+          "size_mb": 22.8
+        },
+        {
+          "id": 112,
+          "title": "ch112",
+          "file": "/api/audio/pingfan_ch112.mp3",
+          "size_mb": 20.0
+        },
+        {
+          "id": 113,
+          "title": "ch113",
+          "file": "/api/audio/pingfan_ch113.mp3",
+          "size_mb": 24.5
+        },
+        {
+          "id": 114,
+          "title": "ch114",
+          "file": "/api/audio/pingfan_ch114.mp3",
+          "size_mb": 22.1
+        },
+        {
+          "id": 115,
+          "title": "ch115",
+          "file": "/api/audio/pingfan_ch115.mp3",
+          "size_mb": 32.4
+        },
+        {
+          "id": 116,
+          "title": "ch116",
+          "file": "/api/audio/pingfan_ch116.mp3",
+          "size_mb": 25.9
+        },
+        {
+          "id": 117,
+          "title": "ch117",
+          "file": "/api/audio/pingfan_ch117.mp3",
+          "size_mb": 24.3
+        },
+        {
+          "id": 118,
+          "title": "ch118",
+          "file": "/api/audio/pingfan_ch118.mp3",
+          "size_mb": 23.8
+        },
+        {
+          "id": 119,
+          "title": "ch119",
+          "file": "/api/audio/pingfan_ch119.mp3",
+          "size_mb": 22.5
+        },
+        {
+          "id": 120,
+          "title": "ch120",
+          "file": "/api/audio/pingfan_ch120.mp3",
+          "size_mb": 23.2
+        },
+        {
+          "id": 121,
+          "title": "ch121",
+          "file": "/api/audio/pingfan_ch121.mp3",
+          "size_mb": 25.4
+        },
+        {
+          "id": 122,
+          "title": "ch122",
+          "file": "/api/audio/pingfan_ch122.mp3",
+          "size_mb": 26.6
+        },
+        {
+          "id": 123,
+          "title": "ch123",
+          "file": "/api/audio/pingfan_ch123.mp3",
+          "size_mb": 29.9
+        },
+        {
+          "id": 124,
+          "title": "ch124",
+          "file": "/api/audio/pingfan_ch124.mp3",
+          "size_mb": 24.9
+        },
+        {
+          "id": 125,
+          "title": "ch125",
+          "file": "/api/audio/pingfan_ch125.mp3",
+          "size_mb": 28.6
+        },
+        {
+          "id": 126,
+          "title": "ch126",
+          "file": "/api/audio/pingfan_ch126.mp3",
+          "size_mb": 21.5
+        },
+        {
+          "id": 127,
+          "title": "ch127",
+          "file": "/api/audio/pingfan_ch127.mp3",
+          "size_mb": 22.1
+        },
+        {
+          "id": 128,
+          "title": "ch128",
+          "file": "/api/audio/pingfan_ch128.mp3",
+          "size_mb": 26.2
+        },
+        {
+          "id": 129,
+          "title": "ch129",
+          "file": "/api/audio/pingfan_ch129.mp3",
+          "size_mb": 23.0
+        },
+        {
+          "id": 130,
+          "title": "ch130",
+          "file": "/api/audio/pingfan_ch130.mp3",
+          "size_mb": 26.9
+        },
+        {
+          "id": 131,
+          "title": "ch131",
+          "file": "/api/audio/pingfan_ch131.mp3",
+          "size_mb": 26.9
+        },
+        {
+          "id": 132,
+          "title": "ch132",
+          "file": "/api/audio/pingfan_ch132.mp3",
+          "size_mb": 23.8
+        },
+        {
+          "id": 133,
+          "title": "ch133",
+          "file": "/api/audio/pingfan_ch133.mp3",
+          "size_mb": 23.5
+        },
+        {
+          "id": 134,
+          "title": "ch134",
+          "file": "/api/audio/pingfan_ch134.mp3",
+          "size_mb": 24.1
+        },
+        {
+          "id": 135,
+          "title": "ch135",
+          "file": "/api/audio/pingfan_ch135.mp3",
+          "size_mb": 21.6
+        },
+        {
+          "id": 136,
+          "title": "ch136",
+          "file": "/api/audio/pingfan_ch136.mp3",
+          "size_mb": 25.5
+        },
+        {
+          "id": 137,
+          "title": "ch137",
+          "file": "/api/audio/pingfan_ch137.mp3",
+          "size_mb": 24.5
+        },
+        {
+          "id": 138,
+          "title": "ch138",
+          "file": "/api/audio/pingfan_ch138.mp3",
+          "size_mb": 23.5
+        },
+        {
+          "id": 139,
+          "title": "ch139",
+          "file": "/api/audio/pingfan_ch139.mp3",
+          "size_mb": 27.1
+        },
+        {
+          "id": 140,
+          "title": "ch140",
+          "file": "/api/audio/pingfan_ch140.mp3",
+          "size_mb": 24.5
+        },
+        {
+          "id": 141,
+          "title": "ch141",
+          "file": "/api/audio/pingfan_ch141.mp3",
+          "size_mb": 22.5
+        },
+        {
+          "id": 142,
+          "title": "ch142",
+          "file": "/api/audio/pingfan_ch142.mp3",
+          "size_mb": 18.2
+        },
+        {
+          "id": 143,
+          "title": "ch143",
+          "file": "/api/audio/pingfan_ch143.mp3",
+          "size_mb": 22.5
+        },
+        {
+          "id": 144,
+          "title": "ch144",
+          "file": "/api/audio/pingfan_ch144.mp3",
+          "size_mb": 24.6
+        },
+        {
+          "id": 145,
+          "title": "ch145",
+          "file": "/api/audio/pingfan_ch145.mp3",
+          "size_mb": 23.9
+        },
+        {
+          "id": 146,
+          "title": "ch146",
+          "file": "/api/audio/pingfan_ch146.mp3",
+          "size_mb": 27.0
+        },
+        {
+          "id": 147,
+          "title": "ch147",
+          "file": "/api/audio/pingfan_ch147.mp3",
+          "size_mb": 21.2
+        },
+        {
+          "id": 148,
+          "title": "ch148",
+          "file": "/api/audio/pingfan_ch148.mp3",
+          "size_mb": 31.3
+        },
+        {
+          "id": 149,
+          "title": "ch149",
+          "file": "/api/audio/pingfan_ch149.mp3",
+          "size_mb": 31.3
+        },
+        {
+          "id": 150,
+          "title": "ch150",
+          "file": "/api/audio/pingfan_ch150.mp3",
+          "size_mb": 18.6
+        }
+      ]
+    },
+    {
+      "id": "bailuyuan",
+      "title": "白鹿原",
+      "author": "陈忠实",
+      "cover": "covers/bailuyuan.jpg",
+      "description": "陈忠实代表作，以陕西关中平原上的白鹿村为背景，讲述了白姓和鹿姓两大家族祖孙三代的恩怨纷争。茅盾文学奖获奖作品，中国当代文学经典。",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "chapter_01",
+          "file": "/api/audio/bailuyuan_ch01.mp3",
+          "size_mb": 14.4
+        },
+        {
+          "id": 2,
+          "title": "chapter_02",
+          "file": "/api/audio/bailuyuan_ch02.mp3",
+          "size_mb": 37.3
+        },
+        {
+          "id": 3,
+          "title": "chapter_03",
+          "file": "/api/audio/bailuyuan_ch03.mp3",
+          "size_mb": 24.2
+        },
+        {
+          "id": 4,
+          "title": "chapter_04",
+          "file": "/api/audio/bailuyuan_ch04.mp3",
+          "size_mb": 41.1
+        },
+        {
+          "id": 5,
+          "title": "chapter_05",
+          "file": "/api/audio/bailuyuan_ch05.mp3",
+          "size_mb": 34.8
+        },
+        {
+          "id": 6,
+          "title": "chapter_06",
+          "file": "/api/audio/bailuyuan_ch06.mp3",
+          "size_mb": 24.2
+        },
+        {
+          "id": 7,
+          "title": "chapter_07",
+          "file": "/api/audio/bailuyuan_ch07.mp3",
+          "size_mb": 51.9
+        },
+        {
+          "id": 8,
+          "title": "chapter_08",
+          "file": "/api/audio/bailuyuan_ch08.mp3",
+          "size_mb": 30.0
+        },
+        {
+          "id": 9,
+          "title": "chapter_09",
+          "file": "/api/audio/bailuyuan_ch09.mp3",
+          "size_mb": 41.6
+        },
+        {
+          "id": 10,
+          "title": "chapter_10",
+          "file": "/api/audio/bailuyuan_ch10.mp3",
+          "size_mb": 53.9
+        },
+        {
+          "id": 11,
+          "title": "chapter_11",
+          "file": "/api/audio/bailuyuan_ch11.mp3",
+          "size_mb": 41.8
+        },
+        {
+          "id": 12,
+          "title": "chapter_12",
+          "file": "/api/audio/bailuyuan_ch12.mp3",
+          "size_mb": 40.8
+        },
+        {
+          "id": 13,
+          "title": "chapter_13",
+          "file": "/api/audio/bailuyuan_ch13.mp3",
+          "size_mb": 38.6
+        },
+        {
+          "id": 14,
+          "title": "chapter_14",
+          "file": "/api/audio/bailuyuan_ch14.mp3",
+          "size_mb": 53.6
+        },
+        {
+          "id": 15,
+          "title": "chapter_15",
+          "file": "/api/audio/bailuyuan_ch15.mp3",
+          "size_mb": 45.6
+        },
+        {
+          "id": 16,
+          "title": "chapter_16",
+          "file": "/api/audio/bailuyuan_ch16.mp3",
+          "size_mb": 60.0
+        },
+        {
+          "id": 17,
+          "title": "chapter_17",
+          "file": "/api/audio/bailuyuan_ch17.mp3",
+          "size_mb": 48.4
+        },
+        {
+          "id": 18,
+          "title": "chapter_18",
+          "file": "/api/audio/bailuyuan_ch18.mp3",
+          "size_mb": 50.0
+        },
+        {
+          "id": 19,
+          "title": "chapter_19",
+          "file": "/api/audio/bailuyuan_ch19.mp3",
+          "size_mb": 49.7
+        },
+        {
+          "id": 20,
+          "title": "chapter_20",
+          "file": "/api/audio/bailuyuan_ch20.mp3",
+          "size_mb": 38.5
+        },
+        {
+          "id": 21,
+          "title": "chapter_21",
+          "file": "/api/audio/bailuyuan_ch21.mp3",
+          "size_mb": 48.9
+        },
+        {
+          "id": 22,
+          "title": "chapter_22",
+          "file": "/api/audio/bailuyuan_ch22.mp3",
+          "size_mb": 36.9
+        },
+        {
+          "id": 23,
+          "title": "chapter_23",
+          "file": "/api/audio/bailuyuan_ch23.mp3",
+          "size_mb": 51.2
+        },
+        {
+          "id": 24,
+          "title": "chapter_24",
+          "file": "/api/audio/bailuyuan_ch24.mp3",
+          "size_mb": 44.9
+        },
+        {
+          "id": 25,
+          "title": "chapter_25",
+          "file": "/api/audio/bailuyuan_ch25.mp3",
+          "size_mb": 48.5
+        },
+        {
+          "id": 26,
+          "title": "chapter_26",
+          "file": "/api/audio/bailuyuan_ch26.mp3",
+          "size_mb": 58.0
+        },
+        {
+          "id": 27,
+          "title": "chapter_27",
+          "file": "/api/audio/bailuyuan_ch27.mp3",
+          "size_mb": 56.6
+        },
+        {
+          "id": 28,
+          "title": "chapter_28",
+          "file": "/api/audio/bailuyuan_ch28.mp3",
+          "size_mb": 56.4
+        },
+        {
+          "id": 29,
+          "title": "chapter_29",
+          "file": "/api/audio/bailuyuan_ch29.mp3",
+          "size_mb": 48.4
+        },
+        {
+          "id": 30,
+          "title": "chapter_30",
+          "file": "/api/audio/bailuyuan_ch30.mp3",
+          "size_mb": 57.6
+        },
+        {
+          "id": 31,
+          "title": "chapter_31",
+          "file": "/api/audio/bailuyuan_ch31.mp3",
+          "size_mb": 59.6
+        },
+        {
+          "id": 32,
+          "title": "chapter_32",
+          "file": "/api/audio/bailuyuan_ch32.mp3",
+          "size_mb": 66.9
+        },
+        {
+          "id": 33,
+          "title": "chapter_33",
+          "file": "/api/audio/bailuyuan_ch33.mp3",
+          "size_mb": 48.1
+        },
+        {
+          "id": 34,
+          "title": "chapter_34",
+          "file": "/api/audio/bailuyuan_ch34.mp3",
+          "size_mb": 46.1
+        },
+        {
+          "id": 35,
+          "title": "chapter_35",
+          "file": "/api/audio/bailuyuan_ch35.mp3",
+          "size_mb": 50.6
+        }
+      ]
+    },
+    {
+      "id": "yhjidi",
+      "title": "银河帝国基地",
+      "author": "艾萨克·阿西莫夫",
+      "cover": "covers/yhjidi.jpg",
+      "description": "阿西莫夫代表作，银河帝国系列开篇之作。心理史学家哈里·谢顿预见到帝国必将灭亡，于是建立了「基地」以保存文明火种，缩短黑暗时代……科幻文学史上的里程碑。",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "第1节",
+          "file": "/api/audio/yhjidi_ch01.mp3",
+          "size_mb": 6.3
+        },
+        {
+          "id": 2,
+          "title": "第2节",
+          "file": "/api/audio/yhjidi_ch02.mp3",
+          "size_mb": 5.2
+        },
+        {
+          "id": 3,
+          "title": "第3节",
+          "file": "/api/audio/yhjidi_ch03.mp3",
+          "size_mb": 10.4
+        },
+        {
+          "id": 4,
+          "title": "第4节",
+          "file": "/api/audio/yhjidi_ch04.mp3",
+          "size_mb": 5.8
+        },
+        {
+          "id": 5,
+          "title": "第5节",
+          "file": "/api/audio/yhjidi_ch05.mp3",
+          "size_mb": 8.5
+        },
+        {
+          "id": 6,
+          "title": "第6节",
+          "file": "/api/audio/yhjidi_ch06.mp3",
+          "size_mb": 14.0
+        },
+        {
+          "id": 7,
+          "title": "第7节",
+          "file": "/api/audio/yhjidi_ch07.mp3",
+          "size_mb": 5.8
+        },
+        {
+          "id": 8,
+          "title": "第8节",
+          "file": "/api/audio/yhjidi_ch08.mp3",
+          "size_mb": 5.7
+        },
+        {
+          "id": 9,
+          "title": "第1节",
+          "file": "/api/audio/yhjidi_ch09.mp3",
+          "size_mb": 8.3
+        },
+        {
+          "id": 10,
+          "title": "第2节",
+          "file": "/api/audio/yhjidi_ch10.mp3",
+          "size_mb": 14.6
+        },
+        {
+          "id": 11,
+          "title": "第3节",
+          "file": "/api/audio/yhjidi_ch11.mp3",
+          "size_mb": 11.5
+        },
+        {
+          "id": 12,
+          "title": "第4节",
+          "file": "/api/audio/yhjidi_ch12.mp3",
+          "size_mb": 11.2
+        },
+        {
+          "id": 13,
+          "title": "第5节",
+          "file": "/api/audio/yhjidi_ch13.mp3",
+          "size_mb": 17.1
+        },
+        {
+          "id": 14,
+          "title": "第6节",
+          "file": "/api/audio/yhjidi_ch14.mp3",
+          "size_mb": 2.6
+        },
+        {
+          "id": 15,
+          "title": "第7节",
+          "file": "/api/audio/yhjidi_ch15.mp3",
+          "size_mb": 8.2
+        },
+        {
+          "id": 16,
+          "title": "第1节",
+          "file": "/api/audio/yhjidi_ch16.mp3",
+          "size_mb": 21.4
+        },
+        {
+          "id": 17,
+          "title": "第2节",
+          "file": "/api/audio/yhjidi_ch17.mp3",
+          "size_mb": 19.3
+        },
+        {
+          "id": 18,
+          "title": "第3节",
+          "file": "/api/audio/yhjidi_ch18.mp3",
+          "size_mb": 17.1
+        },
+        {
+          "id": 19,
+          "title": "第4节",
+          "file": "/api/audio/yhjidi_ch19.mp3",
+          "size_mb": 11.4
+        },
+        {
+          "id": 20,
+          "title": "第5节",
+          "file": "/api/audio/yhjidi_ch20.mp3",
+          "size_mb": 5.5
+        },
+        {
+          "id": 21,
+          "title": "第6节",
+          "file": "/api/audio/yhjidi_ch21.mp3",
+          "size_mb": 21.5
+        },
+        {
+          "id": 22,
+          "title": "第7节",
+          "file": "/api/audio/yhjidi_ch22.mp3",
+          "size_mb": 9.0
+        },
+        {
+          "id": 23,
+          "title": "第8节",
+          "file": "/api/audio/yhjidi_ch23.mp3",
+          "size_mb": 6.8
+        },
+        {
+          "id": 24,
+          "title": "第9节",
+          "file": "/api/audio/yhjidi_ch24.mp3",
+          "size_mb": 7.5
+        },
+        {
+          "id": 25,
+          "title": "第1节",
+          "file": "/api/audio/yhjidi_ch25.mp3",
+          "size_mb": 6.2
+        },
+        {
+          "id": 26,
+          "title": "第2节",
+          "file": "/api/audio/yhjidi_ch26.mp3",
+          "size_mb": 6.4
+        },
+        {
+          "id": 27,
+          "title": "第3节",
+          "file": "/api/audio/yhjidi_ch27.mp3",
+          "size_mb": 7.3
+        },
+        {
+          "id": 28,
+          "title": "第4节",
+          "file": "/api/audio/yhjidi_ch28.mp3",
+          "size_mb": 7.7
+        },
+        {
+          "id": 29,
+          "title": "第5节",
+          "file": "/api/audio/yhjidi_ch29.mp3",
+          "size_mb": 8.1
+        },
+        {
+          "id": 30,
+          "title": "第6节",
+          "file": "/api/audio/yhjidi_ch30.mp3",
+          "size_mb": 8.0
+        },
+        {
+          "id": 31,
+          "title": "第1节",
+          "file": "/api/audio/yhjidi_ch31.mp3",
+          "size_mb": 15.8
+        },
+        {
+          "id": 32,
+          "title": "第2节",
+          "file": "/api/audio/yhjidi_ch32.mp3",
+          "size_mb": 15.0
+        },
+        {
+          "id": 33,
+          "title": "第3节",
+          "file": "/api/audio/yhjidi_ch33.mp3",
+          "size_mb": 17.7
+        },
+        {
+          "id": 34,
+          "title": "第4节",
+          "file": "/api/audio/yhjidi_ch34.mp3",
+          "size_mb": 13.0
+        },
+        {
+          "id": 35,
+          "title": "第5节",
+          "file": "/api/audio/yhjidi_ch35.mp3",
+          "size_mb": 20.8
+        },
+        {
+          "id": 36,
+          "title": "第6节",
+          "file": "/api/audio/yhjidi_ch36.mp3",
+          "size_mb": 20.1
+        },
+        {
+          "id": 37,
+          "title": "第7节",
+          "file": "/api/audio/yhjidi_ch37.mp3",
+          "size_mb": 12.5
+        },
+        {
+          "id": 38,
+          "title": "第8节",
+          "file": "/api/audio/yhjidi_ch38.mp3",
+          "size_mb": 15.2
+        },
+        {
+          "id": 39,
+          "title": "第9节",
+          "file": "/api/audio/yhjidi_ch39.mp3",
+          "size_mb": 29.3
+        },
+        {
+          "id": 40,
+          "title": "第10节",
+          "file": "/api/audio/yhjidi_ch40.mp3",
+          "size_mb": 8.4
+        },
+        {
+          "id": 41,
+          "title": "第11节",
+          "file": "/api/audio/yhjidi_ch41.mp3",
+          "size_mb": 6.9
+        },
+        {
+          "id": 42,
+          "title": "第12节",
+          "file": "/api/audio/yhjidi_ch42.mp3",
+          "size_mb": 15.6
+        }
+      ]
+    },
+    {
+      "id": "daishang",
+      "title": "带上她的眼睛",
+      "author": "刘慈欣",
+      "cover": "covers/daishang.jpg",
+      "description": "航天工程师在休假旅行中，带上一双来自地心深处的传感眼镜，让被困地心的她最后一次感受地面世界的美好……",
+      "chapters": [
+        {
+          "id": 1,
+          "title": "第1章",
+          "file": "/api/audio/daishang_ch01.mp3",
+          "size_mb": 14.2
+        }
+      ]
     }
   ]
 }
