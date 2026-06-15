@@ -28,9 +28,10 @@
 body {
   font-family: -apple-system, 'PingFang SC', 'Helvetica Neue', 'Microsoft YaHei', sans-serif;
   background: var(--bg-primary); color: var(--text-primary);
-  overflow: hidden; height: 100vh;
+  overflow: hidden; height: 100vh; height: 100dvh;
   -webkit-tap-highlight-color: transparent;
 }
+html { height: 100%; height: 100dvh; }
 
 /* ═══ Login ═══ */
 .login-screen {
@@ -65,7 +66,7 @@ body {
 .login-error { color: var(--danger); font-size: 13px; margin-top: 12px; min-height: 20px; }
 
 /* ═══ App Shell ═══ */
-.app { display: flex; height: 100vh; }
+.app { display: flex; height: 100vh; height: 100dvh; }
 .app.hidden { display: none; }
 
 /* ═══ Desktop Sidebar ═══ */
@@ -292,8 +293,10 @@ body {
 /* ═══ Mobile Library View ═══ */
 .mobile-library {
   height: 100vh;
+  height: 100dvh;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
   padding-bottom: calc(var(--tabbar-height) + var(--mini-player-height));
 }
 .mobile-library-header {
@@ -411,8 +414,10 @@ body {
   .tab-label { font-size: 10px; font-weight: 600; }
 
   .mobile-mini-player { display: block; }
-  .main-wrap { display: none; }
-  .main-wrap.mobile-active { display: flex; }
+  .main-wrap { display: none; overflow: visible; }
+  .main-wrap.mobile-active { display: flex; overflow: visible; }
+  .main { overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
+  .app { overflow: visible; }
 
   .chapter-list { padding-bottom: 180px; }
   .chapter-list-header { display: none; }
